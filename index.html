@@ -1190,6 +1190,172 @@
             color: var(--accent);
         }
 
+        /* ==================== HANDWRITING & HANZI WRITER MODE STYLES ==================== */
+        .write-mode-switch {
+            display: inline-flex;
+            background: #e2e8f0;
+            padding: 3px;
+            border-radius: 8px;
+            gap: 3px;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .wmode-btn {
+            border: none;
+            background: transparent;
+            color: #334155;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 5px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.12s;
+        }
+
+        .wmode-btn.active {
+            background: #ffffff;
+            color: var(--primary);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .canvas-board-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+            margin: 8px 0;
+        }
+
+        .mizige-canvas-box {
+            position: relative;
+            width: 260px;
+            height: 260px;
+            background: #ffffff;
+            border: 2.5px solid #b91c1c;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+            overflow: hidden;
+            touch-action: none;
+            user-select: none;
+        }
+
+        .mizige-watermark {
+            position: absolute;
+            inset: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "KaiTi", "SimKai", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+            font-size: 165px;
+            font-weight: 700;
+            color: rgba(148, 163, 184, 0.22);
+            pointer-events: none;
+            user-select: none;
+            line-height: 1;
+        }
+
+        #hwCanvas {
+            position: relative;
+            z-index: 2;
+            width: 260px;
+            height: 260px;
+            cursor: crosshair;
+            touch-action: none;
+            display: block;
+        }
+
+        .candidate-bar {
+            min-height: 44px;
+            width: 100%;
+            max-width: 520px;
+            background: #ffffff;
+            border: 1.5px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 6px 10px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .cand-chip {
+            border: 1px solid #bfdbfe;
+            background: var(--secondary-light);
+            color: #0f172a;
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            padding: 3px 11px;
+            border-radius: 7px;
+            cursor: pointer;
+            transition: all 0.12s;
+        }
+
+        .cand-chip:hover {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+            transform: translateY(-1px);
+        }
+
+        .char-target-tabs {
+            display: flex;
+            gap: 6px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 6px 0;
+        }
+
+        .char-slot-btn {
+            border: 1.5px solid #cbd5e1;
+            background: #ffffff;
+            color: #334155;
+            font-size: 13px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .char-slot-btn.active {
+            border-color: var(--primary);
+            background: var(--primary-light);
+            color: var(--primary-dark);
+        }
+
+        .char-slot-btn.done {
+            border-color: #10b981;
+            background: #ecfdf5;
+            color: #047857;
+        }
+
+        .hw-writer-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .hw-char-card {
+            background: #ffffff;
+            border: 2px solid #cbd5e1;
+            border-radius: 10px;
+            padding: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .hw-char-card.done {
+            border-color: #10b981;
+            background: #f0fdf4;
+        }
+
         /* ==================== MOBILE RESPONSIVE ==================== */
         @media screen and (max-width: 768px) {
             html {
@@ -1381,6 +1547,7 @@
             }
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
 </head>
 <body>
 
@@ -1478,6 +1645,7 @@
                     <button type="button" class="psub-btn" id="psub-vi2zh" onclick="switchPracticeType('vi2zh')">✍️ Điền từ: Việt ➔ Trung</button>
                     <button type="button" class="psub-btn" id="psub-zh2vi" onclick="switchPracticeType('zh2vi')">✍️ Điền từ: Trung ➔ Việt</button>
                     <button type="button" class="psub-btn" id="psub-mc" onclick="switchPracticeType('mc')">⚡ Trắc nghiệm 4 Đáp án</button>
+                    <button type="button" class="psub-btn" id="psub-write" onclick="switchPracticeType('write')">🖌️ Luyện Viết Chữ Hán</button>
                 </div>
 
                 <div class="practice-score-strip">
@@ -2732,13 +2900,14 @@
 
         function switchPracticeType(type) {
             pracType = type;
-            ['flashcard', 'vi2zh', 'zh2vi', 'mc'].forEach(k => {
+            ['flashcard', 'vi2zh', 'zh2vi', 'mc', 'write'].forEach(k => {
                 const b = document.getElementById('psub-' + k);
                 if (b) b.classList.toggle('active', k === type);
             });
             fcIsFlipped = false;
             revealPinyinHint = false;
             mcLocked = false;
+            writeActiveCharIdx = 0;
             renderQuizCard();
         }
 
@@ -2748,6 +2917,7 @@
             fcIsFlipped = false;
             revealPinyinHint = false;
             mcLocked = false;
+            writeActiveCharIdx = 0;
             renderQuizCard();
         }
 
@@ -2904,7 +3074,432 @@
                         </div>
                     </div>
                 `;
+                return;
             }
+
+            // 5. LUYỆN VIẾT & NHỚ MẶT CHỮ (BẢNG VẼ AI NHẬN DIỆN NÉT + HANZI WRITER MÃ NGUỒN MỞ)
+            if (pracType === 'write') {
+                renderWritePracticeStage(box, w, lesShort);
+                return;
+            }
+        }
+
+        // ==================== CHẾ ĐỘ 5: LUYỆN VIẾT CHỮ HÁN (AI IME + HANZI WRITER) ====================
+        let writeSubMode = 'freehand'; // 'freehand' (Bảng vẽ AI nhận diện nét) | 'stroke' (Chấm từng nét chuẩn HanziWriter)
+        let writeShowWatermark = false;
+        let writeShowPinyin = true;
+        let writeTargetChars = [];
+        let writeActiveCharIdx = 0;
+
+        // Trạng thái Canvas vẽ tay tự do (Google Input Tools Handwriting API)
+        let hwStrokes = []; // Mảng các nét: [ [x...], [y...], [t...] ]
+        let hwCurrentStroke = null;
+        let hwIsDrawing = false;
+        let hwStartTime = 0;
+        let hwRecognizeTimer = null;
+
+        // Trạng thái Hanzi Writer instances
+        let hwWriterInstances = [];
+        let hwStrokeBlindMode = true; // true = ẩn nét mẫu để tự nhớ mặt chữ; false = hiện nét mờ
+
+        function extractHanziChars(str) {
+            const primary = String(str || '').split('/')[0].trim();
+            return Array.from(primary).filter(ch => /[\u4e00-\u9fff]/.test(ch));
+        }
+
+        function setWriteSubMode(mode) {
+            writeSubMode = mode;
+            renderQuizCard();
+        }
+
+        function renderWritePracticeStage(box, w, lesShort) {
+            writeTargetChars = extractHanziChars(w.hanzi);
+            if (writeActiveCharIdx >= writeTargetChars.length) writeActiveCharIdx = 0;
+            const activeChar = writeTargetChars[writeActiveCharIdx] || w.hanzi;
+
+            box.innerHTML = `
+                <div class="fill-box">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;flex-wrap:wrap;gap:4px;">
+                        <span class="lesson-pill">${escapeHtml(lesShort)} • ${escapeHtml(w.pos || 'Từ vựng')}</span>
+                        <div class="write-mode-switch">
+                            <button type="button" class="wmode-btn ${writeSubMode === 'freehand' ? 'active' : ''}" onclick="setWriteSubMode('freehand')">✍️ Viết Tay Tự Do (AI Nhận Diện)</button>
+                            <button type="button" class="wmode-btn ${writeSubMode === 'stroke' ? 'active' : ''}" onclick="setWriteSubMode('stroke')">📏 Chấm Thứ Tự Nét (Hanzi Writer)</button>
+                        </div>
+                        <span style="font-size:12px;font-weight:700;color:var(--text-muted);">Từ ${pracIdx + 1}/${pracDeck.length}</span>
+                    </div>
+
+                    <div style="font-size:12.5px;color:var(--text-muted);">Hãy viết chữ Hán tương ứng với nghĩa sau:</div>
+                    <div class="fc-vi-big" style="margin:4px 0;">"${escapeHtml(w.meaning)}"</div>
+                    <div style="margin-bottom:8px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;">
+                        ${writeShowPinyin
+                            ? `<span style="font-size:16px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>`
+                            : `<button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="writeShowPinyin=true;renderQuizCard();">👁️ Hiện Pinyin</button>`}
+                        <button type="button" class="btn-icon" style="font-size:11.5px;padding:2px 8px;" onclick="speakChinese('${escapeHtml(w.hanzi)}', event)">🔊 Nghe phát âm</button>
+                    </div>
+
+                    ${writeSubMode === 'freehand' ? `
+                        <!-- CHẾ ĐỘ 5A: BẢNG VẼ TỰ DO + AI NHẬN DIỆN CHỮ HÁN -->
+                        ${writeTargetChars.length > 1 ? `
+                        <div class="char-target-tabs">
+                            ${writeTargetChars.map((ch, idx) => `
+                                <button type="button" class="char-slot-btn ${idx === writeActiveCharIdx ? 'active' : ''}" onclick="selectCharSlot(${idx})">
+                                    Chữ thứ ${idx + 1} ${writeShowWatermark ? `(${ch})` : ''}
+                                </button>
+                            `).join('')}
+                        </div>` : ''}
+
+                        <div class="canvas-board-wrap">
+                            <div class="mizige-canvas-box">
+                                <svg viewBox="0 0 260 260" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;">
+                                    <line x1="0" y1="0" x2="260" y2="260" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                                    <line x1="260" y1="0" x2="0" y2="260" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                                    <line x1="130" y1="0" x2="130" y2="260" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                                    <line x1="0" y1="130" x2="260" y2="130" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                                </svg>
+                                <div class="mizige-watermark" id="hwWatermark" style="display:${writeShowWatermark ? 'flex' : 'none'};">${escapeHtml(activeChar)}</div>
+                                <canvas id="hwCanvas" width="260" height="260"></canvas>
+                            </div>
+
+                            <div style="display:flex;gap:6px;flex-wrap:wrap;justify-content:center;">
+                                <button type="button" class="btn-icon" onclick="undoHwStroke()" title="Xóa nét vừa viết">↩️ Xóa 1 nét</button>
+                                <button type="button" class="btn-icon" onclick="clearHwCanvas(true)" title="Xóa sạch bảng vẽ">🗑️ Xóa bảng</button>
+                                <button type="button" class="btn-icon" onclick="toggleHwWatermark()" id="btnToggleWatermark">
+                                    ${writeShowWatermark ? '🙈 Ẩn chữ mẫu' : '👁️ Hiện chữ mờ'}
+                                </button>
+                            </div>
+
+                            <div class="candidate-bar" id="hwCandidateBar">
+                                <span style="font-size:12px;color:var(--text-muted);">✍️ Dùng chuột hoặc ngón tay viết lên bảng, AI sẽ tự nhận diện nét thành chữ Hán tại đây...</span>
+                            </div>
+                        </div>
+
+                        <div class="fill-input-row" style="max-width:480px;margin:8px auto 0;">
+                            <input type="text" id="pracInputAns" class="fill-input" placeholder="Chạm vào chữ AI nhận diện ở trên để ghép đáp án..." style="text-align:center;font-size:20px;font-weight:800;" onkeydown="if(event.key==='Enter')submitVi2Zh()">
+                            <button type="button" class="btn-icon btn-add" style="padding:8px 14px;" onclick="submitVi2Zh()">✅ Kiểm tra</button>
+                        </div>
+                    ` : `
+                        <!-- CHẾ ĐỘ 5B: HANZI WRITER MÃ NGUỒN MỞ (CHẤM TỪNG NÉT & THỨ TỰ NÉT) -->
+                        <div style="display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-bottom:8px;">
+                            <button type="button" class="btn-icon ${hwStrokeBlindMode ? 'btn-print' : ''}" onclick="hwStrokeBlindMode=!hwStrokeBlindMode;initHanziWriterBoxes();">
+                                ${hwStrokeBlindMode ? '🧠 Đang bật: Tự nhớ mặt chữ (Ẩn nét mẫu)' : '👁️ Đang bật: Tô theo nét mẫu mờ'}
+                            </button>
+                            <button type="button" class="btn-icon btn-json" onclick="animateAllHanziWriters()">▶️ Xem hoạt ảnh viết từng nét</button>
+                            <button type="button" class="btn-icon" onclick="initHanziWriterBoxes()">🔄 Viết lại từ đầu</button>
+                        </div>
+                        <div class="hw-writer-grid" id="hwWriterGrid"></div>
+                        <div style="font-size:12px;color:var(--text-muted);margin-top:4px;">
+                            💡 Dùng chuột hoặc ngón tay kéo theo đúng thứ tự nét chữ Hán. Nếu sai quá 3 lần hệ thống sẽ tự nháy nét gợi ý!
+                        </div>
+                    `}
+
+                    <div id="pracFeedback" class="quiz-msg"></div>
+
+                    <div style="margin-top:10px;display:flex;justify-content:center;gap:6px;flex-wrap:wrap;">
+                        <button type="button" class="btn-icon" onclick="stepQuiz(-1)">⬅️ Câu trước</button>
+                        <button type="button" class="btn-icon" style="color:#b91c1c;" onclick="revealAnswerAsWrong('${w.id}')">🏳️ Xem đáp án (Tính sai)</button>
+                        <button type="button" class="btn-icon btn-add" onclick="stepQuiz(1)">Câu tiếp ➡️</button>
+                    </div>
+                </div>
+            `;
+
+            if (writeSubMode === 'freehand') {
+                setTimeout(() => initFreehandCanvas(), 30);
+            } else {
+                setTimeout(() => initHanziWriterBoxes(), 30);
+            }
+        }
+
+        function updateWatermarkChar() {
+            const wm = document.getElementById('hwWatermark');
+            if (wm && writeTargetChars[writeActiveCharIdx]) {
+                wm.textContent = writeTargetChars[writeActiveCharIdx];
+            }
+        }
+
+        function toggleHwWatermark() {
+            writeShowWatermark = !writeShowWatermark;
+            const wm = document.getElementById('hwWatermark');
+            const btn = document.getElementById('btnToggleWatermark');
+            if (wm) wm.style.display = writeShowWatermark ? 'flex' : 'none';
+            if (btn) btn.textContent = writeShowWatermark ? '🙈 Ẩn chữ mẫu' : '👁️ Hiện chữ mờ';
+        }
+
+        function initFreehandCanvas() {
+            const canvas = document.getElementById('hwCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            hwStrokes = [];
+            hwCurrentStroke = null;
+            hwIsDrawing = false;
+            hwStartTime = Date.now();
+
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            ctx.lineWidth = 6;
+            ctx.strokeStyle = '#0f172a';
+
+            function getPos(e) {
+                const rect = canvas.getBoundingClientRect();
+                const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+                const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+                return {
+                    x: Math.round((clientX - rect.left) * (canvas.width / rect.width)),
+                    y: Math.round((clientY - rect.top) * (canvas.height / rect.height)),
+                    t: Date.now() - hwStartTime
+                };
+            }
+
+            function startDraw(e) {
+                e.preventDefault();
+                hwIsDrawing = true;
+                const p = getPos(e);
+                hwCurrentStroke = [[p.x], [p.y], [p.t]];
+                ctx.beginPath();
+                ctx.moveTo(p.x, p.y);
+            }
+
+            function moveDraw(e) {
+                if (!hwIsDrawing || !hwCurrentStroke) return;
+                e.preventDefault();
+                const p = getPos(e);
+                hwCurrentStroke[0].push(p.x);
+                hwCurrentStroke[1].push(p.y);
+                hwCurrentStroke[2].push(p.t);
+                ctx.lineTo(p.x, p.y);
+                ctx.stroke();
+            }
+
+            function endDraw(e) {
+                if (!hwIsDrawing || !hwCurrentStroke) return;
+                e.preventDefault();
+                hwIsDrawing = false;
+                hwStrokes.push(hwCurrentStroke);
+                hwCurrentStroke = null;
+                if (hwRecognizeTimer) clearTimeout(hwRecognizeTimer);
+                hwRecognizeTimer = setTimeout(() => recognizeHandwritingAI(), 180);
+            }
+
+            canvas.addEventListener('mousedown', startDraw);
+            canvas.addEventListener('mousemove', moveDraw);
+            window.addEventListener('mouseup', endDraw);
+
+            canvas.addEventListener('touchstart', startDraw, { passive: false });
+            canvas.addEventListener('touchmove', moveDraw, { passive: false });
+            canvas.addEventListener('touchend', endDraw, { passive: false });
+        }
+
+        function redrawHwCanvas() {
+            const canvas = document.getElementById('hwCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            ctx.lineWidth = 6;
+            ctx.strokeStyle = '#0f172a';
+
+            hwStrokes.forEach(st => {
+                const xs = st[0];
+                const ys = st[1];
+                if (!xs || xs.length === 0) return;
+                ctx.beginPath();
+                ctx.moveTo(xs[0], ys[0]);
+                for (let i = 1; i < xs.length; i++) {
+                    ctx.lineTo(xs[i], ys[i]);
+                }
+                ctx.stroke();
+            });
+        }
+
+        function undoHwStroke() {
+            if (hwStrokes.length === 0) return;
+            hwStrokes.pop();
+            redrawHwCanvas();
+            if (hwStrokes.length > 0) {
+                recognizeHandwritingAI();
+            } else {
+                const bar = document.getElementById('hwCandidateBar');
+                if (bar) bar.innerHTML = `<span style="font-size:12px;color:var(--text-muted);">✍️ Dùng chuột hoặc ngón tay viết lên bảng, AI sẽ tự nhận diện nét thành chữ Hán tại đây...</span>`;
+            }
+        }
+
+        function clearHwCanvas(resetBar = true) {
+            hwStrokes = [];
+            hwCurrentStroke = null;
+            redrawHwCanvas();
+            if (resetBar) {
+                const bar = document.getElementById('hwCandidateBar');
+                if (bar) bar.innerHTML = `<span style="font-size:12px;color:var(--text-muted);">✍️ Dùng chuột hoặc ngón tay viết lên bảng, AI sẽ tự nhận diện nét thành chữ Hán tại đây...</span>`;
+            }
+        }
+
+        // Gọi API Nhận Diện Chữ Viết Tay của Google Input Tools (Miễn phí, không cần API Key, cực nhẹ)
+        async function recognizeHandwritingAI() {
+            const bar = document.getElementById('hwCandidateBar');
+            if (!bar || hwStrokes.length === 0) return;
+
+            bar.innerHTML = `<span style="font-size:12px;color:var(--secondary);">⏳ Đang nhận diện nét chữ...</span>`;
+
+            const payload = {
+                app_version: 0.4,
+                api_level: "537.36",
+                device: "5.0 (Windows NT 10.0; Win64; x64)",
+                input_type: 0,
+                options: "enable_pre_space",
+                requests: [{
+                    writing_guide: {
+                        writing_area_width: 260,
+                        writing_area_height: 260
+                    },
+                    pre_context: "",
+                    max_num_results: 10,
+                    max_completions: 0,
+                    language: "zh-CN",
+                    ink: hwStrokes
+                }]
+            };
+
+            try {
+                const res = await fetch('https://inputtools.google.com/request?ime=handwriting&app=mobilesearch&cs=1&oe=UTF-8', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (data && data[0] === 'SUCCESS' && data[1] && data[1][0] && data[1][0][1]) {
+                    const candidates = data[1][0][1];
+                    if (candidates.length > 0) {
+                        bar.innerHTML = `<span style="font-size:11.5px;font-weight:700;color:var(--text-muted);">Chọn chữ:</span>` +
+                            candidates.slice(0, 8).map(ch =>
+                                `<button type="button" class="cand-chip" onclick="selectHwCandidate('${escapeHtml(ch)}')">${escapeHtml(ch)}</button>`
+                            ).join('');
+                        return;
+                    }
+                }
+                bar.innerHTML = `<span style="font-size:12px;color:#b91c1c;">Chưa nhận diện được chữ, hãy viết thêm nét rõ hơn!</span>`;
+            } catch (err) {
+                bar.innerHTML = `<span style="font-size:12px;color:#b91c1c;">⚠️ Cần kết nối mạng để dùng AI nhận diện tự do, hoặc chuyển sang tab "📏 Chấm Thứ Tự Nét (Hanzi Writer)".</span>`;
+            }
+        }
+
+        function selectCharSlot(idx) {
+            writeActiveCharIdx = idx;
+            clearHwCanvas(false);
+            updateWatermarkChar();
+            document.querySelectorAll('.char-slot-btn').forEach((btn, i) => {
+                btn.classList.toggle('active', i === idx);
+            });
+        }
+
+        function selectHwCandidate(chosenText) {
+            const inp = document.getElementById('pracInputAns');
+            const w = pracDeck[pracIdx];
+            if (!inp || !w) return;
+
+            inp.value += chosenText;
+            clearHwCanvas(true);
+
+            // Nếu chuỗi vừa ghép khớp chính xác với đáp án thì tự động chấm đúng luôn!
+            const targetVariants = w.hanzi.split('/').map(s => s.trim());
+            if (targetVariants.includes(inp.value.trim()) || inp.value.trim() === writeTargetChars.join('')) {
+                submitVi2Zh();
+                return;
+            }
+
+            // Chuyển sang ô chữ tiếp theo nếu từ có nhiều chữ Hán
+            if (writeActiveCharIdx + 1 < writeTargetChars.length) {
+                selectCharSlot(writeActiveCharIdx + 1);
+            }
+        }
+
+        // Khởi tạo bảng chấm từng nét chuẩn bằng thư viện mã nguồn mở Hanzi Writer
+        function initHanziWriterBoxes() {
+            const grid = document.getElementById('hwWriterGrid');
+            const w = pracDeck[pracIdx];
+            if (!grid || !w) return;
+
+            if (typeof HanziWriter === 'undefined') {
+                grid.innerHTML = `<div style="color:#b91c1c;font-size:13px;padding:12px;">⚠️ Không tải được thư viện Hanzi Writer (Cần kết nối Internet lần đầu).</div>`;
+                return;
+            }
+
+            const chars = extractHanziChars(w.hanzi);
+            hwWriterInstances = [];
+            let completedChars = 0;
+
+            grid.innerHTML = chars.map((ch, idx) => `
+                <div class="hw-char-card" id="hw-card-${idx}">
+                    <div style="font-size:11.5px;font-weight:700;color:var(--text-muted);">Chữ ${idx + 1}/${chars.length}</div>
+                    <div id="hw-target-${idx}" style="width:200px;height:200px;background:#fff;border:1.5px solid #fca5a5;border-radius:8px;"></div>
+                    <div id="hw-status-${idx}" style="font-size:11.5px;font-weight:700;color:var(--secondary);">✍️ Hãy viết chữ này</div>
+                </div>
+            `).join('');
+
+            chars.forEach((ch, idx) => {
+                const writer = HanziWriter.create(`hw-target-${idx}`, ch, {
+                    width: 200,
+                    height: 200,
+                    padding: 12,
+                    showCharacter: false,
+                    showOutline: !hwStrokeBlindMode,
+                    strokeAnimationSpeed: 1.2,
+                    delayBetweenStrokes: 180,
+                    strokeColor: '#0f172a',
+                    radicalColor: '#b91c1c',
+                    outlineColor: '#cbd5e1',
+                    drawingColor: '#1e3a8a',
+                    drawingWidth: 18,
+                    showHintAfterMisses: 3,
+                    highlightOnComplete: true
+                });
+
+                writer.quiz({
+                    onMistake: function(strokeData) {
+                        const stEl = document.getElementById(`hw-status-${idx}`);
+                        if (stEl) {
+                            stEl.style.color = '#b91c1c';
+                            stEl.textContent = `❌ Lệch nét ${strokeData.strokeNum + 1} (Sai ${strokeData.mistakesOnStroke} lần)`;
+                        }
+                    },
+                    onCorrectStroke: function(strokeData) {
+                        const stEl = document.getElementById(`hw-status-${idx}`);
+                        if (stEl) {
+                            stEl.style.color = '#047857';
+                            stEl.textContent = `✅ Đúng nét ${strokeData.strokeNum + 1} (Còn ${strokeData.strokesRemaining} nét)`;
+                        }
+                    },
+                    onComplete: function(summaryData) {
+                        const cardEl = document.getElementById(`hw-card-${idx}`);
+                        const stEl = document.getElementById(`hw-status-${idx}`);
+                        if (cardEl) cardEl.classList.add('done');
+                        if (stEl) {
+                            stEl.style.color = '#047857';
+                            stEl.textContent = `🎉 Hoàn thành "${ch}" (Nhầm ${summaryData.totalMistakes} lần)`;
+                        }
+                        speakChinese(ch);
+                        completedChars++;
+                        if (completedChars === chars.length) {
+                            pracRight++;
+                            removeWordFromMistakeZone(w.id);
+                            document.getElementById('pracRightCount').textContent = pracRight;
+                            const fb = document.getElementById('pracFeedback');
+                            if (fb) {
+                                fb.className = 'quiz-msg ok';
+                                fb.innerHTML = `🎉 <b>Xuất sắc!</b> Bạn đã viết hoàn chỉnh từ <b>${escapeHtml(w.hanzi)}</b> (${escapeHtml(w.pinyin)}) — ${escapeHtml(w.meaning)}`;
+                            }
+                            speakChinese(w.hanzi);
+                        }
+                    }
+                });
+
+                hwWriterInstances.push(writer);
+            });
+        }
+
+        function animateAllHanziWriters() {
+            hwWriterInstances.forEach(writer => {
+                if (writer) writer.animateCharacter();
+            });
         }
 
         function markFlashcard(wordId, isRight) {
