@@ -5223,6 +5223,426 @@
       "meaning": "Phù rể",
       "custom": false
     }
+    {
+      "id": "w_504",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ ly hợp",
+      "hanzi": "结婚",
+      "pinyin": "jié hūn",
+      "meaning": "Kết hôn",
+      "custom": false
+    },
+    {
+      "id": "w_505",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "婚礼",
+      "pinyin": "hūn lǐ",
+      "meaning": "Hôn lễ",
+      "custom": false
+    },
+    {
+      "id": "w_506",
+      "lesson": "bai-16",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "正在",
+      "pinyin": "zhèng zài",
+      "meaning": "Đang",
+      "custom": false
+    },
+    {
+      "id": "w_507",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "参加",
+      "pinyin": "cān jiā",
+      "meaning": "Tham dự",
+      "custom": false
+    },
+    {
+      "id": "w_508",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ ly hợp",
+      "hanzi": "加油",
+      "pinyin": "jiā yóu",
+      "meaning": "Cố lên",
+      "custom": false
+    },
+    {
+      "id": "w_509",
+      "lesson": "bai-16",
+      "cat": "cat-numbers-measures",
+      "pos": "Số/Lượng từ",
+      "hanzi": "束",
+      "pinyin": "shù",
+      "meaning": "Bó (Lượng từ)",
+      "custom": false
+    },
+    {
+      "id": "w_510",
+      "lesson": "bai-16",
+      "cat": "cat-numbers-measures",
+      "pos": "Số/Lượng từ",
+      "hanzi": "份",
+      "pinyin": "fèn",
+      "meaning": "Phần (Lượng từ)",
+      "custom": false
+    },
+    {
+      "id": "w_511",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động từ",
+      "hanzi": "应该",
+      "pinyin": "yīng gāi",
+      "meaning": "Nên",
+      "custom": false
+    },
+    {
+      "id": "w_512",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động từ",
+      "hanzi": "希望",
+      "pinyin": "xī wàng",
+      "meaning": "Hy vọng, mong muốn",
+      "custom": false
+    },
+    {
+      "id": "w_513",
+      "lesson": "bai-16",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "重要",
+      "pinyin": "zhòng yào",
+      "meaning": "Quan trọng",
+      "custom": false
+    },
+    {
+      "id": "w_514",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "事情",
+      "pinyin": "shì qing",
+      "meaning": "Sự tình, sự việc",
+      "custom": false
+    },
+    {
+      "id": "w_515",
+      "lesson": "bai-16",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "无",
+      "pinyin": "wú",
+      "meaning": "Không",
+      "custom": false
+    },
+    {
+      "id": "w_516",
+      "lesson": "bai-16",
+      "cat": "cat-pronouns-questions",
+      "pos": "Đại từ",
+      "hanzi": "自己",
+      "pinyin": "zì jǐ",
+      "meaning": "Bản thân",
+      "custom": false
+    },
+    {
+      "id": "w_517",
+      "lesson": "bai-16",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "特殊",
+      "pinyin": "tè shū",
+      "meaning": "Đặc biệt",
+      "custom": false
+    },
+    {
+      "id": "w_518",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-time",
+      "pos": "Danh từ",
+      "hanzi": "到时候",
+      "pinyin": "dào shí hou",
+      "meaning": "Đến lúc đó",
+      "custom": false
+    },
+    {
+      "id": "w_519",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động từ",
+      "hanzi": "懂",
+      "pinyin": "dǒng",
+      "meaning": "Hiểu",
+      "custom": false
+    },
+    {
+      "id": "w_520",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động từ",
+      "hanzi": "明白",
+      "pinyin": "míng bai",
+      "meaning": "Hiểu",
+      "custom": false
+    },
+    {
+      "id": "w_521",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ ly hợp",
+      "hanzi": "照相",
+      "pinyin": "zhào xiàng",
+      "meaning": "Chụp ảnh",
+      "custom": false
+    },
+    {
+      "id": "w_522",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "照片",
+      "pinyin": "zhào piàn",
+      "meaning": "Tấm ảnh",
+      "custom": false
+    },
+    {
+      "id": "w_523",
+      "lesson": "bai-16",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "有意思",
+      "pinyin": "yǒu yì si",
+      "meaning": "Thú vị, ý nghĩa",
+      "custom": false
+    },
+    {
+      "id": "w_524",
+      "lesson": "bai-16",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "无聊",
+      "pinyin": "wú liáo",
+      "meaning": "Vô vị",
+      "custom": false
+    },
+    {
+      "id": "w_525",
+      "lesson": "bai-16",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "不好意思",
+      "pinyin": "bù hǎo yì si",
+      "meaning": "Xin lỗi / Ngại ngùng",
+      "custom": false
+    },
+    {
+      "id": "w_526",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "抱歉",
+      "pinyin": "bào qiàn",
+      "meaning": "Xin lỗi",
+      "custom": false
+    },
+    {
+      "id": "w_527",
+      "lesson": "bai-16",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "一定",
+      "pinyin": "yí dìng",
+      "meaning": "Nhất định",
+      "custom": false
+    },
+    {
+      "id": "w_528",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "亲戚",
+      "pinyin": "qīn qi",
+      "meaning": "Họ hàng, người thân",
+      "custom": false
+    },
+    {
+      "id": "w_529",
+      "lesson": "bai-16",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "麻烦",
+      "pinyin": "má fan",
+      "meaning": "Phiền phức",
+      "custom": false
+    },
+    {
+      "id": "w_530",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "给",
+      "pinyin": "gěi",
+      "meaning": "Đưa, cho",
+      "custom": false
+    },
+    {
+      "id": "w_531",
+      "lesson": "bai-16",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "简单",
+      "pinyin": "jiǎn dān",
+      "meaning": "Đơn giản",
+      "custom": false
+    },
+    {
+      "id": "w_532",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "办法",
+      "pinyin": "bàn fǎ",
+      "meaning": "Biện pháp",
+      "custom": false
+    },
+    {
+      "id": "w_533",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "方法",
+      "pinyin": "fāng fǎ",
+      "meaning": "Phương pháp",
+      "custom": false
+    },
+    {
+      "id": "w_534",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-time",
+      "pos": "Danh từ",
+      "hanzi": "节日",
+      "pinyin": "jié rì",
+      "meaning": "Lễ hội",
+      "custom": false
+    },
+    {
+      "id": "w_535",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "酒",
+      "pinyin": "jiǔ",
+      "meaning": "Rượu",
+      "custom": false
+    },
+    {
+      "id": "w_536",
+      "lesson": "bai-16",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "当然",
+      "pinyin": "dāng rán",
+      "meaning": "Đương nhiên",
+      "custom": false
+    },
+    {
+      "id": "w_537",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "过",
+      "pinyin": "guò",
+      "meaning": "Đi qua, trải qua",
+      "custom": false
+    },
+    {
+      "id": "w_538",
+      "lesson": "bai-16",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "带",
+      "pinyin": "dài",
+      "meaning": "Mang theo",
+      "custom": false
+    },
+    {
+      "id": "w_539",
+      "lesson": "bai-16",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "比",
+      "pinyin": "bǐ",
+      "meaning": "So sánh (A 比 B: A hơn B)",
+      "custom": false
+    },
+    {
+      "id": "w_540",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "化妆品",
+      "pinyin": "huà zhuāng pǐn",
+      "meaning": "Đồ trang điểm",
+      "custom": false
+    },
+    {
+      "id": "w_541",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "日用品",
+      "pinyin": "rì yòng pǐn",
+      "meaning": "Đồ dùng hàng ngày",
+      "custom": false
+    },
+    {
+      "id": "w_542",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "家电",
+      "pinyin": "jiā diàn",
+      "meaning": "Đồ gia dụng điện tử",
+      "custom": false
+    },
+    {
+      "id": "w_543",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "冰箱",
+      "pinyin": "bīng xiāng",
+      "meaning": "Tủ lạnh",
+      "custom": false
+    },
+    {
+      "id": "w_544",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "洗衣机",
+      "pinyin": "xǐ yī jī",
+      "meaning": "Máy giặt",
+      "custom": false
+    },
+    {
+      "id": "w_545",
+      "lesson": "bai-16",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "巧克力",
+      "pinyin": "qiǎo kè lì",
+      "meaning": "Sô cô la",
+      "custom": false
+    }
   ],
   "sentences": [],
   "mistakes": []
