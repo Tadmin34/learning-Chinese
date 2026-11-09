@@ -1356,6 +1356,76 @@
             background: #f0fdf4;
         }
 
+        /* ==================== HANDWRITING LOOKUP MODAL STYLES ==================== */
+        .hw-lookup-input-bar {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .hw-lookup-input {
+            flex: 1;
+            padding: 8px 12px;
+            font-size: 20px;
+            font-weight: 800;
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            border: 2px solid var(--primary);
+            border-radius: 8px;
+            color: #0f172a;
+            background: #fff;
+            outline: none;
+        }
+
+        .hw-lookup-results {
+            margin-top: 10px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 10px;
+            max-height: 220px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .hw-match-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 10px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            background: #f8fafc;
+            cursor: pointer;
+            transition: all 0.12s;
+        }
+
+        .hw-match-item:hover {
+            border-color: var(--primary);
+            background: #fef2f2;
+        }
+
+        .hw-match-hanzi {
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            font-size: 21px;
+            font-weight: 800;
+            color: #0f172a;
+        }
+
+        .hw-match-pinyin {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-left: 6px;
+        }
+
+        .hw-match-meaning {
+            font-size: 13px;
+            color: #334155;
+            margin-top: 2px;
+        }
+
         /* ==================== MOBILE RESPONSIVE ==================== */
         @media screen and (max-width: 768px) {
             html {
@@ -1566,9 +1636,13 @@
 
             <div class="toolbar-actions">
                 <div class="search-wrap">
-                    <input type="text" id="searchInput" class="search-input" placeholder="🔍 Tra chữ Hán, Pinyin (không dấu), Nghĩa..." oninput="filterVocab()">
+                    <input type="text" id="searchInput" class="search-input" placeholder="🔍 Tra chữ Hán, Pinyin, Nghĩa..." oninput="filterVocab()">
                     <button class="search-clear" id="searchClearBtn" onclick="clearSearch()">✕</button>
                 </div>
+
+                <button class="btn-icon" style="background:#fff1f2;color:var(--primary);border-color:#fecdd3;" onclick="openHwLookupModal('searchInput')" title="Tra từ bằng cách vẽ nét chữ Hán (khi quên cách đọc)">
+                    ✍️ <span class="btn-label-desktop">Vẽ tra chữ</span>
+                </button>
 
                 <select class="jump-select" id="quickJumpSelect" onchange="jumpToSection(this.value)">
                     <option value="">📍 Chuyển nhanh...</option>
@@ -1721,6 +1795,7 @@
 
     <!-- Nút nổi góc dưới màn hình -->
     <div class="fab-group no-print">
+        <button class="fab-btn" style="background:var(--primary);" onclick="openHwLookupModal('searchInput')">✍️ Vẽ tra chữ</button>
         <button class="fab-btn fab-add" onclick="openModal('single')">➕ Thêm từ mới</button>
         <button class="fab-btn fab-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑ Đầu trang</button>
     </div>
@@ -1733,6 +1808,47 @@
                 <button class="modal-close" onclick="closeDictDetail()">✕</button>
             </div>
             <div class="modal-body" id="dictDetailBody"></div>
+        </div>
+    </div>
+
+    <!-- MODAL TRA TỪ BẰNG NÉT VIẾT TAY (Khi quên cách đọc Pinyin) -->
+    <div class="modal-overlay no-print" id="hwLookupModal" onclick="if(event.target===this)closeHwLookupModal()">
+        <div class="modal-card" style="max-width:500px;">
+            <div class="modal-header">
+                <h3>✍️ Vẽ Nét Chữ Hán Để Tra Từ &amp; Cách Đọc</h3>
+                <button class="modal-close" onclick="closeHwLookupModal()">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="hw-lookup-input-bar">
+                    <input type="text" id="hwLookupInput" class="hw-lookup-input" placeholder="Chữ Hán vừa vẽ sẽ hiện ở đây..." oninput="onHwLookupInputChange()">
+                    <button type="button" class="btn-icon" onclick="speakChinese(document.getElementById('hwLookupInput').value, event)" title="Nghe đọc chữ này">🔊</button>
+                    <button type="button" class="btn-icon" onclick="backspaceHwLookup()" title="Xóa 1 chữ">⌫</button>
+                    <button type="button" class="btn-icon" onclick="clearHwLookupAll()" title="Xóa hết">✕</button>
+                </div>
+
+                <div class="canvas-board-wrap" style="margin:4px 0;">
+                    <div class="mizige-canvas-box" style="width:240px;height:240px;">
+                        <svg viewBox="0 0 240 240" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:1;">
+                            <line x1="0" y1="0" x2="240" y2="240" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                            <line x1="240" y1="0" x2="0" y2="240" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                            <line x1="120" y1="0" x2="120" y2="240" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                            <line x1="0" y1="120" x2="240" y2="120" stroke="#fca5a5" stroke-width="1" stroke-dasharray="5,5"/>
+                        </svg>
+                        <canvas id="hwLookupCanvas" width="240" height="240" style="position:relative;z-index:2;width:240px;height:240px;cursor:crosshair;touch-action:none;display:block;"></canvas>
+                    </div>
+
+                    <div style="display:flex;gap:6px;justify-content:center;flex-wrap:wrap;">
+                        <button type="button" class="btn-icon" onclick="undoHwLookupStroke()">↩️ Xóa 1 nét</button>
+                        <button type="button" class="btn-icon" onclick="clearHwLookupCanvas(true)">🗑️ Xóa mặt bảng</button>
+                    </div>
+
+                    <div class="candidate-bar" id="hwLookupCandidateBar">
+                        <span style="font-size:12px;color:var(--text-muted);">✍️ Vẽ từng nét chữ lên bảng, chạm vào chữ hiện ra để xem Pinyin &amp; nghĩa...</span>
+                    </div>
+                </div>
+
+                <div class="hw-lookup-results" id="hwLookupResults"></div>
+            </div>
         </div>
     </div>
 
@@ -1755,7 +1871,10 @@
                 <input type="hidden" id="editWordId" value="">
                 <div class="form-row">
                     <div class="form-group">
-                        <label>Chữ Hán (Bắt buộc) *</label>
+                        <label style="display:flex;justify-content:space-between;align-items:center;">
+                            <span>Chữ Hán (Bắt buộc) *</span>
+                            <button type="button" class="btn-quick-add" onclick="openHwLookupModal('inpHanzi')">✍️ Vẽ chữ</button>
+                        </label>
                         <input type="text" id="inpHanzi" class="form-control" placeholder="VD: 挣钱 hoặc 赚钱" style="font-size:17px;font-weight:700;">
                     </div>
                     <div class="form-group">
@@ -3797,6 +3916,327 @@
             input.value = '';
             filterVocab();
             input.focus();
+        }
+
+
+        /* ==================== TRA TỪ BẰNG NÉT VIẾT TAY (HANDWRITING LOOKUP PAD) ==================== */
+        let hwLookupTargetInputId = 'searchInput';
+        let hwLookupStrokes = [];
+        let hwLookupCurrentStroke = null;
+        let hwLookupIsDrawing = false;
+        let hwLookupStartTime = 0;
+        let hwLookupTimer = null;
+        let hwLookupCanvasInitialized = false;
+
+        function openHwLookupModal(targetInputId = 'searchInput') {
+            hwLookupTargetInputId = targetInputId;
+            const modal = document.getElementById('hwLookupModal');
+            const targetInp = document.getElementById(targetInputId);
+            const lookupInp = document.getElementById('hwLookupInput');
+
+            if (lookupInp && targetInp) {
+                lookupInp.value = targetInp.value;
+            }
+            modal.classList.add('open');
+
+            setTimeout(() => {
+                initHwLookupCanvas();
+                clearHwLookupCanvas(true);
+                renderHwLookupMatches(lookupInp ? lookupInp.value.trim() : '');
+            }, 30);
+        }
+
+        function closeHwLookupModal() {
+            document.getElementById('hwLookupModal').classList.remove('open');
+        }
+
+        function initHwLookupCanvas() {
+            const canvas = document.getElementById('hwLookupCanvas');
+            if (!canvas || hwLookupCanvasInitialized) return;
+            hwLookupCanvasInitialized = true;
+
+            const ctx = canvas.getContext('2d');
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            ctx.lineWidth = 6;
+            ctx.strokeStyle = '#0f172a';
+
+            function getPos(e) {
+                const rect = canvas.getBoundingClientRect();
+                const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+                const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+                return {
+                    x: Math.round((clientX - rect.left) * (canvas.width / rect.width)),
+                    y: Math.round((clientY - rect.top) * (canvas.height / rect.height)),
+                    t: Date.now() - hwLookupStartTime
+                };
+            }
+
+            function startDraw(e) {
+                e.preventDefault();
+                if (hwLookupStrokes.length === 0) hwLookupStartTime = Date.now();
+                hwLookupIsDrawing = true;
+                const p = getPos(e);
+                hwLookupCurrentStroke = [[p.x], [p.y], [p.t]];
+                ctx.beginPath();
+                ctx.moveTo(p.x, p.y);
+            }
+
+            function moveDraw(e) {
+                if (!hwLookupIsDrawing || !hwLookupCurrentStroke) return;
+                e.preventDefault();
+                const p = getPos(e);
+                hwLookupCurrentStroke[0].push(p.x);
+                hwLookupCurrentStroke[1].push(p.y);
+                hwLookupCurrentStroke[2].push(p.t);
+                ctx.lineTo(p.x, p.y);
+                ctx.stroke();
+            }
+
+            function endDraw(e) {
+                if (!hwLookupIsDrawing || !hwLookupCurrentStroke) return;
+                e.preventDefault();
+                hwLookupIsDrawing = false;
+                hwLookupStrokes.push(hwLookupCurrentStroke);
+                hwLookupCurrentStroke = null;
+                if (hwLookupTimer) clearTimeout(hwLookupTimer);
+                hwLookupTimer = setTimeout(() => recognizeHwLookup(), 160);
+            }
+
+            canvas.addEventListener('mousedown', startDraw);
+            canvas.addEventListener('mousemove', moveDraw);
+            window.addEventListener('mouseup', endDraw);
+
+            canvas.addEventListener('touchstart', startDraw, { passive: false });
+            canvas.addEventListener('touchmove', moveDraw, { passive: false });
+            canvas.addEventListener('touchend', endDraw, { passive: false });
+        }
+
+        function redrawHwLookupCanvas() {
+            const canvas = document.getElementById('hwLookupCanvas');
+            if (!canvas) return;
+            const ctx = canvas.getContext('2d');
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.lineCap = 'round';
+            ctx.lineJoin = 'round';
+            ctx.lineWidth = 6;
+            ctx.strokeStyle = '#0f172a';
+
+            hwLookupStrokes.forEach(st => {
+                const xs = st[0];
+                const ys = st[1];
+                if (!xs || xs.length === 0) return;
+                ctx.beginPath();
+                ctx.moveTo(xs[0], ys[0]);
+                for (let i = 1; i < xs.length; i++) {
+                    ctx.lineTo(xs[i], ys[i]);
+                }
+                ctx.stroke();
+            });
+        }
+
+        function undoHwLookupStroke() {
+            if (hwLookupStrokes.length === 0) return;
+            hwLookupStrokes.pop();
+            redrawHwLookupCanvas();
+            if (hwLookupStrokes.length > 0) {
+                recognizeHwLookup();
+            } else {
+                const bar = document.getElementById('hwLookupCandidateBar');
+                if (bar) bar.innerHTML = `<span style="font-size:12px;color:var(--text-muted);">✍️ Vẽ từng nét chữ lên bảng, chạm vào chữ hiện ra để xem Pinyin &amp; nghĩa...</span>`;
+            }
+        }
+
+        function clearHwLookupCanvas(resetBar = true) {
+            hwLookupStrokes = [];
+            hwLookupCurrentStroke = null;
+            redrawHwLookupCanvas();
+            if (resetBar) {
+                const bar = document.getElementById('hwLookupCandidateBar');
+                if (bar) bar.innerHTML = `<span style="font-size:12px;color:var(--text-muted);">✍️ Vẽ từng nét chữ lên bảng, chạm vào chữ hiện ra để xem Pinyin &amp; nghĩa...</span>`;
+            }
+        }
+
+        async function recognizeHwLookup() {
+            const bar = document.getElementById('hwLookupCandidateBar');
+            if (!bar || hwLookupStrokes.length === 0) return;
+
+            bar.innerHTML = `<span style="font-size:12px;color:var(--secondary);">⏳ Đang nhận diện nét chữ...</span>`;
+
+            const payload = {
+                app_version: 0.4,
+                api_level: "537.36",
+                device: "5.0 (Windows NT 10.0; Win64; x64)",
+                input_type: 0,
+                options: "enable_pre_space",
+                requests: [{
+                    writing_guide: {
+                        writing_area_width: 240,
+                        writing_area_height: 240
+                    },
+                    pre_context: document.getElementById('hwLookupInput') ? document.getElementById('hwLookupInput').value : "",
+                    max_num_results: 10,
+                    max_completions: 0,
+                    language: "zh-CN",
+                    ink: hwLookupStrokes
+                }]
+            };
+
+            try {
+                const res = await fetch('https://inputtools.google.com/request?ime=handwriting&app=mobilesearch&cs=1&oe=UTF-8', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const data = await res.json();
+                if (data && data[0] === 'SUCCESS' && data[1] && data[1][0] && data[1][0][1]) {
+                    const candidates = data[1][0][1];
+                    if (candidates.length > 0) {
+                        bar.innerHTML = `<span style="font-size:11.5px;font-weight:700;color:var(--text-muted);">Chạm chọn chữ:</span>` +
+                            candidates.slice(0, 9).map(ch =>
+                                `<button type="button" class="cand-chip" onclick="pickHwLookupCandidate('${escapeHtml(ch)}')">${escapeHtml(ch)}</button>`
+                            ).join('');
+                        // Tự động xem trước kết quả của chữ giống nhất (ứng viên số 1) nếu ô tìm kiếm đang trống
+                        const currentVal = document.getElementById('hwLookupInput').value.trim();
+                        if (!currentVal) {
+                            renderHwLookupMatches(candidates[0], true);
+                        }
+                        return;
+                    }
+                }
+                bar.innerHTML = `<span style="font-size:12px;color:#b91c1c;">Chưa nhận diện được, hãy viết thêm nét rõ hơn!</span>`;
+            } catch (err) {
+                bar.innerHTML = `<span style="font-size:12px;color:#b91c1c;">⚠️ Không kết nối được máy chủ nhận diện nét vẽ (Cần mạng Internet).</span>`;
+            }
+        }
+
+        function pickHwLookupCandidate(ch) {
+            const lookupInp = document.getElementById('hwLookupInput');
+            if (!lookupInp) return;
+            lookupInp.value += ch;
+            clearHwLookupCanvas(true);
+            syncHwLookupToTarget();
+            speakChinese(ch);
+        }
+
+        function backspaceHwLookup() {
+            const lookupInp = document.getElementById('hwLookupInput');
+            if (!lookupInp) return;
+            const chars = Array.from(lookupInp.value);
+            chars.pop();
+            lookupInp.value = chars.join('');
+            syncHwLookupToTarget();
+        }
+
+        function clearHwLookupAll() {
+            const lookupInp = document.getElementById('hwLookupInput');
+            if (lookupInp) lookupInp.value = '';
+            clearHwLookupCanvas(true);
+            syncHwLookupToTarget();
+        }
+
+        function onHwLookupInputChange() {
+            syncHwLookupToTarget();
+        }
+
+        function syncHwLookupToTarget() {
+            const lookupInp = document.getElementById('hwLookupInput');
+            const val = lookupInp ? lookupInp.value : '';
+            const targetInp = document.getElementById(hwLookupTargetInputId);
+
+            if (targetInp) {
+                targetInp.value = val;
+                if (hwLookupTargetInputId === 'searchInput') {
+                    filterVocab();
+                }
+            }
+            renderHwLookupMatches(val.trim(), false);
+        }
+
+        function renderHwLookupMatches(queryStr, isPreview = false) {
+            const box = document.getElementById('hwLookupResults');
+            if (!box) return;
+
+            if (!queryStr) {
+                box.innerHTML = `<div style="font-size:12px;color:var(--text-muted);text-align:center;padding:8px;">🔍 Kết quả cách đọc (Pinyin) và nghĩa trong từ điển sẽ hiện ngay tại đây khi bạn vẽ chữ.</div>`;
+                return;
+            }
+
+            const lessonShortMap = {};
+            db.lessons.forEach(l => lessonShortMap[l.id] = l.short);
+
+            // Tìm các từ trong db.words có chứa chữ vừa vẽ
+            const matches = db.words.filter(w => w.hanzi.includes(queryStr) || queryStr.includes(w.hanzi));
+
+            let html = '';
+            if (isPreview) {
+                html += `<div style="font-size:11.5px;color:var(--secondary);font-weight:700;">💡 Xem trước chữ gần giống nhất: "${escapeHtml(queryStr)}" (Hãy chạm vào nút chữ ở trên để chọn chính thức)</div>`;
+            }
+
+            if (matches.length > 0) {
+                html += matches.slice(0, 12).map(w => {
+                    const lShort = lessonShortMap[w.lesson] || 'Extra';
+                    return `
+                    <div class="hw-match-item" onclick="closeHwLookupModal();openDictDetail('${w.id}')">
+                        <div>
+                            <div>
+                                <span class="hw-match-hanzi">${escapeHtml(w.hanzi)}</span>
+                                <span class="hw-match-pinyin">${escapeHtml(w.pinyin)}</span>
+                                <span class="lesson-pill" style="margin-left:6px;">${escapeHtml(lShort)}</span>
+                            </div>
+                            <div class="hw-match-meaning">${escapeHtml(w.meaning)}</div>
+                        </div>
+                        <div style="display:flex;gap:4px;">
+                            <button type="button" class="btn-icon" onclick="speakChinese('${escapeHtml(w.hanzi)}', event)" title="Nghe cách đọc">🔊</button>
+                            <button type="button" class="btn-icon" onclick="event.stopPropagation();closeHwLookupModal();openDictDetail('${w.id}')" title="Chi tiết">🔍</button>
+                        </div>
+                    </div>`;
+                }).join('');
+            } else {
+                // Nếu cụm từ chưa có, kiểm tra xem từng chữ đơn có nằm trong từ nào của từ điển không để gợi ý Pinyin
+                const singleChars = Array.from(queryStr).filter(c => /[\u4e00-\u9fff]/.test(c));
+                const partialMatches = db.words.filter(w => singleChars.some(c => w.hanzi.includes(c))).slice(0, 6);
+
+                html += `
+                <div style="background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:10px;font-size:12.5px;color:#92400e;">
+                    <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;">
+                        <span>Từ <b>"${escapeHtml(queryStr)}"</b> chưa có sẵn trong ${db.words.length} từ hiện tại.</span>
+                        <div style="display:flex;gap:5px;">
+                            <button type="button" class="btn-icon" onclick="speakChinese('${escapeHtml(queryStr)}', event)">🔊 Nghe đọc</button>
+                            <button type="button" class="btn-icon btn-add" onclick="addDrawnWordToDict('${escapeHtml(queryStr)}')">➕ Thêm từ này</button>
+                        </div>
+                    </div>
+                </div>`;
+
+                if (partialMatches.length > 0) {
+                    html += `<div style="font-size:11.5px;font-weight:700;color:var(--text-muted);margin-top:4px;">🔗 Các từ trong từ điển có chứa cùng chữ Hán (để bạn tham khảo cách đọc):</div>`;
+                    html += partialMatches.map(w => {
+                        const lShort = lessonShortMap[w.lesson] || 'Extra';
+                        return `
+                        <div class="hw-match-item" onclick="closeHwLookupModal();openDictDetail('${w.id}')">
+                            <div>
+                                <span class="hw-match-hanzi">${escapeHtml(w.hanzi)}</span>
+                                <span class="hw-match-pinyin">${escapeHtml(w.pinyin)}</span>
+                                <span class="lesson-pill" style="margin-left:6px;">${escapeHtml(lShort)}</span>
+                                <div class="hw-match-meaning">${escapeHtml(w.meaning)}</div>
+                            </div>
+                            <button type="button" class="btn-icon" onclick="speakChinese('${escapeHtml(w.hanzi)}', event)">🔊</button>
+                        </div>`;
+                    }).join('');
+                }
+            }
+
+            box.innerHTML = html;
+        }
+
+        function addDrawnWordToDict(hanziStr) {
+            closeHwLookupModal();
+            document.getElementById('editWordId').value = '';
+            document.getElementById('inpHanzi').value = hanziStr;
+            document.getElementById('inpPinyin').value = '';
+            document.getElementById('inpMeaning').value = '';
+            openModal('single');
+            setTimeout(() => document.getElementById('inpPinyin').focus(), 60);
         }
 
         // Khởi chạy
