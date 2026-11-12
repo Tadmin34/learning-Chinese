@@ -1426,6 +1426,223 @@
             margin-top: 2px;
         }
 
+        /* ==================== AI READING & TRANSLATION MODE STYLES ==================== */
+        .reading-box {
+            background: #f8fafc;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            padding: 16px;
+            text-align: left;
+        }
+
+        .reading-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
+            margin-bottom: 12px;
+        }
+
+        .reading-vocab-strip {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+            margin-bottom: 12px;
+            background: #ffffff;
+            padding: 8px 10px;
+            border-radius: 8px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .reading-vocab-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            background: var(--secondary-light);
+            border: 1px solid #bfdbfe;
+            color: var(--secondary);
+            font-weight: 700;
+            font-size: 14px;
+            padding: 3px 9px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.12s;
+        }
+
+        .reading-vocab-chip:hover {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+        }
+
+        .reading-passage-card {
+            background: #ffffff;
+            border: 2px solid #cbd5e1;
+            border-radius: 10px;
+            padding: 16px 18px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 6px rgba(15, 23, 42, 0.04);
+        }
+
+        .reading-zh-text {
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            font-size: 23px;
+            font-weight: 700;
+            color: #0f172a;
+            line-height: 1.85;
+            letter-spacing: 0.5px;
+        }
+
+        .reading-zh-word {
+            border-bottom: 2px dashed #93c5fd;
+            cursor: pointer;
+            padding: 0 1px;
+            border-radius: 3px;
+            transition: background 0.12s;
+        }
+
+        .reading-zh-word:hover {
+            background: #fef08a;
+            color: var(--primary-dark);
+        }
+
+        .reading-pinyin-box {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px dashed #cbd5e1;
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--primary);
+            line-height: 1.6;
+        }
+
+        .reading-trans-area {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1.5px solid #94a3b8;
+            border-radius: 8px;
+            font-size: 14px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 80px;
+            outline: none;
+            background: #ffffff;
+        }
+
+        .reading-trans-area:focus {
+            border-color: var(--primary);
+            box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.12);
+        }
+
+        .reading-sentence-item {
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-left: 4px solid var(--secondary);
+            border-radius: 6px;
+            padding: 8px 12px;
+            margin-top: 6px;
+        }
+
+        /* ==================== MULTI-LESSON SELECTOR CHIPS (PRACTICE) ==================== */
+        .prac-multi-lesson-box {
+            grid-column: 1 / -1;
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-top: 2px;
+        }
+
+        .prac-multi-header {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .prac-multi-title {
+            font-size: 11.5px;
+            font-weight: 800;
+            color: var(--secondary);
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .prac-multi-actions {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .prac-quick-input {
+            padding: 4px 9px;
+            border: 1.5px solid #94a3b8;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            width: 195px;
+            outline: none;
+            color: var(--text-main);
+            background: #f8fafc;
+        }
+
+        .prac-quick-input:focus {
+            border-color: var(--primary);
+            background: #ffffff;
+            box-shadow: 0 0 0 2px rgba(185, 28, 28, 0.12);
+        }
+
+        .prac-lesson-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+            align-items: center;
+        }
+
+        .prac-lchip {
+            border: 1.5px solid #cbd5e1;
+            background: #f8fafc;
+            color: #334155;
+            font-size: 12px;
+            font-weight: 700;
+            padding: 5px 10px;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: all 0.12s ease;
+            user-select: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .prac-lchip:hover {
+            border-color: var(--secondary);
+            background: var(--secondary-light);
+            color: var(--secondary);
+        }
+
+        .prac-lchip.active {
+            background: var(--primary);
+            color: #ffffff;
+            border-color: var(--primary-dark);
+            box-shadow: 0 2px 5px rgba(185, 28, 28, 0.22);
+        }
+
+        .prac-lchip .lchip-count {
+            font-size: 10.5px;
+            font-weight: 600;
+            opacity: 0.82;
+        }
+
         /* ==================== MOBILE RESPONSIVE ==================== */
         @media screen and (max-width: 768px) {
             html {
@@ -1701,16 +1918,26 @@
                         </select>
                     </div>
                     <div class="practice-filter-item">
-                        <label>2. Chọn theo Bài học (Phần 1):</label>
-                        <select id="pracLesson" onchange="buildPracticeDeck()">
-                            <option value="">Tất cả Bài học &amp; Mở rộng</option>
-                        </select>
-                    </div>
-                    <div class="practice-filter-item">
-                        <label>3. Chọn theo Từ loại (Phần 2):</label>
+                        <label>2. Chọn theo Từ loại (Phần 2):</label>
                         <select id="pracCategory" onchange="buildPracticeDeck()">
                             <option value="">Tất cả Từ loại (Danh/Động/Tính...)</option>
                         </select>
+                        <input type="hidden" id="pracLesson" value="">
+                    </div>
+
+                    <!-- BỘ CHỌN GHÉP NHIỀU BÀI HỌC CÙNG LÚC (VD: Bài 14, 15, 16, 17 hoặc 13, 2, 4) -->
+                    <div class="prac-multi-lesson-box">
+                        <div class="prac-multi-header">
+                            <div class="prac-multi-title">
+                                <span>📚 3. Chọn ghép nhiều Bài học cần ôn (Bấm chọn nhiều bài hoặc gõ số bài):</span>
+                            </div>
+                            <div class="prac-multi-actions">
+                                <input type="text" id="pracLessonQuickInput" class="prac-quick-input" placeholder="⌨️ Gõ nhanh: 14 15 16 hoặc 2,4,13" oninput="applyQuickLessonInput(this.value)" title="Gõ số bài cách nhau bằng dấu cách, dấu phẩy hoặc gạch ngang (VD: 14 15 16 17 hoặc 14-17 hoặc 13 2 4)">
+                                <button type="button" class="btn-icon" style="padding:3px 8px;font-size:11px;" onclick="selectRecentPracLessons(3)" title="Chọn nhanh 3 bài học mới nhất">🔥 3 bài cuối</button>
+                                <button type="button" class="btn-icon" style="padding:3px 8px;font-size:11px;color:#b91c1c;" onclick="clearPracLessonSelection()" title="Bỏ lọc bài để ôn tất cả">🔄 Tất cả bài</button>
+                            </div>
+                        </div>
+                        <div class="prac-lesson-chips" id="pracLessonChips"></div>
                     </div>
                 </div>
 
@@ -1720,11 +1947,15 @@
                     <button type="button" class="psub-btn" id="psub-zh2vi" onclick="switchPracticeType('zh2vi')">✍️ Điền từ: Trung ➔ Việt</button>
                     <button type="button" class="psub-btn" id="psub-mc" onclick="switchPracticeType('mc')">⚡ Trắc nghiệm 4 Đáp án</button>
                     <button type="button" class="psub-btn" id="psub-write" onclick="switchPracticeType('write')">🖌️ Luyện Viết Chữ Hán</button>
+                    <button type="button" class="psub-btn" id="psub-reading" onclick="switchPracticeType('reading')">📖 Đọc &amp; Dịch Đoạn Văn (AI)</button>
                 </div>
 
                 <div class="practice-score-strip">
                     <span id="pracDeckInfo">📚 Đang trộn: 545 từ</span>
                     <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                        <button type="button" class="btn-icon" id="btnMasterPinyin" style="padding:3px 9px;font-size:11.5px;border-color:#fca5a5;background:#fef2f2;color:#b91c1c;" onclick="toggleMasterPinyin()" title="Bật/Tắt tự động hiện Pinyin cho tất cả các câu luyện tập">
+                            🙈 Pinyin: Đang Tắt
+                        </button>
                         <span style="color:#047857;">✅ Đúng: <b id="pracRightCount">0</b></span>
                         <span style="color:#b91c1c;">❌ Sai: <b id="pracWrongCount">0</b></span>
                         <button type="button" class="btn-icon" style="padding:3px 8px;font-size:11.5px;" onclick="buildPracticeDeck()">🔀 Trộn lại đề</button>
@@ -2883,12 +3114,53 @@
 
 
         /* ==================== PRACTICE ENGINE & JSON MISTAKE ZONE ==================== */
-        let pracType = 'flashcard'; // 'flashcard' | 'vi2zh' | 'zh2vi' | 'mc'
+        let pracType = 'flashcard'; // 'flashcard' | 'vi2zh' | 'zh2vi' | 'mc' | 'write' | 'reading'
         let pracDeck = [];
         let pracIdx = 0;
         let fcIsFlipped = false;
         let fcPromptLang = 'zh'; // 'zh' | 'vi'
+        let pracAutoPinyin = false; // Công tắc tổng: false = Mặc định tắt Pinyin; true = Mặc định bật Pinyin
         let revealPinyinHint = false;
+        let fcShowPinyin = false;
+        let mcCurrentChoices = null; // Giữ nguyên 4 đáp án A,B,C,D khi bấm Bật/Tắt Pinyin
+
+        function syncCardPinyinToMaster() {
+            revealPinyinHint = pracAutoPinyin;
+            fcShowPinyin = pracAutoPinyin;
+            if (typeof writeShowPinyin !== 'undefined') writeShowPinyin = pracAutoPinyin;
+            if (typeof aiReadingShowPinyin !== 'undefined') aiReadingShowPinyin = pracAutoPinyin;
+            updateMasterPinyinBtnUI();
+        }
+
+        function updateMasterPinyinBtnUI() {
+            const btn = document.getElementById('btnMasterPinyin');
+            if (!btn) return;
+            if (pracAutoPinyin) {
+                btn.innerHTML = '👁️ Pinyin: Đang Bật';
+                btn.style.background = '#ecfdf5';
+                btn.style.borderColor = '#6ee7b7';
+                btn.style.color = '#047857';
+            } else {
+                btn.innerHTML = '🙈 Pinyin: Đang Tắt';
+                btn.style.background = '#fef2f2';
+                btn.style.borderColor = '#fca5a5';
+                btn.style.color = '#b91c1c';
+            }
+        }
+
+        function toggleMasterPinyin() {
+            pracAutoPinyin = !pracAutoPinyin;
+            syncCardPinyinToMaster();
+            renderQuizCard();
+        }
+
+        function toggleCardPinyin(evt) {
+            if (evt) evt.stopPropagation();
+            revealPinyinHint = !revealPinyinHint;
+            fcShowPinyin = revealPinyinHint;
+            if (typeof writeShowPinyin !== 'undefined') writeShowPinyin = revealPinyinHint;
+            renderQuizCard();
+        }
         let pracRight = 0;
         let pracWrong = 0;
         let mcLocked = false;
@@ -2936,13 +3208,19 @@
             }
         }
 
+        // Tập hợp lưu các bài học đang được chọn ghép trong phần Luyện Tập (rỗng = lấy tất cả bài)
+        let selectedPracLessons = new Set();
+
         function openMistakeZone() {
             setViewMode('practice');
             const srcEl = document.getElementById('pracSource');
             if (srcEl) {
                 srcEl.value = 'mistakes';
-                document.getElementById('pracLesson').value = '';
+                selectedPracLessons.clear();
+                const qInp = document.getElementById('pracLessonQuickInput');
+                if (qInp) qInp.value = '';
                 document.getElementById('pracCategory').value = '';
+                renderPracLessonChips();
                 buildPracticeDeck();
             }
         }
@@ -2954,26 +3232,142 @@
                 return;
             }
             document.getElementById('pracSource').value = 'mistakes';
-            document.getElementById('pracLesson').value = '';
+            selectedPracLessons.clear();
+            const qInp = document.getElementById('pracLessonQuickInput');
+            if (qInp) qInp.value = '';
             document.getElementById('pracCategory').value = '';
+            renderPracLessonChips();
             buildPracticeDeck();
             document.getElementById('quizStageBox').scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
 
         function populatePracticeSelects() {
-            const lEl = document.getElementById('pracLesson');
             const cEl = document.getElementById('pracCategory');
-            if (!lEl || !cEl) return;
+            if (cEl) {
+                const catOpts = db.categories.map(c =>
+                    `<option value="${c.id}">${escapeHtml(c.title)}</option>`
+                ).join('');
+                cEl.innerHTML = `<option value="">Tất cả Từ loại (Danh/Động/Tính...)</option>` + catOpts;
+            }
+            renderPracLessonChips();
+        }
 
-            const lessonOpts = db.lessons.map(l =>
-                `<option value="${l.id}">${escapeHtml(l.short)} — ${escapeHtml(l.title.split(':')[1] || l.title)}</option>`
-            ).join('');
-            const catOpts = db.categories.map(c =>
-                `<option value="${c.id}">${escapeHtml(c.title)}</option>`
-            ).join('');
+        function renderPracLessonChips() {
+            const wrap = document.getElementById('pracLessonChips');
+            if (!wrap) return;
 
-            lEl.innerHTML = `<option value="">Tất cả Bài học &amp; Mở rộng</option>` + lessonOpts;
-            cEl.innerHTML = `<option value="">Tất cả Từ loại (Danh/Động/Tính...)</option>` + catOpts;
+            const knownLessonIds = new Set(db.lessons.map(l => l.id));
+            const countMap = {};
+            db.lessons.forEach(l => countMap[l.id] = 0);
+            db.words.forEach(w => {
+                const lid = (w.lesson && knownLessonIds.has(w.lesson)) ? w.lesson : 'bai-extra';
+                countMap[lid] = (countMap[lid] || 0) + 1;
+            });
+
+            const allActive = selectedPracLessons.size === 0;
+            let html = `
+                <button type="button" class="prac-lchip ${allActive ? 'active' : ''}" onclick="clearPracLessonSelection()">
+                    🌐 Tất cả (${db.words.length})
+                </button>
+            `;
+
+            db.lessons.forEach(l => {
+                const cnt = countMap[l.id] || 0;
+                const isSelected = selectedPracLessons.has(l.id);
+                html += `
+                    <button type="button" class="prac-lchip ${isSelected ? 'active' : ''}" onclick="togglePracLessonChip('${l.id}')" title="${escapeHtml(l.title)}">
+                        ${ isSelected ? '✓ ' : '' }${escapeHtml(l.short)} <span class="lchip-count">(${cnt})</span>
+                    </button>
+                `;
+            });
+
+            wrap.innerHTML = html;
+        }
+
+        function togglePracLessonChip(lessonId) {
+            if (selectedPracLessons.has(lessonId)) {
+                selectedPracLessons.delete(lessonId);
+            } else {
+                selectedPracLessons.add(lessonId);
+            }
+            syncQuickInputFromSet();
+            renderPracLessonChips();
+            buildPracticeDeck();
+        }
+
+        function clearPracLessonSelection() {
+            selectedPracLessons.clear();
+            const qInp = document.getElementById('pracLessonQuickInput');
+            if (qInp) qInp.value = '';
+            renderPracLessonChips();
+            buildPracticeDeck();
+        }
+
+        function selectRecentPracLessons(n = 3) {
+            selectedPracLessons.clear();
+            const numbered = db.lessons.filter(l => l.id !== 'bai-extra' && (db.words.some(w => w.lesson === l.id)));
+            const targetList = numbered.length > 0 ? numbered.slice(-n) : db.lessons.filter(l => l.id !== 'bai-extra').slice(-n);
+            targetList.forEach(l => selectedPracLessons.add(l.id));
+            syncQuickInputFromSet();
+            renderPracLessonChips();
+            buildPracticeDeck();
+        }
+
+        function syncQuickInputFromSet() {
+            const qInp = document.getElementById('pracLessonQuickInput');
+            if (!qInp) return;
+            const nums = [];
+            selectedPracLessons.forEach(id => {
+                if (id === 'bai-extra') nums.push('extra');
+                else {
+                    const m = String(id).match(/^bai-(\d+)$/);
+                    if (m) nums.push(m[1]);
+                    else nums.push(id);
+                }
+            });
+            qInp.value = nums.join(' ');
+        }
+
+        // Cho phép gõ nhanh: "14 15 16 17" hoặc "14-17" hoặc "13, 2, 4" hoặc "extra"
+        function applyQuickLessonInput(rawVal) {
+            selectedPracLessons.clear();
+            const text = String(rawVal || '').trim().toLowerCase();
+            if (!text) {
+                renderPracLessonChips();
+                buildPracticeDeck();
+                return;
+            }
+
+            const validIds = new Set(db.lessons.map(l => l.id));
+            // Hỗ trợ khoảng như 14-17
+            const rangeRegex = /(\d+)\s*-\s*(\d+)/g;
+            let match;
+            while ((match = rangeRegex.exec(text)) !== null) {
+                const start = parseInt(match[1], 10);
+                const end = parseInt(match[2], 10);
+                const low = Math.min(start, end);
+                const high = Math.max(start, end);
+                for (let k = low; k <= high; k++) {
+                    if (validIds.has(`bai-${k}`)) selectedPracLessons.add(`bai-${k}`);
+                }
+            }
+
+            // Hỗ trợ danh sách số rời rạc như "13 2 4" hoặc "14, 15, 16, 17"
+            const tokens = text.replace(rangeRegex, ' ').split(/[\s,;+|]+/).filter(Boolean);
+            tokens.forEach(tk => {
+                if (tk === 'extra' || tk === 'morong' || tk === 'mở') {
+                    selectedPracLessons.add('bai-extra');
+                } else {
+                    const m = tk.match(/(\d+)/);
+                    if (m) {
+                        const lid = `bai-${parseInt(m[1], 10)}`;
+                        if (validIds.has(lid)) selectedPracLessons.add(lid);
+                    }
+                }
+            });
+
+            renderPracLessonChips();
+            buildPracticeDeck();
         }
 
         function shuffleList(arr) {
@@ -2988,8 +3382,8 @@
         function buildPracticeDeck() {
             ensureMistakeZone();
             const src = document.getElementById('pracSource') ? document.getElementById('pracSource').value : 'all';
-            const les = document.getElementById('pracLesson') ? document.getElementById('pracLesson').value : '';
             const cat = document.getElementById('pracCategory') ? document.getElementById('pracCategory').value : '';
+            const knownLessonIds = new Set(db.lessons.map(l => l.id));
 
             const filtered = db.words.filter(w => {
                 if (src === 'mistakes' && !db.mistakes.some(m => m.wordId === w.id)) return false;
@@ -2999,7 +3393,10 @@
                     const num = parseInt(String(w.id).replace('w_', ''), 10);
                     if (isNaN(num) || num < 473) return false;
                 }
-                if (les && w.lesson !== les) return false;
+                if (selectedPracLessons.size > 0) {
+                    const normWLesson = (w.lesson && knownLessonIds.has(w.lesson)) ? w.lesson : 'bai-extra';
+                    if (!selectedPracLessons.has(normWLesson)) return false;
+                }
                 if (cat && w.cat !== cat) return false;
                 return true;
             });
@@ -3007,11 +3404,20 @@
             pracDeck = shuffleList(filtered);
             pracIdx = 0;
             fcIsFlipped = false;
-            revealPinyinHint = false;
+            mcCurrentChoices = null;
             mcLocked = false;
+            syncCardPinyinToMaster();
+            if (typeof aiReadingWords !== 'undefined') aiReadingWords = [];
 
             const infoEl = document.getElementById('pracDeckInfo');
-            if (infoEl) infoEl.textContent = `📚 Đang trộn ngẫu nhiên: ${pracDeck.length} từ`;
+            if (infoEl) {
+                if (selectedPracLessons.size > 0) {
+                    const names = db.lessons.filter(l => selectedPracLessons.has(l.id)).map(l => l.short).join(', ');
+                    infoEl.textContent = `📚 Đang trộn: ${pracDeck.length} từ (Ghép ${selectedPracLessons.size} bài: ${names})`;
+                } else {
+                    infoEl.textContent = `📚 Đang trộn ngẫu nhiên: ${pracDeck.length} từ (Tất cả bài)`;
+                }
+            }
 
             renderQuizCard();
             renderMistakeZoneTable();
@@ -3019,13 +3425,14 @@
 
         function switchPracticeType(type) {
             pracType = type;
-            ['flashcard', 'vi2zh', 'zh2vi', 'mc', 'write'].forEach(k => {
+            ['flashcard', 'vi2zh', 'zh2vi', 'mc', 'write', 'reading'].forEach(k => {
                 const b = document.getElementById('psub-' + k);
                 if (b) b.classList.toggle('active', k === type);
             });
             fcIsFlipped = false;
-            revealPinyinHint = false;
+            mcCurrentChoices = null;
             mcLocked = false;
+            syncCardPinyinToMaster();
             writeActiveCharIdx = 0;
             renderQuizCard();
         }
@@ -3034,8 +3441,9 @@
             if (pracDeck.length === 0) return;
             pracIdx = (pracIdx + delta + pracDeck.length) % pracDeck.length;
             fcIsFlipped = false;
-            revealPinyinHint = false;
+            mcCurrentChoices = null;
             mcLocked = false;
+            syncCardPinyinToMaster();
             writeActiveCharIdx = 0;
             renderQuizCard();
         }
@@ -3055,7 +3463,7 @@
                 box.innerHTML = `
                     <div class="fill-box" style="padding:24px;">
                         <p style="font-size:14px;font-weight:700;color:var(--secondary);margin-bottom:8px;">📭 Chưa có từ vựng nào trong mục lọc này!</p>
-                        <button type="button" class="btn-icon btn-add" onclick="document.getElementById('pracSource').value='all';buildPracticeDeck();">🎲 Chuyển sang luyện Tất cả 503 từ</button>
+                        <button type="button" class="btn-icon btn-add" onclick="document.getElementById('pracSource').value='all';clearPracLessonSelection();">🎲 Chuyển sang luyện Tất cả 503 từ</button>
                     </div>
                 `;
                 return;
@@ -3073,11 +3481,16 @@
                     : `<div class="fc-vi-big">${escapeHtml(w.meaning)}</div>`;
 
                 box.innerHTML = `
-                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font-size:12px;color:var(--text-muted);">
+                    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font-size:12px;color:var(--text-muted);flex-wrap:wrap;gap:4px;">
                         <span>Thẻ <b>${pracIdx + 1} / ${pracDeck.length}</b></span>
-                        <button type="button" class="btn-icon" style="padding:2px 8px;font-size:11.5px;" onclick="fcPromptLang=(fcPromptLang==='zh'?'vi':'zh');renderQuizCard();">
-                            🔄 Mặt trước: ${fcPromptLang === 'zh' ? 'Chữ Hán' : 'Tiếng Việt'}
-                        </button>
+                        <div style="display:flex;gap:6px;">
+                            <button type="button" class="btn-icon" style="padding:2px 8px;font-size:11.5px;" onclick="toggleCardPinyin(event)">
+                                ${fcShowPinyin ? '🙈 Ẩn Pinyin' : '👁️ Hiện Pinyin'}
+                            </button>
+                            <button type="button" class="btn-icon" style="padding:2px 8px;font-size:11.5px;" onclick="fcPromptLang=(fcPromptLang==='zh'?'vi':'zh');renderQuizCard();">
+                                🔄 Mặt trước: ${fcPromptLang === 'zh' ? 'Chữ Hán' : 'Tiếng Việt'}
+                            </button>
+                        </div>
                     </div>
                     <div class="fc-card" onclick="fcIsFlipped=!fcIsFlipped;renderQuizCard();">
                         <div class="fc-top-left">
@@ -3089,12 +3502,18 @@
                             <button type="button" class="btn-icon" style="padding:3px 8px;font-size:12px;" onclick="speakChinese('${escapeHtml(w.hanzi)}', event)">🔊 Nghe</button>
                         </div>
                         ${promptHtml}
+                        ${!fcIsFlipped && fcShowPinyin ? `<div style="font-size:17px;font-weight:700;color:var(--primary);margin-bottom:4px;">${escapeHtml(w.pinyin)}</div>` : ''}
                         <div style="font-size:11.5px;color:var(--text-muted);">(Chạm vào thẻ để lật xem đáp án)</div>
                         ${fcIsFlipped ? `
-                            <div class="fc-reveal">
-                                ${fcPromptLang === 'vi' ? `<div style="font-size:28px;font-weight:800;color:#0f172a;">${escapeHtml(w.hanzi)}</div>` : ''}
-                                <div style="font-size:19px;font-weight:700;color:var(--primary);margin:4px 0;">${escapeHtml(w.pinyin)}</div>
-                                <div style="font-size:15.5px;font-weight:600;color:#1e293b;">${escapeHtml(w.meaning)}</div>
+                            <div class="fc-reveal" onclick="event.stopPropagation()">
+                                ${fcPromptLang === 'vi' ? `<div style="font-size:28px;font-weight:800;color:#0f172a;margin-bottom:4px;">${escapeHtml(w.hanzi)}</div>` : ''}
+                                <div style="font-size:15.5px;font-weight:600;color:#1e293b;margin-bottom:6px;">${escapeHtml(w.meaning)}</div>
+                                <div style="display:flex;align-items:center;justify-content:center;gap:8px;flex-wrap:wrap;">
+                                    ${fcShowPinyin
+                                        ? `<span style="font-size:18px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>
+                                           <button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="toggleCardPinyin(event)">🙈 Ẩn Pinyin</button>`
+                                        : `<button type="button" class="btn-icon" style="font-size:11px;padding:2px 8px;" onclick="toggleCardPinyin(event)">👁️ Hiện Pinyin</button>`}
+                                </div>
                             </div>
                         ` : ''}
                     </div>
@@ -3120,6 +3539,12 @@
                         </div>
                         <div style="font-size:12.5px;color:var(--text-muted);">Điền Chữ Hán hoặc Pinyin cho nghĩa tiếng Việt sau:</div>
                         <div class="fc-vi-big" style="margin:8px 0;">"${escapeHtml(w.meaning)}"</div>
+                        <div style="margin-bottom:6px;display:flex;justify-content:center;align-items:center;gap:8px;">
+                            ${revealPinyinHint
+                                ? `<span style="font-size:16px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>
+                                   <button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="toggleCardPinyin(event)">🙈 Ẩn Pinyin</button>`
+                                : `<button type="button" class="btn-icon" style="font-size:11px;padding:2px 8px;" onclick="toggleCardPinyin(event)">👁️ Hiện Pinyin gợi ý</button>`}
+                        </div>
                         <div class="fill-input-row">
                             <input type="text" id="pracInputAns" class="fill-input" placeholder="Gõ Chữ Hán hoặc Pinyin (vd: zheng4 qian2)..." oninput="autoConvertPinyinInput(this)" onkeydown="if(event.key==='Enter')submitVi2Zh()">
                             <button type="button" class="btn-icon btn-add" style="padding:8px 14px;" onclick="submitVi2Zh()">Kiểm tra</button>
@@ -3146,10 +3571,11 @@
                         </div>
                         <div style="font-size:12.5px;color:var(--text-muted);">Điền nghĩa tiếng Việt của từ sau:</div>
                         <div class="fc-hanzi-big" style="cursor:pointer;" onclick="speakChinese('${escapeHtml(w.hanzi)}', event)">${escapeHtml(w.hanzi)} <span style="font-size:16px;">🔊</span></div>
-                        <div style="margin-bottom:6px;">
+                        <div style="margin-bottom:6px;display:flex;justify-content:center;align-items:center;gap:8px;">
                             ${revealPinyinHint
-                                ? `<span style="font-size:16px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>`
-                                : `<button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="revealPinyinHint=true;renderQuizCard();">👁️ Hiện Pinyin</button>`}
+                                ? `<span style="font-size:16px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>
+                                   <button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="toggleCardPinyin(event)">🙈 Ẩn Pinyin</button>`
+                                : `<button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="toggleCardPinyin(event)">👁️ Hiện Pinyin</button>`}
                         </div>
                         <div class="fill-input-row">
                             <input type="text" id="pracInputAns" class="fill-input" placeholder="Nhập nghĩa tiếng Việt..." onkeydown="if(event.key==='Enter')submitZh2Vi()">
@@ -3168,8 +3594,11 @@
 
             // 4. TRẮC NGHIỆM 4 ĐÁP ÁN
             if (pracType === 'mc') {
-                const others = shuffleList(db.words.filter(item => item.id !== w.id)).slice(0, 3);
-                const choices = shuffleList([w, ...others]);
+                if (!mcCurrentChoices || !mcCurrentChoices.some(c => c.id === w.id)) {
+                    const others = shuffleList(db.words.filter(item => item.id !== w.id)).slice(0, 3);
+                    mcCurrentChoices = shuffleList([w, ...others]);
+                }
+                const choices = mcCurrentChoices;
 
                 box.innerHTML = `
                     <div class="fill-box">
@@ -3178,7 +3607,12 @@
                             <span style="font-size:12px;font-weight:700;color:var(--text-muted);">Câu ${pracIdx + 1}/${pracDeck.length}</span>
                         </div>
                         <div class="fc-hanzi-big" style="cursor:pointer;" onclick="speakChinese('${escapeHtml(w.hanzi)}', event)">${escapeHtml(w.hanzi)} <span style="font-size:16px;">🔊</span></div>
-                        <div style="font-size:16px;font-weight:700;color:var(--primary);margin-bottom:6px;">${escapeHtml(w.pinyin)}</div>
+                        <div style="margin-bottom:8px;display:flex;justify-content:center;align-items:center;gap:8px;">
+                            ${revealPinyinHint
+                                ? `<span style="font-size:16px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>
+                                   <button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="toggleCardPinyin(event)">🙈 Ẩn Pinyin</button>`
+                                : `<button type="button" class="btn-icon" style="font-size:11px;padding:2px 8px;" onclick="toggleCardPinyin(event)">👁️ Hiện Pinyin</button>`}
+                        </div>
                         <div class="mc-options-grid">
                             ${choices.map((c, idx) => `
                                 <button type="button" class="mc-opt-btn" id="mc-btn-${c.id}" onclick="submitMcChoice('${c.id}', '${w.id}')">
@@ -3201,12 +3635,18 @@
                 renderWritePracticeStage(box, w, lesShort);
                 return;
             }
+
+            // 6. ĐỌC & DỊCH ĐOẠN VĂN TIẾNG TRUNG TẠO BẰNG AI API (KHÔNG HARDCODE CÂU TRONG JS)
+            if (pracType === 'reading') {
+                renderReadingPracticeStage(box);
+                return;
+            }
         }
 
         // ==================== CHẾ ĐỘ 5: LUYỆN VIẾT CHỮ HÁN (AI IME + HANZI WRITER) ====================
         let writeSubMode = 'freehand'; // 'freehand' (Bảng vẽ AI nhận diện nét) | 'stroke' (Chấm từng nét chuẩn HanziWriter)
         let writeShowWatermark = false;
-        let writeShowPinyin = true;
+        let writeShowPinyin = false; // Tắt Pinyin mặc định khi luyện viết
         let writeTargetChars = [];
         let writeActiveCharIdx = 0;
 
@@ -3251,7 +3691,8 @@
                     <div class="fc-vi-big" style="margin:4px 0;">"${escapeHtml(w.meaning)}"</div>
                     <div style="margin-bottom:8px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap;">
                         ${writeShowPinyin
-                            ? `<span style="font-size:16px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>`
+                            ? `<span style="font-size:16px;font-weight:700;color:var(--primary);">${escapeHtml(w.pinyin)}</span>
+                               <button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="writeShowPinyin=false;renderQuizCard();">🙈 Ẩn Pinyin</button>`
                             : `<button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;" onclick="writeShowPinyin=true;renderQuizCard();">👁️ Hiện Pinyin</button>`}
                         <button type="button" class="btn-icon" style="font-size:11.5px;padding:2px 8px;" onclick="speakChinese('${escapeHtml(w.hanzi)}', event)">🔊 Nghe phát âm</button>
                     </div>
@@ -3620,6 +4061,340 @@
                 if (writer) writer.animateCharacter();
             });
         }
+
+        // ==================== CHẾ ĐỘ 6: TẠO ĐOẠN VĂN ĐỌC & DỊCH BẰNG AI API (100% ĐỘNG, KHÔNG HARDCODE TRONG JS) ====================
+        let aiReadingWords = [];
+        let aiReadingData = null; // { title, chinese, pinyin, vietnamese, sentences: [{zh, py, vi}] }
+        let aiReadingLoading = false;
+        let aiReadingShowPinyin = false;
+        let aiReadingShowAnswer = false;
+        let aiReadingShowWordPinyin = false;
+        let aiReadingStyle = 'paragraph'; // 'paragraph' (Đoạn văn ngắn 3-4 câu) | 'dialogue' (Hội thoại 2 người)
+        let aiReadingUserTrans = '';
+        let aiReadingEvalResult = '';
+        let aiReadingEvalLoading = false;
+
+        function sampleReadingWords() {
+            const pool = pracDeck.length > 0 ? pracDeck : db.words;
+            const count = Math.min(6, pool.length);
+            aiReadingWords = shuffleList(pool).slice(0, count);
+        }
+
+        function renderReadingPracticeStage(box) {
+            if (aiReadingWords.length === 0) {
+                sampleReadingWords();
+            }
+
+            const savedGeminiKey = localStorage.getItem('hanyu_gemini_api_key') || '';
+
+            box.innerHTML = `
+                <div class="reading-box">
+                    <div class="reading-controls">
+                        <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                            <strong style="font-size:13.5px;color:var(--primary-dark);">🤖 AI Tạo Đoạn Văn Từ Kho Từ Vựng:</strong>
+                            <select id="aiReadingStyleSelect" class="jump-select" style="max-width:175px;" onchange="aiReadingStyle=this.value">
+                                <option value="paragraph" ${aiReadingStyle === 'paragraph' ? 'selected' : ''}>📄 Đoạn văn ngắn (3–4 câu)</option>
+                                <option value="dialogue" ${aiReadingStyle === 'dialogue' ? 'selected' : ''}>💬 Hội thoại giao tiếp</option>
+                            </select>
+                        </div>
+                        <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                            <button type="button" class="btn-icon" onclick="sampleReadingWords();renderQuizCard();" ${aiReadingLoading ? 'disabled' : ''}>
+                                🎲 Đổi ${aiReadingWords.length} từ khác
+                            </button>
+                            <button type="button" class="btn-icon btn-add" onclick="generateReadingPassageViaAPI(false)" ${aiReadingLoading ? 'disabled' : ''}>
+                                ${aiReadingLoading ? '⏳ Đang gọi API...' : '✨ Tạo đoạn văn mới (API)'}
+                            </button>
+                            <button type="button" class="btn-icon btn-json" onclick="sampleReadingWords();generateReadingPassageViaAPI(false)" ${aiReadingLoading ? 'disabled' : ''} title="Đổi nhóm từ vựng mới và tạo đoạn văn mới">
+                                🔄 Đổi từ &amp; Tạo mới
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Các từ vựng nguyên liệu lấy từ bộ lọc hiện tại (Mặc định tắt Pinyin) -->
+                    <div class="reading-vocab-strip">
+                        <span style="font-size:12px;font-weight:700;color:var(--text-muted);">📌 Từ vựng dùng để ghép bài:</span>
+                        ${aiReadingWords.map(w => `
+                            <span class="reading-vocab-chip" onclick="speakChinese('${escapeHtml(w.hanzi)}', event);openDictDetail('${w.id}')" title="Chạm để nghe & xem chi tiết">
+                                ${escapeHtml(w.hanzi)}
+                                ${aiReadingShowWordPinyin ? `<small style="font-weight:normal;opacity:0.85;">(${escapeHtml(w.pinyin)} - ${escapeHtml(w.meaning.split(',')[0])})</small>` : ''}
+                            </span>
+                        `).join('')}
+                        <button type="button" class="btn-icon" style="font-size:11px;padding:2px 7px;margin-left:auto;" onclick="aiReadingShowWordPinyin=!aiReadingShowWordPinyin;renderQuizCard();">
+                            ${aiReadingShowWordPinyin ? '🙈 Ẩn Pinyin/Nghĩa từ' : '👁️ Hiện Pinyin/Nghĩa từ'}
+                        </button>
+                    </div>
+
+                    ${aiReadingLoading ? `
+                        <div style="text-align:center;padding:32px 16px;background:#ffffff;border-radius:10px;border:1px dashed #cbd5e1;">
+                            <div style="font-size:15px;font-weight:700;color:var(--secondary);margin-bottom:6px;">
+                                ⏳ Đang gọi AI API tạo đoạn văn tiếng Trung theo từ vựng của bạn...
+                            </div>
+                            <p style="font-size:12px;color:var(--text-muted);">Hệ thống đang ghép các từ <b>${aiReadingWords.map(w => w.hanzi).join(', ')}</b> thành ngữ cảnh tự nhiên.</p>
+                        </div>
+                    ` : !aiReadingData ? `
+                        <div style="text-align:center;padding:26px 16px;background:#ffffff;border-radius:10px;border:1px dashed #cbd5e1;">
+                            <p style="font-size:14px;font-weight:700;color:var(--text-main);margin-bottom:6px;">
+                                Chưa có đoạn văn nào. Hãy bấm nút bên dưới để gọi API sinh đoạn văn trực tiếp!
+                            </p>
+                            <p style="font-size:12px;color:var(--text-muted);margin-bottom:12px;">
+                                (Đoạn văn được sinh mới 100% qua API từ đúng các từ vựng trong bài học bạn chọn, hoàn toàn không lưu cứng câu văn mẫu trong file JS)
+                            </p>
+                            <button type="button" class="btn-icon btn-add" style="padding:10px 18px;font-size:14px;" onclick="generateReadingPassageViaAPI(false)">
+                                🚀 Bấm để AI tạo đoạn văn đọc &amp; dịch ngay
+                            </button>
+                        </div>
+                    ` : `
+                        <!-- Khung hiển thị Đoạn văn chữ Hán (Pinyin mặc định TẮT) -->
+                        <div class="reading-passage-card">
+                            <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:6px;margin-bottom:8px;">
+                                <span class="lesson-pill" style="font-size:12px;">📘 ${escapeHtml(aiReadingData.title || 'Bài đọc tiếng Trung')}</span>
+                                <div style="display:flex;gap:5px;flex-wrap:wrap;">
+                                    <button type="button" class="btn-icon" style="font-size:12px;padding:3px 9px;" onclick="speakChinesePassage(0.85)">🔊 Đọc cả đoạn</button>
+                                    <button type="button" class="btn-icon" style="font-size:12px;padding:3px 9px;" onclick="speakChinesePassage(0.62)">🐢 Đọc chậm</button>
+                                    <button type="button" class="btn-icon" style="font-size:12px;padding:3px 9px;" onclick="aiReadingShowPinyin=!aiReadingShowPinyin;renderQuizCard();">
+                                        ${aiReadingShowPinyin ? '🙈 Ẩn Pinyin cả đoạn' : '👁️ Hiện Pinyin cả đoạn'}
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="reading-zh-text" id="readingZhPassage">${ formatInteractivePassage(aiReadingData.chinese) }</div>
+
+                            ${aiReadingShowPinyin ? `
+                                <div class="reading-pinyin-box">
+                                    ${escapeHtml(aiReadingData.pinyin)}
+                                </div>
+                            ` : ''}
+                            <div style="font-size:11.5px;color:var(--text-muted);margin-top:8px;">
+                                💡 <i>Mẹo: Chạm vào các từ có gạch chân trong đoạn văn để nghe phát âm &amp; tra nghĩa nhanh.</i>
+                            </div>
+                        </div>
+
+                        <!-- Khu vực Luyện dịch sang tiếng Việt -->
+                        <div style="margin-top:10px;">
+                            <label style="display:block;font-size:12.5px;font-weight:700;color:#334155;margin-bottom:5px;">
+                                ✍️ Nhập bản dịch tiếng Việt của bạn (để tự đối chiếu hoặc nhờ AI chấm):
+                            </label>
+                            <textarea id="aiReadingUserInput" class="reading-trans-area" placeholder="Đọc đoạn chữ Hán bên trên và gõ bản dịch tiếng Việt của bạn vào đây..." oninput="aiReadingUserTrans=this.value">${escapeHtml(aiReadingUserTrans)}</textarea>
+
+                            <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;justify-content:space-between;align-items:center;">
+                                <div style="display:flex;gap:6px;flex-wrap:wrap;">
+                                    <button type="button" class="btn-icon btn-add" onclick="evaluateTranslationViaAPI()" ${aiReadingEvalLoading ? 'disabled' : ''}>
+                                        ${aiReadingEvalLoading ? '⏳ AI đang chấm...' : '🤖 Nhờ AI chấm & sửa bản dịch'}
+                                    </button>
+                                    <button type="button" class="btn-icon btn-json" onclick="aiReadingShowAnswer=!aiReadingShowAnswer;renderQuizCard();">
+                                        ${aiReadingShowAnswer ? '🙈 Ẩn bản dịch mẫu' : '📖 Xem bản dịch mẫu & Tách câu'}
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        ${aiReadingEvalResult ? `
+                            <div class="quiz-msg ok" style="display:block;margin-top:10px;text-align:left;line-height:1.55;">
+                                <strong>🤖 Nhận xét của AI về bản dịch của bạn:</strong><br>
+                                ${escapeHtml(aiReadingEvalResult).replace(/\n/g, '<br>')}
+                            </div>
+                        ` : ''}
+
+                        ${aiReadingShowAnswer ? `
+                            <div style="margin-top:12px;background:#ecfdf5;border:1px solid #6ee7b7;border-radius:8px;padding:12px;">
+                                <div style="font-size:13px;font-weight:800;color:#065f46;margin-bottom:4px;">✅ Bản dịch tiếng Việt chuẩn:</div>
+                                <div style="font-size:14.5px;font-weight:600;color:#0f172a;margin-bottom:8px;">${escapeHtml(aiReadingData.vietnamese)}</div>
+
+                                ${Array.isArray(aiReadingData.sentences) && aiReadingData.sentences.length > 0 ? `
+                                    <div style="font-size:12px;font-weight:700;color:#047857;margin-top:8px;margin-bottom:4px;">🔍 Phân tích chi tiết từng câu:</div>
+                                    ${aiReadingData.sentences.map(s => `
+                                        <div class="reading-sentence-item">
+                                            <div style="display:flex;justify-content:space-between;align-items:center;gap:6px;">
+                                                <strong style="font-size:16px;color:#0f172a;">${escapeHtml(s.zh)}</strong>
+                                                <button type="button" class="btn-icon" style="padding:2px 6px;font-size:11px;" onclick="speakChinese('${escapeHtml(s.zh)}', event)">🔊</button>
+                                            </div>
+                                            <div style="font-size:13px;color:var(--primary);font-weight:600;margin:2px 0;">${escapeHtml(s.py || '')}</div>
+                                            <div style="font-size:13px;color:#334155;">➔ ${escapeHtml(s.vi || '')}</div>
+                                        </div>
+                                    `).join('')}
+                                ` : ''}
+                            </div>
+                        ` : ''}
+                    `}
+
+                    <!-- Tùy chọn cấu hình API Key riêng (nếu muốn dùng Gemini trực tiếp) -->
+                    <details style="margin-top:12px;font-size:12px;color:var(--text-muted);">
+                        <summary style="cursor:pointer;font-weight:600;">⚙️ Cấu hình nguồn API AI (Mặc định: Miễn phí tự động không cần Key)</summary>
+                        <div style="margin-top:6px;background:#ffffff;padding:8px 10px;border-radius:6px;border:1px solid #e2e8f0;display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+                            <span>Google Gemini API Key (Tùy chọn):</span>
+                            <input type="password" id="geminiApiKeyInput" class="form-control" style="max-width:240px;padding:4px 8px;font-size:12px;" placeholder="Dán AIza... (Để trống vẫn chạy miễn phí)" value="${escapeHtml(savedGeminiKey)}" onchange="localStorage.setItem('hanyu_gemini_api_key', this.value.trim())">
+                            <small style="width:100%;color:var(--text-muted);">💡 Nếu để trống, web tự động gọi API miễn phí của Pollinations AI (OpenAI model). Nếu dán Gemini Key, web sẽ ưu tiên gọi thẳng Google Gemini Flash.</small>
+                        </div>
+                    </details>
+                </div>
+            `;
+        }
+
+        // Gắn gạch chân tương tác cho các từ trong đoạn văn khớp với từ điển để bấm vào tra nghĩa ngay
+        function formatInteractivePassage(chineseText) {
+            if (!chineseText) return '';
+            let safeText = escapeHtml(chineseText).replace(/\n/g, '<br>');
+            // Sắp xếp từ dài trước để khớp từ ghép trước từ đơn
+            const sortedWords = [...db.words]
+                .map(w => ({ id: w.id, hanzi: w.hanzi.split('/')[0].trim() }))
+                .filter(w => w.hanzi.length >= 2)
+                .sort((a, b) => b.hanzi.length - a.hanzi.length);
+
+            // Đánh dấu bằng token tạm để không bị lồng thẻ HTML
+            const tokenMap = {};
+            let tokenIdx = 0;
+            sortedWords.forEach(w => {
+                const escapedH = escapeHtml(w.hanzi);
+                if (escapedH && safeText.includes(escapedH)) {
+                    const token = `__ WORD_${tokenIdx++} __`;
+                    tokenMap[token] = `<span class="reading-zh-word" onclick="speakChinese('${escapedH}', event);openDictDetail('${w.id}')" title="Chạm để tra từ: ${escapedH}">${escapedH}</span>`;
+                    safeText = safeText.split(escapedH).join(token);
+                }
+            });
+
+            Object.keys(tokenMap).forEach(tk => {
+                safeText = safeText.split(tk).join(tokenMap[tk]);
+            });
+            return safeText;
+        }
+
+        function speakChinesePassage(rate = 0.85) {
+            if (!aiReadingData || !aiReadingData.chinese || !('speechSynthesis' in window)) return;
+            const utter = new SpeechSynthesisUtterance(aiReadingData.chinese.replace(/\n/g, ' '));
+            utter.lang = 'zh-CN';
+            utter.rate = rate;
+            window.speechSynthesis.cancel();
+            window.speechSynthesis.speak(utter);
+        }
+
+        async function callAITextAPI(systemPrompt, userPrompt, expectJson = true) {
+            const geminiKey = (localStorage.getItem('hanyu_gemini_api_key') || '').trim();
+
+            // 1. Nếu người dùng có nhập Gemini API Key, ưu tiên gọi trực tiếp Google Gemini
+            if (geminiKey) {
+                try {
+                    const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${encodeURIComponent(geminiKey)}`;
+                    const body = {
+                        contents: [{ parts: [{ text: systemPrompt + "\n\n" + userPrompt }] }],
+                        generationConfig: expectJson ? { responseMimeType: "application/json" } : {}
+                    };
+                    const res = await fetch(geminiUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(body)
+                    });
+                    if (res.ok) {
+                        const data = await res.json();
+                        const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+                        if (text) return text;
+                    }
+                } catch (e) {
+                    console.warn('Gemini API fallback to Pollinations:', e);
+                }
+            }
+
+            // 2. Mặc định: Gọi Pollinations AI OpenAI-compatible Endpoint (Miễn phí, không cần Key, hỗ trợ CORS trực tiếp trên GitHub Pages)
+            const res = await fetch('https://text.pollinations.ai/', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    messages: [
+                        { role: 'system', content: systemPrompt },
+                        { role: 'user', content: userPrompt }
+                    ],
+                    model: 'openai',
+                    seed: Math.floor(Math.random() * 1000000),
+                    jsonMode: expectJson
+                })
+            });
+
+            if (!res.ok) {
+                throw new Error('API request failed with status ' + res.status);
+            }
+            return await res.text();
+        }
+
+        async function generateReadingPassageViaAPI() {
+            if (aiReadingLoading) return;
+            if (aiReadingWords.length === 0) sampleReadingWords();
+
+            aiReadingLoading = true;
+            aiReadingShowPinyin = false;
+            aiReadingShowAnswer = false;
+            aiReadingUserTrans = '';
+            aiReadingEvalResult = '';
+            renderQuizCard();
+
+            const vocabListStr = aiReadingWords.map(w => `${w.hanzi} (${w.meaning})`).join(', ');
+            const styleDesc = aiReadingStyle === 'dialogue'
+                ? 'một đoạn hội thoại ngắn (4 câu trao đổi qua lại giữa A và B)'
+                : 'một đoạn văn ngắn tự nhiên (3 đến 4 câu liên kết mạch lạc)';
+
+            const systemPrompt = `Bạn là giáo viên dạy tiếng Trung HSK. Hãy sáng tác ${styleDesc} bằng chữ Hán giản thể trình độ sơ trung cấp (HSK 2-3), sử dụng các từ vựng được cung cấp. Chỉ trả về đúng định dạng JSON hợp lệ, không thêm markdown.`;
+            const userPrompt = `Hãy tạo ${styleDesc} có sử dụng ít nhất 4 từ trong nhóm từ sau: ${vocabListStr}.
+Trả về JSON theo đúng cấu trúc:
+{
+  "title": "Tiêu đề ngắn bằng chữ Hán (kèm nghĩa Việt)",
+  "chinese": "Toàn bộ đoạn văn chữ Hán",
+  "pinyin": "Phiên âm Pinyin của toàn bộ đoạn văn",
+  "vietnamese": "Bản dịch tiếng Việt tự nhiên, chuẩn xác của cả đoạn",
+  "sentences": [
+    { "zh": "Câu 1 chữ Hán", "py": "Pinyin câu 1", "vi": "Nghĩa câu 1" }
+  ]
+}`;
+
+            try {
+                const rawText = await callAITextAPI(systemPrompt, userPrompt, true);
+                const cleaned = rawText.replace(/```json/gi, '').replace(/```/g, '').trim();
+                const firstBrace = cleaned.indexOf('{');
+                const lastBrace = cleaned.lastIndexOf('}');
+                const jsonSlice = (firstBrace !== -1 && lastBrace !== -1) ? cleaned.slice(firstBrace, lastBrace + 1) : cleaned;
+                const parsed = JSON.parse(jsonSlice);
+
+                if (parsed && parsed.chinese) {
+                    aiReadingData = parsed;
+                } else {
+                    throw new Error('Invalid JSON structure');
+                }
+            } catch (err) {
+                console.error('Lỗi tạo đoạn văn AI:', err);
+                alert('⚠️ Máy chủ AI miễn phí đang bận hoặc kết nối mạng gián đoạn. Bạn hãy bấm "✨ Tạo đoạn văn mới (API)" một lần nữa nhé!');
+            } finally {
+                aiReadingLoading = false;
+                renderQuizCard();
+            }
+        }
+
+        async function evaluateTranslationViaAPI() {
+            if (!aiReadingData || !aiReadingData.chinese) return;
+            const userInp = document.getElementById('aiReadingUserInput');
+            if (userInp) aiReadingUserTrans = userInp.value.trim();
+
+            if (!aiReadingUserTrans) {
+                alert('Bạn hãy gõ bản dịch tiếng Việt của mình vào ô trước khi bấm chấm điểm nhé!');
+                return;
+            }
+
+            aiReadingEvalLoading = true;
+            renderQuizCard();
+
+            const systemPrompt = 'Bạn là giáo viên tiếng Trung chấm bài dịch Trung - Việt. Hãy nhận xét ngắn gọn, thân thiện, chấm điểm trên thang 10 và chỉ ra chỗ dịch đúng hoặc chỗ cần sửa.';
+            const userPrompt = `Đoạn văn gốc tiếng Trung: "${aiReadingData.chinese}"
+Bản dịch mẫu chuẩn: "${aiReadingData.vietnamese}"
+Bản dịch của học sinh: "${aiReadingUserTrans}"
+Hãy chấm điểm (VD: 9/10) và nhận xét ngắn gọn trong 3-4 dòng.`;
+
+            try {
+                const feedback = await callAITextAPI(systemPrompt, userPrompt, false);
+                aiReadingEvalResult = feedback.trim();
+            } catch (err) {
+                aiReadingEvalResult = `⚠️ Không gọi được AI chấm tự động lúc này. Bạn hãy đối chiếu trực tiếp với bản dịch chuẩn: "${aiReadingData.vietnamese}"`;
+            } finally {
+                aiReadingEvalLoading = false;
+                renderQuizCard();
+            }
+        }
+
 
         function markFlashcard(wordId, isRight) {
             if (isRight) {
