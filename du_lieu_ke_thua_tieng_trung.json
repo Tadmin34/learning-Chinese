@@ -1,0 +1,223 @@
+{
+  "thong_tin_du_an": {
+    "ten_du_an": "Học Tiếng Trung Cơ Bản (Dữ Liệu Kế Thừa)",
+    "ngay_xuat": "2026-11-03",
+    "trinh_do_muc_tieu": "HSK1 đến HSK3",
+    "mota": "Toàn bộ dữ liệu từ vựng, ngữ pháp, bài tập, ghi chú lỗi sai và tiến độ học tập từ Bài 1 đến Bài 15 dùng để kế thừa sang dự án/tài khoản mới."
+  },
+  "tien_do_va_ghi_chu_loi_sai": {
+    "danh_sach_tu_hay_sai_can_on": [
+      {
+        "tu": "桌子",
+        "pinyin": "zhuō zi",
+        "nghia": "cái bàn"
+      },
+      {
+        "tu": "书包",
+        "pinyin": "shū bāo",
+        "nghia": "cặp sách"
+      },
+      {
+        "tu": "如果",
+        "pinyin": "rú guǒ",
+        "nghia": "nếu như"
+      },
+      {
+        "tu": "职员",
+        "pinyin": "zhí yuán",
+        "nghia": "nhân viên văn phòng"
+      },
+      {
+        "tu": "邮局",
+        "pinyin": "yóu jú",
+        "nghia": "bưu điện"
+      },
+      {
+        "tu": "商店",
+        "pinyin": "shāng diàn",
+        "nghia": "cửa hàng"
+      },
+      {
+        "tu": "学校",
+        "pinyin": "xué xiào",
+        "nghia": "trường học"
+      },
+      {
+        "tu": "医院",
+        "pinyin": "yī yuàn",
+        "nghia": "bệnh viện"
+      },
+      {
+        "tu": "开门 / 关门",
+        "pinyin": "kāi mén / guān mén",
+        "nghia": "mở cửa / đóng cửa"
+      },
+      {
+        "tu": "呼吸",
+        "pinyin": "hū xī",
+        "nghia": "hít thở"
+      },
+      {
+        "tu": "宿舍",
+        "pinyin": "sù shè",
+        "nghia": "ký túc xá"
+      },
+      {
+        "tu": "瓶",
+        "pinyin": "píng",
+        "nghia": "chai, bình (lượng từ)"
+      },
+      {
+        "tu": "营业员",
+        "pinyin": "yíng yè yuán",
+        "nghia": "nhân viên bán hàng"
+      },
+      {
+        "tu": "休息",
+        "pinyin": "xiū xi",
+        "nghia": "nghỉ ngơi"
+      },
+      {
+        "tu": "睡觉",
+        "pinyin": "shuì jiào",
+        "nghia": "đi ngủ"
+      },
+      {
+        "tu": "新鲜",
+        "pinyin": "xīn xiān",
+        "nghia": "trong lành, tươi mới"
+      },
+      {
+        "tu": "非常",
+        "pinyin": "fēi cháng",
+        "nghia": "vô cùng, rất"
+      },
+      {
+        "tu": "贵姓",
+        "pinyin": "guì xìng",
+        "nghia": "quý tính (họ của bạn)"
+      },
+      {
+        "tu": "见面",
+        "pinyin": "jiàn miàn",
+        "nghia": "gặp mặt"
+      },
+      {
+        "tu": "冷 / 热",
+        "pinyin": "lěng / rè",
+        "nghia": "lạnh / nóng"
+      },
+      {
+        "tu": "买 / 卖",
+        "pinyin": "mǎi / mài",
+        "nghia": "mua / bán (chú ý nét đầu chữ 卖)"
+      },
+      {
+        "tu": "风景",
+        "pinyin": "fēng jǐng",
+        "nghia": "phong cảnh"
+      },
+      {
+        "tu": "漂亮",
+        "pinyin": "piào liang",
+        "nghia": "xinh đẹp"
+      },
+      {
+        "tu": "律师 / 医生 / 护士 / 警察",
+        "pinyin": "lǜ shī / yī shēng / hù shi / jǐng chá",
+        "nghia": "Luật sư / Bác sĩ / Y tá / Cảnh sát"
+      }
+    ],
+    "quy_tac_ngu_phap_hay_nham": [
+      "Trật tự thời gian: Thời gian/từ hỏi thời gian (几点) đứng TRƯỚC động từ (Chủ ngữ + 几点 + Động từ?). Ví dụ: 我们几点出发？",
+      "Phân biệt 买 (mua) và 卖 (bán): Chữ 卖 (bán) có thêm nét thập '+' ở trên đầu.",
+      "Cấu trúc động từ + 一下: Diễn tả hành động diễn ra trong thời gian ngắn/thử nghiệm (休息一下 - nghỉ ngơi chút).",
+      "Cấu trúc A不A: Hỏi chính phản (忙不忙, 冷不冷, 去不去).",
+      "Phân biệt 风景 (phong cảnh - có bộ 日) và 风情 (phong tình)."
+    ],
+    "tom_tat_ngu_phap_hsk3": [
+      "1. Bổ ngữ: Kết quả (找到, 洗好), Trạng thái (跑得很快), Khả năng (看得清楚, 找不到), Phương hướng (回来, 拿过来).",
+      "2. Câu chữ 把 (A + 把 + O + V + ...): Tác động làm thay đổi trạng thái/vị trí.",
+      "3. Câu chữ 被 (S + 被 + O + V + ...): Câu bị động.",
+      "4. So sánh: A 比 B + Adj (So sánh hơn), A 没有 B + Adj (So sánh kém), A 跟 B 一样 (So sánh bằng).",
+      "5. Liên từ & Trật tự: 先...再/然后... (Đầu tiên... sau đó...), 一边...一边... (Vừa... vừa...), 越来越 + Adj (Càng ngày càng...)."
+    ]
+  },
+  "danh_sach_bai_hoc_chi_tiet": [
+    {
+      "bai": "Bài 1",
+      "ten_file_nguon": "BÀI_1",
+      "noi_dung_chi_tiet": "### BÀI 1: TỪ VỰNG TIẾNG TRUNG CƠ BẢN\n#### 1. Mẫu câu giao tiếp & Đại từ\n*   **你好**  (/nǐ hǎo/): Chào bạn\n*   **再见**  (/zài jiàn/): Tạm biệt\n*   **您**  (/nín/): Ông/bà/ngài (Xưng hô lịch sự)\n*   **他**  (/tā/): Anh ấy\n*   **她**  (/tā/): Cô ấy\n*   **它**  (/tā/): Nó\n*   **们**  (/men/): Hậu tố chỉ số nhiều\n    *  $\\Rightarrow$  **Wait / 他们**  (/tā men/): Bọn họ, họ\n*   **对不起**  (/duì bu qǐ/): Xin lỗi\n*   **没关系**  (/méi guān xi/): Không sao\n*   **谢谢**  (/xiè xie/): Cảm ơn\n*   **不客气**  (/bù kè qi/): Đừng khách sáo / Không có gì\n*   **早上好**  (/zǎo shang hǎo/): Chào buổi sáng\n\n--------------------------------------------------------------------------------\n\n#### 2. Danh từ & Mẫu câu ứng dụng\n*   **学生**  (/xué shēng/): Học sinh\n*   **老师**  (/lǎo shī/): Giáo viên\n    *  $\\Rightarrow$  **我是学生**  (/wǒ shì xué shēng/): Tôi là học sinh\n    *  $\\rightarrow$  **老师好**  (/lǎo shī hǎo/): Em chào thầy/cô\n\n--------------------------------------------------------------------------------\n\n#### 3. Con số & Tuổi tác\n*   **零**  (/líng/): 0\n*   **一**  (/yī/): 1\n*   **二**  (/èr/): 2\n*   **三**  (/sān/): 3\n*   **四**  (/sì/): 4\n*   **五**  (/wǔ/): 5\n*   **六**  (/liù/): 6\n*   **七**  (/qī/): 7\n*   **八**  (/bā/): 8\n*   **九**  (/jiǔ/): 9\n*   **十**  (/shí/): 10\n##### Nói về tuổi:\n*   **岁**  (/suì/): Tuổi\n    *  $\\Rightarrow$  **Wait / 我十七岁**  (/wǒ shí qī suì/): Tôi mười bảy tuổi\n"
+    },
+    {
+      "bai": "Bài 2",
+      "ten_file_nguon": "BÀI_2",
+      "noi_dung_chi_tiet": "### BÀI 2: QUỐC TỊCH & GIỚI THIỆU BẢN THÂN\n#### 1. Ôn tập & Đặt câu về tuổi\n*   **他三十六岁**  (/tā sān shí liù suì/): Anh ta 36 tuổi.\n*   **他们二十岁**  (/tā men èr shí suì/): Bọn họ 20 tuổi.\n\n--------------------------------------------------------------------------------\n\n#### 2. Quốc tịch & Tên các quốc gia\n*   **哪**  (/nǎ/): Nào\n*   **国**  (/guó/): Quốc gia, nước\n*   **人**  (/rén/): Người\n##### Danh từ chỉ quốc gia:\n*   **越南**  (/yuè nán/): Việt Nam $\\rightarrow$  **越南人** : Người Việt Nam\n*   **中国**  (/zhōng guó/): Trung Quốc $\\rightarrow$  **中国人** : Người Trung Quốc\n*   **美国**  (/měi guó/): Mỹ $\\rightarrow$  **美国人** : Người Mỹ\n*   **日本**  (/rì běn/): Nhật Bản $\\rightarrow$  **日本人** : Người Nhật Bản\n##### Mẫu câu giao tiếp về quốc tịch:\n*   **你是哪国人？**  (/nǐ shì nǎ guó rén?/): Bạn là người nước nào?\n*   **我是越南人。**  (/wǒ shì yuè nán rén./): Tôi là người Việt Nam.\n*   **你是不是中国人？**  (/nǐ shì bu shì zhōng guó rén?/): Bạn có phải người Trung Quốc không?\n*   **我不是中国人。**  (/wǒ bú shì zhōng guó rén./): Tôi không phải người Trung Quốc.\n*   **他们呢？**  (/tā men ne?/): Còn họ thì sao?\n*  ** spirits/他们 headquarters/是中国人。** (/tā men shì zhōng guó rén./): Họ là người Trung Quốc.\n\n--------------------------------------------------------------------------------\n\n#### 3. Hỏi tên & Xưng hô\n*   **叫**  (/jiào/): Gọi, tên là\n*   **什么**  (/shén me/): Cái gì\n*   **名字**  (/míng zi/): Tên\n    *  $\\rightarrow$  **你叫什么名字？**  (/nǐ jiào shén me míng zi?/): Bạn tên là gì?\n*   **贵姓**  (/guì xìng/): Họ (Dùng trong lịch sự, trân trọng)\n    *  $\\rightarrow$  **你姓什么？**  (/nǐ xìng shén me?/): Bạn họ gì?\n*   **谁**  (/shuí/ hoặc /shéi/): Ai\n*   **认识**  (/rèn shi/): Quen biết\n*   **高兴**  (/gāo xìng/): Vui mừng\n    *  $\\rightarrow$  **很高兴认识你**  (/hěn gāo xìng rèn shi nǐ/): Rất vui được quen biết bạn.\n\n--------------------------------------------------------------------------------\n\n#### 4. Đại từ chỉ định & Trợ từ\n*   **这**  (/zhè/): Đây, này\n*   **那**  (/nà/): Kia, đó\n*   **呢**  (/ne/): Trợ từ (còn... thì sao?)\n*   **都**  (/dōu/): Đều\n*   **吗**  (/ma/): Trợ từ nghi vấn (không?, phải không?)\n*   **的**  (/de/): Trợ từ sở hữu (Của)\n    *   **冰淇淋**  (/bīng qí lín/): Kem\n    *  $\\rightarrow$  **那是你的冰淇淋**  (/nà shì nǐ de bīng qí lín/): Kia là kem của bạn.\n"
+    },
+    {
+      "bai": "Bài 3",
+      "ten_file_nguon": "BÀI_3",
+      "noi_dung_chi_tiet": "### BÀI 3: NGÔN NGỮ & BẠN BÈ\n#### 1. Mẫu câu chỉ định & Hỏi tên\n*   **这**  (/zhè/): Đây, này\n    *  $\\rightarrow$  **这是他的笔**  (/zhè shì tā de bǐ/): Đây là bút của anh ấy.\n    *  $\\rightarrow$  **这是谁的？**  (/zhè shì shéi de?/): Đây là của ai?\n*   **请问，你叫什么？**  (/qǐng wèn, nǐ jiào shén me?/): Xin hỏi, bạn tên là gì?\n    *  $\\rightarrow$  **我叫杜明智**  (/wǒ jiào dù míng zhì/): Tôi tên là Đỗ Minh Trí.\n\n--------------------------------------------------------------------------------\n\n#### 2. Từ vựng mở rộng\n##### Học tập & Ngôn ngữ:\n*   **学习**  (/xué xí/): Học\n*   **留学**  (/liú xué/): Du học\n*   **留学生**  (/liú xué shēng/): Du học sinh\n*   **语**  (/yǔ/): Ngôn ngữ /  **中文**  (/zhōng wén/): Tiếng Trung\n*   **汉语**  (/hàn yǔ/): Tiếng Trung (Hán ngữ)\n*   **法语**  (/fǎ yǔ/): Tiếng Pháp\n*   **英语**  (/yīng yǔ/): Tiếng Anh\n*   **语法**  (/yǔ fǎ/): Ngữ pháp\n##### Bạn bè & Hành động:\n*   **同学**  (/tóng xué/): Bạn học\n*   **朋友**  (/péng you/): Bạn bè\n*   **好朋友**  (/hǎo péng you/): Bạn tốt\n*   **一起**  (/yì qǐ/): Cùng nhau\n*   **说**  (/shuō/): Nói\n*   **听**  (/tīng/): Nghe $\\rightarrow$  **听说**  (/tīng shuō/): Nghe nói\n*   **看**  (/kàn/): Nhìn, xem, đọc\n*   **云**  (/yún/): Mây\n*   **和**  (/hé/): Và\n##### Thời gian, Phương hướng & Địa danh:\n*   **上课**  (/shàng kè/): Đi học, lên lớp\n*   **下课**  (/xià kè/): Tan học, tan lớp\n*   **上**  (/shàng/): Trên /  **下**  (/xià/): Dưới\n*   **上海**  (/shàng hǎi/): Thượng Hải\n*   **海防**  (/hǎi fáng/): Hải Phòng\n*   **来自**  (/lái zì/): Đến từ\n    *  $\\rightarrow$  **我来自海防，他来自上海。**  (/wǒ lái zì hǎi fáng, tā lái zì shàng hǎi./): Tôi đến từ Hải Phòng, anh ấy đến từ Thượng Hải.\n\n--------------------------------------------------------------------------------\n\n#### 3. Mẫu câu luyện tập tổng hợp\n*   **请问，那是谁？**  (/qǐng wèn, nà shì shéi?/): Xin hỏi, kia là ai?\n*   **他是我的朋友， headquarters/他是留学生。**  (/tā shì wǒ de péng you, tā shì liú xué shēng./): Anh ấy là bạn của tôi, anh ấy là du học sinh.\n*   **他是哪国人？**  (/tā shì nǎ guó rén?/): Anh ấy là người nước nào?\n*   **我的朋友是中国人，他来自上海。**  (/wǒ de péng you shì zhōng guó rén, tā lái zì shàng hǎi./): Bạn của tôi là người Trung Quốc, anh ấy đến từ Thượng Hải.\n*   **我是学生，这是我的朋友，他是法国人留学生。**  (/wǒ shì xué shēng, zhè shì wǒ de péng you, tā shì fǎ guó rén liú xué shēng./): Tôi là học sinh, đây là bạn của tôi, anh ấy là du học sinh người Pháp.\n*   **我们一起学习汉语和 national/他一起学习。**  (/wǒ men yì qǐ xué xí hàn yǔ hé tā yì qǐ xué xí./): Chúng tôi cùng nhau học tiếng Trung và học cùng anh ấy.\n*   **我很高兴，我们同岁，十七岁。**  (/wǒ hěn gāo xìng, wǒ men tóng suì, shí qī suì./): Tôi rất vui, chúng tôi bằng tuổi nhau, 17 tuổi.\n*   **你们是不是同学？**  (/nǐ men shì bu shì tóng xué?/): Các bạn có phải là bạn học không?\n*   **我们是同学，我们一起学习英语。**  (/wǒ men shì tóng xué, wǒ men yì qǐ xué xí yīng yǔ./): Chúng tôi là bạn học, chúng tôi cùng nhau học tiếng Anh.\n*  ** your/ your/你的老师贵姓？** (/nǐ de lǎo shī guì xìng?/): Thầy/cô giáo của bạn họ gì?\n    *  $\\rightarrow$  **他的老师姓何。**  (/tā de lǎo shī xìng hé./): Thầy/cô giáo của anh ấy họ Hà.\n*   **她叫什么名字？**  (/tā jiào shén me míng zi?/): Cô ấy tên là gì?\n    *  $\\rightarrow$  **她叫何草灵，她是海防人。**  (/tā jiào hé cǎo líng, tā shì hǎi fáng rén./): Cô ấy tên là Hà Thảo Linh, cô ấy là người Hải Phòng.\n"
+    },
+    {
+      "bai": "Bài 4",
+      "ten_file_nguon": "BÀI_4",
+      "noi_dung_chi_tiet": "### BÀI 4: SỐ ĐẾM HÀNG LỚN, GIA ĐÌNH & NGHỀ NGHIỆP\n#### 1. Hệ thống số đếm hàng lớn\n*   **十**  (/shí/): 10 (Mười)\n*   **百**  (/bǎi/): 100 (Trăm)\n*   **千**  (/qiān/): 1.000 (Nghìn)\n*   **万**  (/wàn/): 10.000 (Vạn / Mười nghìn)\n*   **亿**  (/yì/): 100.000.000 (Ứ / Trăm triệu)\n\n--------------------------------------------------------------------------------\n\n#### 2. Thành viên trong gia đình\n*   **爸爸**  (/bà ba/) =  **父亲**  (/fù qīn/): Bố / Cha\n*   **妈妈**  (/mā ma/) =  **母亲**  (/mǔ qīn/): Mẹ\n*   **哥哥**  (/gē ge/): Anh trai\n*   **弟弟**  (/dì di/): Em trai\n*   **姐姐**  (/jiě jie/): Chị gái\n*   **妹妹**  (/mèi mei/): Em gái\n*   **家**  (/jiā/): Nhà\n*   **家庭**  (/jiā tíng/): Gia đình\n\n--------------------------------------------------------------------------------\n\n#### 3. Từ hỏi số lượng & Từ chỉ số lượng\n*   **几**  (/jǐ/): Mấy (Dùng cho số lượng nhỏ, thường $< 10$)\n*   **多少**  (/duō shao/): Bao nhiêu\n    *   **多**  (/duō/): Nhiều\n    *   **少**  (/shǎo/): Ít\n\n--------------------------------------------------------------------------------\n\n#### 4. Nghề nghiệp & Nơi làm việc\n*   **职员**  (/zhí yuán/): Nhân viên văn phòng\n*   **公司**  (/gōng sī/): Công ty\n*   **工作**  (/gōng zuò/): Công việc / Làm việc\n*   **律师**  (/lǜ shī/): Luật sư\n*   **医生**  (/yī shēng/): Bác sĩ\n*   **护士**  (/hù shi/): Y tế / Y sĩ / Điều dưỡng\n*   **警察**  (/jǐng chá/): Cảnh sát\n*   **农民**  (/nóng mín/): Nông dân\n*   **人民**  (/rén mín/): Nhân dân\n\n--------------------------------------------------------------------------------\n\n#### 5. Học tập & Động từ thông dụng\n*   **坐**  (/zuò/): Ngồi\n*   **有**  (/yǒu/): Có\n*   **没有**  (/méi yǒu/): Không có\n*   **班**  (/bān/): Lớp học\n    *   **上班**  (/shàng bān/): Đi làm  *(Trong vở ghi \"vào lớp\" / \"shàng bān\")*\n    *   **下班**  (/xià bān/): Tan làm  *(Trong vở ghi \"tan học\" / \"xià bān\")*\n*   **大学**  (/dà xué/): Đại học\n*   **大学生**  (/dà xué shēng/): Sinh viên đại học\n*   **小学**  (/xiǎo xué/): Tiểu học\n"
+    },
+    {
+      "bai": "Bài 5",
+      "ten_file_nguon": "BÀI_5",
+      "noi_dung_chi_tiet": "### BÀI 5: MUA SẮM, ĐỊA ĐIỂM & ĐỘNG TỪ\n#### 1. Tính từ & Lượng từ cơ bản\n*   **大**  (/dà/): To, lớn\n*   **小**  (/xiǎo/): Nhỏ, bé\n*   **口**  (/kǒu/): Lượng từ chỉ số thành viên trong gia đình\n*   **个**  (/gè/): Lượng từ chung (cái, con, người...)\n*   **多大**  (/duō dà/): Bao nhiêu tuổi (Dùng hỏi tuổi cho người lớn / người bằng tuổi)\n*   **几岁**  (/jǐ suì/): Mấy tuổi (Dùng hỏi trẻ em dưới 10 tuổi)\n*   **第**  (/dì/): Thứ (Số thứ tự, ví dụ: 第一 - thứ nhất)\n\n--------------------------------------------------------------------------------\n\n#### 2. Mua sắm & Đồ ăn, thức uống\n*   **买**  (/mǎi/): Mua\n*   **卖**  (/mài/): Bán\n*   **想**  (/xiǎng/): Muốn, nghĩ, nhớ\n*   **需要**  (/xū yào/): Cần\n*   **要**  (/yào/): Cần, muốn, sẽ\n*   **词典**  (/cí diǎn/): Từ điển\n*   **电**  (/diàn/): Điện\n*   **电脑**  (/diàn nǎo/): Máy tính (Điện não)\n*   **营业员**  (/yíng yè yuán/): Nhân viên bán hàng\n*   **面包**  (/miàn bāo/): Bánh mì\n*   **香蕉**  (/xiāng jiāo/): Chuối\n*   **苹果**  (/píng guǒ/): Quả táo\n*   **种**  (/zhǒng/): Loại, giống\n*   **吃**  (/chī/): Ăn\n*   **好吃**  (/hǎo chī/): Ngon (Thức ăn)\n*   **水果**  (/shuǐ guǒ/): Hoa quả, trái cây\n*   **水**  (/shuǐ/): Nước\n*   **啤酒**  (/pí jiǔ/): Bia\n*   **酒**  (/jiǔ/): Rượu\n*   **喝**  (/hē/): Uống\n*   **便宜**  (/pián yi/): Rẻ\n*   **贵**  (/guì/): Đắt\n*   **钱**  (/qián/): Tiền\n##### Đơn vị tiền tệ & Cân nặng:\n*   **斤**  (/jīn/): Cân (Trung Quốc = 0.5 kg)\n*   **公斤**  (/gōng jīn/): Cân quốc tế (1 kg)\n*   **一共**  (/yí gòng/): Tổng cộng\n*   **块**  (/kuài/) =  **元**  (/yuán/): Đồng (Đơn vị tiền tệ)\n*   **毛**  (/máo/) =  **角**  (/jiǎo/): Hào (1/10 đồng)\n##### Phủ định của 想 và 要:\n*   **不想**  (/bù xiǎng/): Không muốn\n*   **不要**  (/bú yào/): Đừng / Không cần\n\n--------------------------------------------------------------------------------\n\n#### 3. Gia đình & Địa điểm / Hành động\n*   **爷爷**  (/yé ye/): Ông nội\n*   **奶奶**  (/nǎi nai/): Bà nội\n*   **这儿**  (/zhèr/): Ở đây, chỗ này\n*   **在**  (/zài/): Ở, tại / Đang (chỉ hành động đang diễn ra)\n*   **里**  (/lǐ/): Bên trong\n    *  $\\rightarrow$  **我在学习汉语**  (/wǒ zài xué xí hàn yǔ/): Tôi đang học tiếng Trung.\n    *  $\\rightarrow$ ** me/我在公司工作呢。** (/wǒ zài gōng sī gōng zuò ne./): Tôi đang làm việc ở công ty.\n*   **商店**  (/shāng diàn/): Cửa hàng\n*   **学校**  (/xué xiào/): Trường học\n*   **医院**  (/yī yuàn/): Bệnh viện\n*   **再**  (/zài/): Lại, tiếp tục\n    *  $\\rightarrow$  **再见**  (/zài jiàn/): Hẹn gặp lại!\n\n--------------------------------------------------------------------------------\n\n#### 4. Mẫu câu giao tiếp ngắn\n*   **好，买我好的和！**  $\\rightarrow$  **好，你买我的，好的！**  (/hǎo, nǐ mǎi wǒ de, hǎo de!/)\n*   **谢谢我**  $\\rightarrow$  **谢谢你**  (/xiè xie nǐ/): Cảm ơn bạn.\n*   **不客气。再见！**  (/bú kè qi. zài jiàn!/): Không có gì. Tạm biệt!\n"
+    },
+    {
+      "bai": "Bài 7",
+      "ten_file_nguon": "BÀI_7",
+      "noi_dung_chi_tiet": "### BÀI 7: PHƯƠNG HƯỚNG, ĐỊA ĐIỂM & TỪ VỰNG MỞ RỘNG\n#### 1. Giới từ & Đại từ chỉ vị trí\n*   **在**  (/zài/): Ở, tại, đang\n*   **跟**  (/gēn/): Với, cùng\n    *  $\\rightarrow$  **我和我同学很忙。**  (/wǒ hé wǒ tóng xué hěn máng./): Tôi và bạn học của tôi rất bận.\n    *  $\\rightarrow$  **我跟朋友一起上课。**  (/wǒ gēn péng you yì qǐ shàng kè./): Tôi cùng bạn bè lên lớp/đi học.\n*   **这儿**  (/zhèr/) =  **这里**  (/zhè lǐ/): Ở đây, chỗ này\n*   **那儿**  (/nàr/) =  **那里**  (/nà lǐ/): Ở kia, chỗ kia\n    *  $\\rightarrow$  **你的公司在哪儿？**  (/nǐ de gōng sī zài nǎr?/): Công ty của bạn ở đâu?\n    *  $\\rightarrow$  **我公司在那里。**  (/wǒ gōng sī zài nà lǐ./): Công ty của tôi ở đằng kia.\n\n--------------------------------------------------------------------------------\n\n#### 2. Trường học, Tòa nhà & Tên riêng\n*   **教学楼**  (/jiào xué lóu/): Tòa nhà giảng đường\n    *   **教学**  (/jiào xué/): Giảng dạy / Dạy học\n    *   **楼**  (/lóu/): Tòa nhà, tầng\n    *  $\\rightarrow$  **智老师在教学楼说你的朋友。**  (/zhì lǎo shī zài jiào xué lóu shuō nǐ de péng you./): Thầy Trí ở tòa nhà giảng đường nói về bạn của bạn.\n    *  $\\rightarrow$  **郑同学在四楼学习。**  (/zhèng tóng xué zài sì lóu xué xí./): Bạn Trịnh đang học ở tầng 4.\n*   **上楼**  (/shàng lóu/): Lên tầng / Tầng trên\n*   **下楼**  (/xià lóu/): Xuống tầng / Tầng dưới\n*   **阮**  (/ruǎn/): Họ Nguyễn  *(Trong vở ghi nhầm chữ 陈 - họ Trần)*\n*   **陈**  (/chén/): Họ Trần\n    *  $\\rightarrow$  **我们老师在哪儿？**  (/wǒ men lǎo shī zài nǎr?/): Thầy/cô giáo của chúng tôi ở đâu?\n    *  $\\rightarrow$  **陈老师在上楼教学汉语。**  (/chén lǎo shī zài shàng lóu jiāo xué hàn yǔ./): Thầy Trần ở tầng trên dạy tiếng Trung.\n*   **大楼**  (/dà lóu/): Tòa nhà lớn, nhà cao tầng\n*   **学校**  (/xué xiào/): Trường học\n    *  $\\rightarrow$  **你学校有六个教学楼和两大楼。**  (/nǐ xué xiào yǒu liù gè jiào xué lóu hé liǎng dà lóu./): Trường của bạn có 6 tòa giảng đường và 2 tòa nhà lớn.\n\n--------------------------------------------------------------------------------\n\n#### 3. Các địa điểm công cộng\n*   **运动**  (/yùn dòng/): Vận động, thể thao\n*   **运动场**  (/yùn dòng chǎng/): Sân vận động\n*   **图书馆**  (/tú shū guǎn/): Thư viện\n    *   **书**  (/shū/): Sách\n*   **超市**  (/chāo shì/): Siêu thị\n    *   **市**  (/shì/): Thành phố, thị trường\n    *  $\\rightarrow$  **我来自海防市。**  (/wǒ lái zì hǎi fáng shì./): Tôi đến từ thành phố Hải Phòng.\n*   **商店**  (/shāng diàn/): Cửa hàng\n    *   **店**  (/diàn/): Tiệm, cửa hàng\n    *  $\\rightarrow$  **我跟他一起去商店和书店。**  (/wǒ gēn tā yì qǐ qù shāng diàn hé shū diàn./): Tôi cùng anh ấy đi cửa hàng và hiệu sách.\n*   **饭馆**  (/fàn guǎn/): Quán ăn (nhỏ)\n    *   **饭**  (/fàn/): Cơm, bữa ăn\n*   **店饭**  $\\rightarrow$  **饭店**  (/fàn diàn/): Nhà hàng, tiệm ăn / Khách sạn\n*   **银行**  (/yín háng/): Ngân hàng\n    *  $\\rightarrow$  **中国银行在哪儿？**  (/zhōng guó yín háng zài nǎr?/): Ngân hàng Trung Quốc ở đâu?\n*   **行**  (/xíng/): Được, ổn\n*   **卫生间**  (/wèi shēng jiān/): Nhà vệ sinh\n*   **厕所**  (/cè suǒ/): Nhà vệ sinh\n*   **去**  (/qù/): Đi\n    *  $\\rightarrow$  **她去卫生间。**  (/tā qù wèi shēng jiān./): Cô ấy đi nhà vệ sinh.\n\n--------------------------------------------------------------------------------\n\n#### 4. Phương hướng & Vị trí (方角与位置)\n*   **北边**  (/běi biān/): Phía bắc\n*   **南边**  (/nán biān/): Phía nam\n*   **东边**  (/dōng biān/): Phía đông\n*   **西边**  (/xī biān/): Phía tây\n*   **前边**  (/qián biān/): Đằng trước\n*   **后边**  (/hòu biān/): Đằng sau\n*   **左边**  (/zuǒ biān/): Bên trái\n*   **右边**  (/yòu biān/): Bên phải\n*   **外边**  (/wài biān/): Bên ngoài\n*   **里边**  (/lǐ biān/): Bên trong  *(Trong sơ đồ ghi 中边 - chuẩn là 里边)*\n*   **对面**  (/duì miàn/): Đối diện\n*   **中间**  (/zhōng jiān/): Ở giữa\n*   **旁边**  (/páng biān/): Bên cạnh\n*   **地方**  (/dì fang/): Nơi, chỗ, địa phương\n*   **地理**  (/dì lǐ/): Địa lý\n\n--------------------------------------------------------------------------------\n\n#### 5. Từ vựng mở rộng & Trợ động từ\n*   **知道**  (/zhī dào/): Biết\n*   **会**  (/huì/): Biết (qua học tập/rèn luyện), sẽ\n*   **还**  (/hái/): Vẫn, còn\n*   **暖**  (/nuǎn/): Ấm áp  *(Trong hình ghi trợ từ/ngữ cảnh nhầm)*\n*   **李九**  (/jǐn/): Chỉnh lý / Ghi chú\n*   **体育**  (/tǐ yù/): Thể dục, thể thao\n*   **体育馆**  (/tǐ yù guǎn/): Nhà thi đấu, phòng tập thể thao\n*   **如果**  (/rú guǒ/): Nếu, nếu như\n*   **东西**  (/dōng xi/): Đồ đạc, vật dụng\n*   **常常**  (/cháng cháng/): Thường xuyên\n"
+    },
+    {
+      "bai": "Bài 8",
+      "ten_file_nguon": "BÀI_8",
+      "noi_dung_chi_tiet": "### BÀI 8: THỜI GIAN, NGÀY THÁNG & TỪ VỰNG SINH HOẠT\n#### 1. Đồ vật & Địa điểm\n*   **邮局**  (/yóu jú/): Bưu điện\n*   **桌子**  (/zhuō zi/): Cái bàn\n*   **书包**  (/shū bāo/): Cặp sách, ba lô\n*   **宿舍**  (/sù shè/): Ký túc xá\n\n--------------------------------------------------------------------------------\n\n#### 2. Các buổi trong ngày & Thời gian\n*   **白天**  (/bái tiān/): Ban ngày\n*   **凌晨**  (/líng chén/): Rạng sáng\n*   **早上**  (/zǎo shang/): Sáng sớm\n*   **上午**  (/shàng wǔ/): Buổi sáng (từ 8h - 11h30)\n*   **中午**  (/zhōng wǔ/): Buổi trưa\n*   **下午**  (/xià wǔ/): Buổi chiều\n*   **晚上**  (/wǎn shang/): Buổi tối\n*   **半夜**  (/bàn yè/): Nửa đêm\n*   **夜晚**  (/yè wǎn/): Ban đêm\n\n--------------------------------------------------------------------------------\n\n#### 3. Các ngày trong tuần, năm & Từ chỉ thời gian\n*   **今天**  (/jīn tiān/): Hôm nay\n*   **昨天**  (/zuó tiān/): Hôm qua\n*   **前天**  (/qián tiān/): Hôm kia\n*   **大前天**  (/dà qián tiān/): 3 ngày trước (Kìa)\n*   **明天**  (/míng tiān/): Ngày mai\n*   **后天**  (/hòu tiān/): Ngày kia\n*   **大后天**  (/dà hòu tiān/): 3 ngày nữa\n*   **以前**  (/yǐ qián/): Trước đây, trước khi\n*   **以后**  (/yǐ hòu/): Sau này, sau khi\n*   **时间**  (/shí jiān/): Thời gian\n    *   **间**  (/jiān/): Khoảng, phòng (Khoảng thời gian)\n*   **日**  (/rì/): Ngày (Dùng trong văn viết) =  **号**  (/hào/): Ngày (Dùng trong văn nói)\n*   **月**  (/yuè/): Tháng\n*   **年**  (/nián/): Năm\n    *   **今年**  (/jīn nián/): Năm nay\n    *   **明年**  (/míng nián/): Năm sau\n    *   **去年**  (/qù nián/): Năm ngoái\n\n--------------------------------------------------------------------------------\n\n#### 4. Thứ trong tuần (星期 & 周)\n*   **星期**  (/xīng qī/): Tuần, thứ\n    *   **星期天**  (/xīng qī tiān/) /  **星期日**  (/xīng qī rì/): Chủ nhật\n    *   **星期一**  (/xīng qī yī/): Thứ 2\n    *   **星期二**  (/xīng qī èr/): Thứ 3\n    *   **星期三**  (/xīng qī sān/): Thứ 4\n    *   **星期四**  (/xīng qī sì/): Thứ 5\n    *   **星期五**  (/xīng qī wǔ/): Thứ 6\n    *   **星期六**  (/xīng qī liù/): Thứ 7\n*   **周**  (/zhōu/): Tuần (Đồng nghĩa với 星期)\n*   **周末**  (/zhōu mò/): Cuối tuần\n\n--------------------------------------------------------------------------------\n\n#### 5. Động từ & Sinh hoạt hằng ngày\n*   **祝**  (/zhù/): Chúc\n*   **生日**  (/shēng rì/): Sinh nhật\n*   **快乐**  (/kuài lè/): Vui vẻ\n    *  $\\rightarrow$  **祝你生日快乐！**  (/zhù nǐ shēng rì kuài lè!/): Chúc mừng sinh nhật bạn!\n*   **礼物**  (/lǐ wù/): Quà tặng\n    *  $\\rightarrow$  **生日礼物**  (/shēng rì lǐ wù/): Quà sinh nhật\n*   **送**  (/sòng/): Tặng, tiễn\n    *  $\\rightarrow$  **送给**  (/sòng gěi/): Nhấn mạnh việc tặng cho ai đó\n*   **开始**  (/kāi shǐ/): Bắt đầu\n*   **早饭**  (/zǎo fàn/): Bữa sáng\n*   **午饭**  (/wǔ fàn/): Bữa trưa\n*   **晚饭**  (/wǎn fàn/): Bữa tối\n*   **准备**  (/zhǔn bèi/): Chuẩn bị\n*   **请**  (/qǐng/): Mời, xin vui lòng\n*   **进**  (/jìn/): Vào\n    *  $\\rightarrow$  **请进**  (/qǐng jìn/): Mời vào\n\n--------------------------------------------------------------------------------\n\n#### 6. Lượng từ & Đại từ nghi vấn\n*   **本**  (/běn/): Quyên, cuốn (Lượng từ cho sách)\n    *  $\\rightarrow$  **本书**  (/běn shū/): Quyển sách (Cách nói tắt của 一本书)\n*   **支**  (/zhī/): Cây, chiếc (Lượng từ cho bút)\n    *  $\\rightarrow$  **支笔**  (/zhī bǐ/): Cây bút\n*   **毛**  (/máo/): Lông, tóc\n*   **谁**  (/shéi/ hoặc /shuí/): Ai\n*   **怎么样**  (/zěn me yàng/): Như thế nào, ra sao\n*   **怎么**  (/zěn me/): Làm sao, thế nào\n*   **问题**  (/wèn tí/): Vấn đề, câu hỏi\n    *   **没问题**  (/méi wèn tí/): Không vấn đề gì\n    *   **没有问题**  (/méi yǒu wèn tí/): Không có vấn đề gì\n"
+    },
+    {
+      "bai": "Bài 9",
+      "ten_file_nguon": "BÀI_9",
+      "noi_dung_chi_tiet": "### BÀI 9: 你今天有什么安排？ (Hôm nay bạn có kế hoạch gì?)\n#### 1. Phó từ chỉ tần suất & Thứ tự hành động\n*   **每**  (/měi/): Mỗi\n    *   **每天**  (/měi tiān/): Mỗi ngày\n    *   **每个人**  (/měi gè rén/): Mỗi người\n    *   **每年**  (/měi nián/): Mỗi năm\n    *   **每个星期**  (/měi gè xīng qī/): Mỗi tuần\n*   **现在**  (/xiàn zài/): Bây giờ, hiện tại\n*   **先**  (/xiān/): Trước\n*   **然后**  (/rán hòu/): Sau đó (Cấu trúc:  **先... 然后...**  - Đầu tiên... sau đó...)\n\n--------------------------------------------------------------------------------\n\n#### 2. Hoạt động sinh hoạt hằng ngày\n*   **起床**  (/qǐ chuáng/): Thức dậy\n    *   **起**  (/qǐ/): Dậy, đứng dậy\n    *   **床**  (/chuáng/): Giường\n*   **睡觉**  (/shuì jiào/): Đi ngủ\n*   **洗澡**  (/xǐ zǎo/): Tắm rửa\n    *   **洗**  (/xǐ/): Tẩy, rửa, giặt\n*   **常常**  (/cháng cháng/): Thường xuyên\n*   **有时候**  (/yǒu shí hou/): Có lúc, đôi lúc\n*   **上网**  (/shàng wǎng/): Lên mạng, truy cập internet\n    *   **网上**  (/wǎng shang/): Trên mạng\n*   **电视**  (/diàn shì/): Tivi, truyền hình\n*   **电影**  (/diàn yǐng/): Phim, điện ảnh\n    *   **电影院**  (/diàn yǐng yuàn/): Rạp chiếu phim\n*   **事**  (/shì/): Việc, sự việc\n    *   **一件事**  (/yí jiàn shì/): Một việc (Lượng từ của 事 là 件 /jiàn/)\n*   **来**  (/lái/): Đến, tới\n*   **教室**  (/jiào shì/): Phòng học\n*   **关门**  (/guān mén/): Đóng cửa\n*   **开门**  (/kāi mén/): Mở cửa\n*   **见面**  (/jiàn miàn/): Gặp mặt\n*   **安排**  (/ān pái/): An xắp, sắp xếp, kế hoạch\n\n--------------------------------------------------------------------------------\n\n#### 3. Từ vựng chỉ thời gian & Đồng hồ\n*   **秒**  (/miǎo/): Giây\n*   **分**  (/fēn/): Phút\n*   **刻**  (/kè/): Khắc (1 khắc = 15 phút)\n*   **点**  (/diǎn/): Giờ\n*   **半**  (/bàn/): Rưỡi, một nửa (30 phút)\n*   **差**  (/chà/): Kém (kém bao nhiêu phút)\n\n--------------------------------------------------------------------------------\n\n#### 4. Công thức nói giờ trong tiếng Trung (时间表达)\n##### 1. Cách nói giờ chẵn:\n$$\\text{Số giờ} + \\text{点 (diǎn)}$$\n*   *Ví dụ:*  8点 (8 giờ)\n##### 2. Cách nói giờ lẻ:\n$$\\text{Số giờ} + \\text{点} + \\text{Số phút} + \\text{分}$$\n*   *Ví dụ:*  8点10分 (8 giờ 10 phút)\n$$\\text{Số giờ} + \\text{点} + \\text{Số khắc} + \\text{刻}$$\n*   *Ví dụ:*  8点1刻 (8 giờ 15 phút)\n##### 3. Cách nói giờ rưỡi:\n$$\\text{Số giờ} + \\text{点} + \\text{半}$$\n*   *Ví dụ:*  8点半 (8 giờ rưỡi)\n##### 4. Cách nói giờ kém:\n$$\\text{差} + \\text{Số phút} + \\text{分} + \\text{Số giờ} + \\text{点}$$\n*   *Ví dụ:*  差5分8点 (8 giờ kém 5 phút)\n"
+    },
+    {
+      "bai": "Bài 10",
+      "ten_file_nguon": "Bài_10",
+      "noi_dung_chi_tiet": ""
+    },
+    {
+      "bai": "Bài 10",
+      "ten_file_nguon": "Bài_10_Ghi_Chu",
+      "noi_dung_chi_tiet": "### BÀI 10: 这个星期天你忙不忙 (Chủ nhật tuần này bạn bận hay không bận?)\n1. Từ vựng phong cảnh, thời tiết & cảm giác:\n- 城市 (chéng shì): Thành phố\n- 爬山 (pá shān): Leo núi\n- 风景 (fēng jǐng): Phong cảnh\n- 新鲜 (xīn xiān): Trong lành, tươi mới\n- 漂亮 (piào liang): Xinh đẹp\n- 非常 (fēi cháng): Rất, vô cùng\n- 觉得 (jué de): Cảm thấy\n- 休息 (xiū xi): Nghỉ ngơi\n- 呼吸 (hū xī): Hít thở\n- 冷 (lěng): Lạnh\n- 热 (rè): Nóng\n- 饿 (è): Đói\n- 渴 (kě): Khát\n2. Cấu trúc trọng tâm:\n- Động từ + 一下 (yí xià): Làm việc gì đó một chút (休息一下 - nghỉ ngơi một chút).\n- Câu hỏi chính phản: A不A (忙不忙 - bận hay không bận).\n- Trật tự thời gian: Chủ ngữ + Mấy giờ (几点) + Động từ (我们几点出发？)."
+    },
+    {
+      "bai": "Bài 11",
+      "ten_file_nguon": "Bài_11",
+      "noi_dung_chi_tiet": "Hán tựPhiên âm (Pinyin)Nghĩa tiếng Việt\n宿舍sù shèký túc xá\n同屋tóng wūcùng phòng\n公司gōng sīcông ty\n工作gōng zuòlàm việc, công việc\n同事tóng shìđồng nghiệp\n食堂shí tángnhà ăn\n菜càimón ăn\n做饭zuò fànnấu ăn\n车chēxe\n汽车qì chēô tô\n平时píng shíbình thường\n一般yì bānthông thường\n手机shǒu jīđiện thoại di động\n手shǒutay\n电话diàn huàđiện thoại (nói chung)\n号码hào mǎsố\n干gànlàm\n聊天儿liáo tiān rnói chuyện\n画画儿huà huà rvẽ\n喜欢xǐ huanthích\n听音乐tīng yīn yuènghe nhạc\n一块儿yí kuài rcùng nhau\n收拾shōu shithu dọn\n房间fáng jiāncái phòng\n用yòngdùng\n不用bú yòngkhông cần\n从……到……cóng ... dào ...từ ... đến ...\n的时候de shí houkhi, lúc"
+    },
+    {
+      "bai": "Bài 12",
+      "ten_file_nguon": "Bài_12_Ghi_Chu",
+      "noi_dung_chi_tiet": "### BÀI 12: Đặt phòng, dịch vụ & giao tiếp\n1. Từ vựng & Mẫu câu dịch:\n- 预订 (yù dìng): Đặt trước\n- 房间 (fáng jiān): Phòng\n- 服务员 (fú wù yuán): Phục vụ\n- 帮忙 (bāng máng): Giúp đỡ\n- 方便 (fāng biàn): Thuận tiện\n- 满意 (mǎn yì): Hài lòng\n2. Cấu trúc trọng tâm:\n- Mẫu câu nhờ vả & hỏi ý kiến.\n- Dịch Việt - Trung các tình huống giao tiếp khách sạn, nhà hàng, đi lại."
+    },
+    {
+      "bai": "Bài 13",
+      "ten_file_nguon": "Bài_13",
+      "noi_dung_chi_tiet": "租zūThuê\n出租车chūzūchēXe taxi\n房子fángziCăn nhà, ngôi nhà\n套tàoBộ, căn (căn hộ, bộ đồ,...)Lượng từ cho phòng/căn hộ\n房租fángzūTiền thuê nhà\n方便fāngbiànThuận tiện, tiện lợi\n又yòuLại\n最后zuìhòuSau cùng, cuối cùng\n满意mǎnyìHài lòng, mãn nguyện\n搬bānChuyển, dời, di dời\n搬家bānjiāChuyển nhà\n近jìnGần\n远yuǎnXa\n离líCách (khoảng cách)\n走zǒuĐi, đi bộ, bước đi\n路lùĐường, con đường\n走路zǒu lùĐi đường, đi bộ\n客kèKhách\n请客qǐng kèMời khách, đãi khách\n玩儿wánrCho chơi, chơi\n已经yǐjīngĐã, rồi"
+    },
+    {
+      "bai": "Bài 14",
+      "ten_file_nguon": "Bài_14",
+      "noi_dung_chi_tiet": "Dưới đây là tổng hợp toàn bộ từ vựng và cấu trúc ngữ pháp thuộc Bài 14 từ các trang vở của bạn, được hệ thống lại rõ ràng để thuận tiện cho việc ôn tập:\n📌 1. Từ vựng (词汇)\n| Chữ Hán | Pinyin | Nghĩa tiếng Việt | Note / Chú thích |\n|---|---|---|---|\n| 春天 | chūn tiān | Mùa xuân |  |\n| 夏天 | xià tiān | Mùa hè |  |\n| 秋天 | qiū tiān | Mùa thu |  |\n| 冬天 | dōng tiān | Mùa đông |  |\n| 热 | rè | Nóng |  |\n| 冷 | lěng | Lạnh |  |\n| 凉快 | liáng kuai | Mát mẻ |  |\n| 暖和 | nuǎn huo | Ấm áp |  |\n| 特别 | tè bié | Đặc biệt |  |\n| 生病 | shēng bìng | Bị bệnh |  |\n| 感冒 | gǎn mào | Bị cảm |  |\n| 看病 | kàn bìng | Khám bệnh |  |\n| 医院 | yī yuàn | Bệnh viện |  |\n| 药 | yào | Thuốc |  |\n| 吃药 | chī yào | Uống thuốc |  |\n| 舒服 | shū fu | Thoải mái |  |\n| 新 | xīn | Mới |  |\n| 旧 | jiù | Cũ |  |\n| 厚 | hòu | Dày |  |\n| 薄 | báo | Mỏng |  |\n| 快 | kuài | Nhanh |  |\n| 慢 | màn | Chậm |  |\n| 衣服 | yī fu | Quần áo |  |\n| 穿 | chuān | Mặc |  |\n| 件 | jiàn | Lượng từ quần áo |  |\n| 毛衣 | máo yī | Áo len |  |\n| 羽绒服 | yǔ róng fú | Áo khoác lông |  |\n| 当 | dāng | Chuyển, làm |  |\n| 真的 | zhēn de | Sự thật |  |\n| 但是 | dàn shì | Nhưng |  |\n| 但 | dàn | Nhưng |  |\n| 空儿 | kòng r | Thời gian rảnh |  |\n| 就 | jiù | Đã, rồi |  |\n| 才 | cái | Cái - mới |  |\n| 商场 | shāng chăng | Thương mại, trung tâm thương mại |  |\n📌 2. Ngữ pháp & Cấu trúc (语法)\nCấu trúc liên kết hành động với 就 (jiù)\n * Công thức: ... V1 ..., 就 (jiù) V2 ...\n * Ý nghĩa: Dùng để diễn tả hai hành động xảy ra nối tiếp nhau (hành động thứ hai diễn ra ngay sau khi hành động thứ nhất kết thúc).\n"
+    },
+    {
+      "bai": "Bài 15",
+      "ten_file_nguon": "Bài_15",
+      "noi_dung_chi_tiet": "Dưới đây là tổng hợp toàn bộ từ vựng thuộc Bài 15 từ các trang vở của bạn, được hệ thống lại rõ ràng để thuận tiện cho việc ôn tập:\n📌 Từ vựng (词汇)\n| Chữ Hán | Pinyin | Nghĩa tiếng Việt | Note / Chú thích |\n|---|---|---|---|\n| 这么 | zhème | Thế này, thế nào |  |\n| 打工 | dǎgōng | Làm thêm |  |\n| 打 | dǎ | Đánh |  |\n| 挣钱 | zhèngqián | Kiếm tiền |  |\n| 赚钱 | zhuànqián | Kiếm tiền |  |\n| 告诉 | gàosu | Nói cho |  |\n| 当 | dāng | Làm (công việc, nghề) |  |\n| 导游 | dǎoyóu | Hướng dẫn viên du lịch |  |\n| 合适 | héshì | Phù hợp (= 适合) |  |\n| 帮忙 | bāngmáng | Giúp đỡ |  |\n| 互相 | hùxiāng | Lẫn nhau |  |\n| 感谢 | gǎnxiè | Cảm ơn |  |\n| 餐厅 | cāntīng | Nhà ăn |  |\n| 办公室 | bàngōngshì | Phòng làm việc |  |\n| 可以 | kěyǐ | Có thể, được phép |  |\n| 能 | néng | Có thể, có khả năng |  |\n| 或者 | huòzhě | Hoặc |  |\n| 放假 | fàngjià | Nghỉ |  |\n| 假 | jiǎ | Giả |  |\n| 假期 | jiàqī | Kỳ nghỉ |  |\n| 旅游 | lǚyóu | Du lịch |  |\n| 旅行 | lǚxíng | Du lịch |  |\n| 回 | huí | Về |  |\n| 回来 | huílái | Quay lại |  |\n| 开车 | kāichē | Lái xe |  |\n| 陪 | péi | Cùng nhau, đi cùng |  |\n| 比较 | bǐjiào | Tương đối |  |\nNếu bạn cần giải thích thêm về cách dùng hay đặt câu với các từ vựng nào trong bài, cứ nhắn mình nhé!\n"
+    }
+  ]
+}
