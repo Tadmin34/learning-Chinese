@@ -1,12 +1,13 @@
 {
   "meta": {
     "title": "Từ Điển & Hệ Thống Từ Vựng Tiếng Trung",
-    "version": "5.0",
-    "updatedAt": "2026-11-08",
-    "totalLessons": 15,
-    "totalWords": 545,
+    "version": "7.0",
+    "updatedAt": "2026-11-13",
+    "totalLessons": 16,
+    "totalWords": 587,
     "totalSentences": 0,
-    "totalMistakes": 0
+    "totalMistakes": 0,
+    "totalRadicals": 214
   },
   "lessons": [
     {
@@ -96,8 +97,14 @@
     {
       "id": "bai-16",
       "short": "Bài 16",
-      "title": "BÀI 16: TỪ VỰNG & NGỮ PHÁP BÀI 16",
-      "desc": "Từ vựng và cấu trúc ngữ pháp Bài 16."
+      "title": "BÀI 16: TÔI MUỐN TẶNG ANH ẤY MỘT MÓN QUÀ (我想送他一件礼物)",
+      "desc": "Từ vựng về đám cưới, quà tặng, đồ gia dụng, biểu đạt sự việc và cấu trúc câu chữ 比."
+    },
+    {
+      "id": "bai-17",
+      "short": "Bài 17",
+      "title": "BÀI 17: LÀM KHÁCH, GÓI SỦI CẢO & HỌC TIẾNG TRUNG (做客、包饺子与学汉语)",
+      "desc": "Từ vựng về tiếp khách (做客, 包饺子, 热情), việc học ngôn ngữ (发音, 口语, 听力, 声调, 进步) và phó từ (越来越, 总是, 更, 着急)."
     },
     {
       "id": "bai-extra",
@@ -5436,8 +5443,8 @@
     {
       "id": "w_525",
       "lesson": "bai-16",
-      "cat": "cat-adjectives",
-      "pos": "Tính từ",
+      "cat": "cat-social",
+      "pos": "Giao tiếp",
       "hanzi": "不好意思",
       "pinyin": "bù hǎo yì si",
       "meaning": "Xin lỗi / Ngại ngùng",
@@ -5446,8 +5453,8 @@
     {
       "id": "w_526",
       "lesson": "bai-16",
-      "cat": "cat-verbs-study-work",
-      "pos": "Động từ",
+      "cat": "cat-social",
+      "pos": "Giao tiếp",
       "hanzi": "抱歉",
       "pinyin": "bào qiàn",
       "meaning": "Xin lỗi",
@@ -5642,8 +5649,2356 @@
       "pinyin": "qiǎo kè lì",
       "meaning": "Sô cô la",
       "custom": false
+    },
+    {
+      "id": "w_546",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "客",
+      "pinyin": "kè",
+      "meaning": "Khách",
+      "custom": false
+    },
+    {
+      "id": "w_547",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ ly hợp",
+      "hanzi": "做客",
+      "pinyin": "zuò kè",
+      "meaning": "Làm khách, đến chơi nhà",
+      "custom": false
+    },
+    {
+      "id": "w_548",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "爱人",
+      "pinyin": "ài rén",
+      "meaning": "Vợ hoặc chồng (người thương)",
+      "custom": false
+    },
+    {
+      "id": "w_549",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "教",
+      "pinyin": "jiāo",
+      "meaning": "Dạy, giảng dạy",
+      "custom": false
+    },
+    {
+      "id": "w_550",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "教授",
+      "pinyin": "jiào shòu",
+      "meaning": "Giáo sư",
+      "custom": false
+    },
+    {
+      "id": "w_551",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh/Động từ",
+      "hanzi": "包",
+      "pinyin": "bāo",
+      "meaning": "Túi, cái túi / Gói, bọc",
+      "custom": false
+    },
+    {
+      "id": "w_552",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "饺子",
+      "pinyin": "jiǎo zi",
+      "meaning": "Sủi cảo, bánh chẻo",
+      "custom": false
+    },
+    {
+      "id": "w_553",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "包饺子",
+      "pinyin": "bāo jiǎo zi",
+      "meaning": "Gói sủi cảo",
+      "custom": false
+    },
+    {
+      "id": "w_554",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "葡萄",
+      "pinyin": "pú tao / pú táo",
+      "meaning": "Quả nho",
+      "custom": false
+    },
+    {
+      "id": "w_555",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "有名",
+      "pinyin": "yǒu míng",
+      "meaning": "Nổi tiếng",
+      "custom": false
+    },
+    {
+      "id": "w_556",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "热闹",
+      "pinyin": "rè nao",
+      "meaning": "Náo nhiệt, nhộn nhịp",
+      "custom": false
+    },
+    {
+      "id": "w_557",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "热情",
+      "pinyin": "rè qíng",
+      "meaning": "Nhiệt tình, nồng nhiệt",
+      "custom": false
+    },
+    {
+      "id": "w_558",
+      "lesson": "bai-17",
+      "cat": "cat-numbers-measures",
+      "pos": "Số/Lượng từ",
+      "hanzi": "瓶",
+      "pinyin": "píng",
+      "meaning": "Chai, lọ",
+      "custom": false
+    },
+    {
+      "id": "w_559",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-time",
+      "pos": "Danh từ",
+      "hanzi": "最近",
+      "pinyin": "zuì jìn",
+      "meaning": "Gần đây, dạo này",
+      "custom": false
+    },
+    {
+      "id": "w_560",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ ly hợp",
+      "hanzi": "说话",
+      "pinyin": "shuō huà",
+      "meaning": "Nói chuyện",
+      "custom": false
+    },
+    {
+      "id": "w_561",
+      "lesson": "bai-17",
+      "cat": "cat-numbers-measures",
+      "pos": "Số/Lượng từ",
+      "hanzi": "次",
+      "pinyin": "cì",
+      "meaning": "Lần (Lượng từ hành động)",
+      "custom": false
+    },
+    {
+      "id": "w_562",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "难",
+      "pinyin": "nán",
+      "meaning": "Khó, buồn",
+      "custom": false
+    },
+    {
+      "id": "w_563",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "难过",
+      "pinyin": "nán guò",
+      "meaning": "Buồn, khó chịu",
+      "custom": false
+    },
+    {
+      "id": "w_564",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "写",
+      "pinyin": "xiě",
+      "meaning": "Viết",
+      "custom": false
+    },
+    {
+      "id": "w_565",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "进步",
+      "pinyin": "jìn bù",
+      "meaning": "Tiến bộ",
+      "custom": false
+    },
+    {
+      "id": "w_566",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "出",
+      "pinyin": "chū",
+      "meaning": "Ra, đi ra (Trái nghĩa: 进 jìn - vào)",
+      "custom": false
+    },
+    {
+      "id": "w_567",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "进入",
+      "pinyin": "jìn rù",
+      "meaning": "Đi vào, tiến vào",
+      "custom": false
+    },
+    {
+      "id": "w_568",
+      "lesson": "bai-17",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "越来越",
+      "pinyin": "yuè lái yuè",
+      "meaning": "Càng ngày càng...",
+      "custom": false
+    },
+    {
+      "id": "w_569",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "努力",
+      "pinyin": "nǔ lì",
+      "meaning": "Nỗ lực, cố gắng",
+      "custom": false
+    },
+    {
+      "id": "w_570",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "力",
+      "pinyin": "lì",
+      "meaning": "Lực, sức lực",
+      "custom": false
+    },
+    {
+      "id": "w_571",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh/Động từ",
+      "hanzi": "发音",
+      "pinyin": "fā yīn",
+      "meaning": "Phát âm",
+      "custom": false
+    },
+    {
+      "id": "w_572",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "口语",
+      "pinyin": "kǒu yǔ",
+      "meaning": "Khẩu ngữ (ngôn ngữ nói)",
+      "custom": false
+    },
+    {
+      "id": "w_573",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "听力",
+      "pinyin": "tīng lì",
+      "meaning": "Thính lực (kỹ năng nghe)",
+      "custom": false
+    },
+    {
+      "id": "w_574",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động từ",
+      "hanzi": "想",
+      "pinyin": "xiǎng",
+      "meaning": "Nghĩ, muốn, nhớ",
+      "custom": false
+    },
+    {
+      "id": "w_575",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "字",
+      "pinyin": "zì",
+      "meaning": "Chữ, chữ viết",
+      "custom": false
+    },
+    {
+      "id": "w_576",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "声调",
+      "pinyin": "shēng diào",
+      "meaning": "Thanh điệu",
+      "custom": false
+    },
+    {
+      "id": "w_577",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "声音",
+      "pinyin": "shēng yīn",
+      "meaning": "Âm thanh, giọng nói",
+      "custom": false
+    },
+    {
+      "id": "w_578",
+      "lesson": "bai-17",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "总是",
+      "pinyin": "zǒng shì",
+      "meaning": "Luôn luôn, lúc nào cũng",
+      "custom": false
+    },
+    {
+      "id": "w_579",
+      "lesson": "bai-17",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "别",
+      "pinyin": "bié",
+      "meaning": "Đừng (= 不要 bú yào)",
+      "custom": false
+    },
+    {
+      "id": "w_580",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "零食",
+      "pinyin": "líng shí",
+      "meaning": "Đồ ăn vặt (= 小吃 xiǎo chī)",
+      "custom": false
+    },
+    {
+      "id": "w_581",
+      "lesson": "bai-17",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "小吃",
+      "pinyin": "xiǎo chī",
+      "meaning": "Món ăn vặt, quà vặt (= 零食 líng shí)",
+      "custom": false
+    },
+    {
+      "id": "w_582",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính/Phó từ",
+      "hanzi": "快",
+      "pinyin": "kuài",
+      "meaning": "Nhanh, sắp",
+      "custom": false
+    },
+    {
+      "id": "w_583",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "着急",
+      "pinyin": "zháo jí",
+      "meaning": "Sốt ruột, lo lắng",
+      "custom": false
+    },
+    {
+      "id": "w_584",
+      "lesson": "bai-17",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "着",
+      "pinyin": "zhe",
+      "meaning": "Đang (Trợ từ động thái diễn tả trạng thái duy trì)",
+      "custom": false
+    },
+    {
+      "id": "w_585",
+      "lesson": "bai-17",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó/Liên từ",
+      "hanzi": "更",
+      "pinyin": "gèng",
+      "meaning": "Càng, hơn nữa",
+      "custom": false
+    },
+    {
+      "id": "w_586",
+      "lesson": "bai-17",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "读",
+      "pinyin": "dú",
+      "meaning": "Đọc (thành tiếng)",
+      "custom": false
+    },
+    {
+      "id": "w_587",
+      "lesson": "bai-17",
+      "cat": "cat-adjectives",
+      "pos": "Tính/Động từ",
+      "hanzi": "麻烦",
+      "pinyin": "má fan",
+      "meaning": "Phiền, làm phiền",
+      "custom": false
     }
   ],
   "sentences": [],
-  "mistakes": []
+  "mistakes": [],
+  "radicals": [
+    {
+      "no": 1,
+      "strokes": 1,
+      "radical": "一",
+      "variants": "",
+      "pinyin": "yī",
+      "hanviet": "Nhất",
+      "meaning": "Số một, nét ngang (VD: 一, 三, 上, 下)"
+    },
+    {
+      "no": 2,
+      "strokes": 1,
+      "radical": "丨",
+      "variants": "",
+      "pinyin": "gǔn",
+      "hanviet": "Cổn",
+      "meaning": "Nét sổ thẳng (VD: 中, 丰, 串)"
+    },
+    {
+      "no": 3,
+      "strokes": 1,
+      "radical": "丶",
+      "variants": "",
+      "pinyin": "zhǔ",
+      "hanviet": "Chủ",
+      "meaning": "Điểm, dấu chấm (VD: 丸, 主, 太)"
+    },
+    {
+      "no": 4,
+      "strokes": 1,
+      "radical": "丿",
+      "variants": "乀",
+      "pinyin": "piě",
+      "hanviet": "Phiệt",
+      "meaning": "Nét phẩy (VD: 久, 么, 乎)"
+    },
+    {
+      "no": 5,
+      "strokes": 1,
+      "radical": "乙",
+      "variants": "乚, 乛",
+      "pinyin": "yǐ",
+      "hanviet": "Ất",
+      "meaning": "Thiên can thứ 2, nét ngang gập (VD: 九, 乞, 也)"
+    },
+    {
+      "no": 6,
+      "strokes": 1,
+      "radical": "亅",
+      "variants": "",
+      "pinyin": "jué",
+      "hanviet": "Quyết",
+      "meaning": "Nét sổ có móc (VD: 了, 事, 争)"
+    },
+    {
+      "no": 7,
+      "strokes": 2,
+      "radical": "二",
+      "variants": "",
+      "pinyin": "èr",
+      "hanviet": "Nhị",
+      "meaning": "Số hai (VD: 二, 五, 些, 亚)"
+    },
+    {
+      "no": 8,
+      "strokes": 2,
+      "radical": "亠",
+      "variants": "",
+      "pinyin": "tóu",
+      "hanviet": "Đầu",
+      "meaning": "Nét chấm ngang trên đầu chữ (VD: 亡, 交, 京, 亮)"
+    },
+    {
+      "no": 9,
+      "strokes": 2,
+      "radical": "人",
+      "variants": "亻",
+      "pinyin": "rén",
+      "hanviet": "Nhân",
+      "meaning": "Con người (VD: 人, 你, 他, 们, 休, 住)"
+    },
+    {
+      "no": 10,
+      "strokes": 2,
+      "radical": "儿",
+      "variants": "",
+      "pinyin": "ér",
+      "hanviet": "Nhi",
+      "meaning": "Đứa trẻ, đôi chân người (VD: 儿, 先, 光, 兄)"
+    },
+    {
+      "no": 11,
+      "strokes": 2,
+      "radical": "入",
+      "variants": "",
+      "pinyin": "rù",
+      "hanviet": "Nhập",
+      "meaning": "Đi vào, thâm nhập (VD: 入, 全, 两)"
+    },
+    {
+      "no": 12,
+      "strokes": 2,
+      "radical": "八",
+      "variants": "丷",
+      "pinyin": "bā",
+      "hanviet": "Bát",
+      "meaning": "Số tám, phân chia (VD: 八, 六, 共, 兴, 关)"
+    },
+    {
+      "no": 13,
+      "strokes": 2,
+      "radical": "冂",
+      "variants": "",
+      "pinyin": "jiōng",
+      "hanviet": "Quynh",
+      "meaning": "Vùng biên giới xa, khung bao ngoài (VD: 册, 再, 同)"
+    },
+    {
+      "no": 14,
+      "strokes": 2,
+      "radical": "冖",
+      "variants": "",
+      "pinyin": "mì",
+      "hanviet": "Mịch",
+      "meaning": "Khăn trùm lên, che đậy (VD: 写, 军, 农, 冠)"
+    },
+    {
+      "no": 15,
+      "strokes": 2,
+      "radical": "冫",
+      "variants": "",
+      "pinyin": "bīng",
+      "hanviet": "Băng",
+      "meaning": "Nước đá, giá lạnh (VD: 冷, 凉, 冰, 准, 净)"
+    },
+    {
+      "no": 16,
+      "strokes": 2,
+      "radical": "几",
+      "variants": "",
+      "pinyin": "jī",
+      "hanviet": "Kỷ",
+      "meaning": "Cái bàn nhỏ, ghế đẩu (VD: 几, 凡, 凤, 凭)"
+    },
+    {
+      "no": 17,
+      "strokes": 2,
+      "radical": "凵",
+      "variants": "",
+      "pinyin": "kǎn",
+      "hanviet": "Khảm",
+      "meaning": "Há miệng, hố sâu, vật chứa (VD: 凶, 出, 函, 画)"
+    },
+    {
+      "no": 18,
+      "strokes": 2,
+      "radical": "刀",
+      "variants": "刂, ⺈",
+      "pinyin": "dāo",
+      "hanviet": "Đao",
+      "meaning": "Con dao, cây đao (VD: 刀, 分, 切, 到, 别, 刻)"
+    },
+    {
+      "no": 19,
+      "strokes": 2,
+      "radical": "力",
+      "variants": "",
+      "pinyin": "lì",
+      "hanviet": "Lực",
+      "meaning": "Sức mạnh, sức lực (VD: 力, 办, 加, 动, 助, 男)"
+    },
+    {
+      "no": 20,
+      "strokes": 2,
+      "radical": "勹",
+      "variants": "",
+      "pinyin": "bāo",
+      "hanviet": "Bao",
+      "meaning": "Bao bọc, gói lại (VD: 包, 勺, 勾, 勿)"
+    },
+    {
+      "no": 21,
+      "strokes": 2,
+      "radical": "匕",
+      "variants": "",
+      "pinyin": "bǐ",
+      "hanviet": "Chủy",
+      "meaning": "Cái thìa, cái muỗng (VD: 北, 化, 匙, 比)"
+    },
+    {
+      "no": 22,
+      "strokes": 2,
+      "radical": "匚",
+      "variants": "",
+      "pinyin": "fāng",
+      "hanviet": "Phương",
+      "meaning": "Tủ, hộp vuông đựng đồ (VD: 匠, 匣, 匪)"
+    },
+    {
+      "no": 23,
+      "strokes": 2,
+      "radical": "匸",
+      "variants": "",
+      "pinyin": "xǐ",
+      "hanviet": "Hệ",
+      "meaning": "Che đậy, cất giấu (VD: 医, 匹, 区)"
+    },
+    {
+      "no": 24,
+      "strokes": 2,
+      "radical": "十",
+      "variants": "",
+      "pinyin": "shí",
+      "hanviet": "Thập",
+      "meaning": "Số mười, trọn vẹn (VD: 十, 千, 午, 半, 南, 华)"
+    },
+    {
+      "no": 25,
+      "strokes": 2,
+      "radical": "卜",
+      "variants": "⺊",
+      "pinyin": "bǔ",
+      "hanviet": "Bốc",
+      "meaning": "Xem bói (VD: 占, 卡, 卢, 卧)"
+    },
+    {
+      "no": 26,
+      "strokes": 2,
+      "radical": "卩",
+      "variants": "⺋",
+      "pinyin": "jié",
+      "hanviet": "Tiết",
+      "meaning": "Đốt tre, ấn tín thời xưa (VD: 卫, 印, 危, 即, 却)"
+    },
+    {
+      "no": 27,
+      "strokes": 2,
+      "radical": "厂",
+      "variants": "",
+      "pinyin": "hàn",
+      "hanviet": "Hán",
+      "meaning": "Sườn núi, vách đá; giản thể là xưởng 廠 (VD: 厂, 厅, 历, 厚, 原)"
+    },
+    {
+      "no": 28,
+      "strokes": 2,
+      "radical": "厶",
+      "variants": "",
+      "pinyin": "sī",
+      "hanviet": "Khư / Tư",
+      "meaning": "Riêng tư (VD: 去, 参, 县, 叉)"
+    },
+    {
+      "no": 29,
+      "strokes": 2,
+      "radical": "又",
+      "variants": "",
+      "pinyin": "yòu",
+      "hanviet": "Hựu",
+      "meaning": "Lại nữa, bàn tay phải (VD: 又, 友, 双, 发, 取, 受)"
+    },
+    {
+      "no": 30,
+      "strokes": 3,
+      "radical": "口",
+      "variants": "",
+      "pinyin": "kǒu",
+      "hanviet": "Khẩu",
+      "meaning": "Cái miệng, lời nói (VD: 口, 叫, 吃, 喝, 吗, 呢, 听, 唱)"
+    },
+    {
+      "no": 31,
+      "strokes": 3,
+      "radical": "囗",
+      "variants": "",
+      "pinyin": "wéi",
+      "hanviet": "Vi",
+      "meaning": "Vây quanh, biên giới (VD: 国, 图, 园, 回, 因, 困)"
+    },
+    {
+      "no": 32,
+      "strokes": 3,
+      "radical": "土",
+      "variants": "",
+      "pinyin": "tǔ",
+      "hanviet": "Thổ",
+      "meaning": "Đất đai (VD: 土, 在, 地, 坐, 场, 城, 块)"
+    },
+    {
+      "no": 33,
+      "strokes": 3,
+      "radical": "士",
+      "variants": "",
+      "pinyin": "shì",
+      "hanviet": "Sĩ",
+      "meaning": "Kẻ sĩ, người có học thức (VD: 士, 声, 处, 壶)"
+    },
+    {
+      "no": 34,
+      "strokes": 3,
+      "radical": "夂",
+      "variants": "",
+      "pinyin": "zhǐ",
+      "hanviet": "Trĩ",
+      "meaning": "Theo sau mà đến (VD: 冬, 备, 复, 夏)"
+    },
+    {
+      "no": 35,
+      "strokes": 3,
+      "radical": "夊",
+      "variants": "",
+      "pinyin": "suī",
+      "hanviet": "Truy",
+      "meaning": "Bước đi chậm rãi (VD: 夋, 凌, 爱)"
+    },
+    {
+      "no": 36,
+      "strokes": 3,
+      "radical": "夕",
+      "variants": "",
+      "pinyin": "xī",
+      "hanviet": "Tịch",
+      "meaning": "Đêm tối, chiều tà (VD: 夕, 外, 多, 夜, 够, 梦)"
+    },
+    {
+      "no": 37,
+      "strokes": 3,
+      "radical": "大",
+      "variants": "",
+      "pinyin": "dà",
+      "hanviet": "Đại",
+      "meaning": "To lớn, người dang tay chân (VD: 大, 天, 太, 夫, 头, 奇)"
+    },
+    {
+      "no": 38,
+      "strokes": 3,
+      "radical": "女",
+      "variants": "",
+      "pinyin": "nǚ",
+      "hanviet": "Nữ",
+      "meaning": "Phụ nữ, con gái (VD: 女, 好, 她, 妈, 姐, 妹, 姓, 婚)"
+    },
+    {
+      "no": 39,
+      "strokes": 3,
+      "radical": "子",
+      "variants": "孑, 孒",
+      "pinyin": "zǐ",
+      "hanviet": "Tử",
+      "meaning": "Con cái, đứa trẻ, hạt (VD: 子, 字, 学, 孩, 孙)"
+    },
+    {
+      "no": 40,
+      "strokes": 3,
+      "radical": "宀",
+      "variants": "",
+      "pinyin": "mián",
+      "hanviet": "Miên",
+      "meaning": "Mái nhà, nhà cửa (VD: 家, 室, 宿, 安, 完, 定, 客, 容)"
+    },
+    {
+      "no": 41,
+      "strokes": 3,
+      "radical": "寸",
+      "variants": "",
+      "pinyin": "cùn",
+      "hanviet": "Thốn",
+      "meaning": "Đơn vị đo (tấc), phép tắc (VD: 寸, 对, 导, 封, 射, 尊)"
+    },
+    {
+      "no": 42,
+      "strokes": 3,
+      "radical": "小",
+      "variants": "⺌",
+      "pinyin": "xiǎo",
+      "hanviet": "Tiểu",
+      "meaning": "Nhỏ bé (VD: 小, 少, 尖, 尘, 尚)"
+    },
+    {
+      "no": 43,
+      "strokes": 3,
+      "radical": "尢",
+      "variants": "尣",
+      "pinyin": "wāng",
+      "hanviet": "Uông",
+      "meaning": "Yếu đuối, chân tập tễnh (VD: 尤, 就, 尴尬)"
+    },
+    {
+      "no": 44,
+      "strokes": 3,
+      "radical": "尸",
+      "variants": "",
+      "pinyin": "shī",
+      "hanviet": "Thi",
+      "meaning": "Thân thể ngồi/nằm, nhà cửa (VD: 尺, 局, 屋, 层, 居, 展)"
+    },
+    {
+      "no": 45,
+      "strokes": 3,
+      "radical": "屮",
+      "variants": "",
+      "pinyin": "chè",
+      "hanviet": "Triệt",
+      "meaning": "Mầm non mới nhú (VD: 屯, 艸)"
+    },
+    {
+      "no": 46,
+      "strokes": 3,
+      "radical": "山",
+      "variants": "",
+      "pinyin": "shān",
+      "hanviet": "Sơn",
+      "meaning": "Núi non (VD: 山, 岁, 岛, 岸, 峰, 崇)"
+    },
+    {
+      "no": 47,
+      "strokes": 3,
+      "radical": "巛",
+      "variants": "川",
+      "pinyin": "chuān",
+      "hanviet": "Xuyên",
+      "meaning": "Sông ngòi, dòng nước chảy (VD: 川, 州, 巡, 巢)"
+    },
+    {
+      "no": 48,
+      "strokes": 3,
+      "radical": "工",
+      "variants": "",
+      "pinyin": "gōng",
+      "hanviet": "Công",
+      "meaning": "Người thợ, công việc (VD: 工, 左, 巧, 差)"
+    },
+    {
+      "no": 49,
+      "strokes": 3,
+      "radical": "己",
+      "variants": "已, 巳",
+      "pinyin": "jǐ",
+      "hanviet": "Kỷ",
+      "meaning": "Bản thân mình (VD: 己, 已, 巳, 包, 导)"
+    },
+    {
+      "no": 50,
+      "strokes": 3,
+      "radical": "巾",
+      "variants": "",
+      "pinyin": "jīn",
+      "hanviet": "Cân",
+      "meaning": "Khăn vải, vải vóc (VD: 巾, 市, 布, 师, 常, 帮, 帽)"
+    },
+    {
+      "no": 51,
+      "strokes": 3,
+      "radical": "干",
+      "variants": "",
+      "pinyin": "gān",
+      "hanviet": "Can",
+      "meaning": "Can phạm, vũ khí, làm việc (VD: 干, 平, 年, 并, 幸)"
+    },
+    {
+      "no": 52,
+      "strokes": 3,
+      "radical": "幺",
+      "variants": "乡",
+      "pinyin": "yāo",
+      "hanviet": "Yêu",
+      "meaning": "Nhỏ nhắn, sợi tơ mảnh (VD: 幺, 幻, 幼, 乡)"
+    },
+    {
+      "no": 53,
+      "strokes": 3,
+      "radical": "广",
+      "variants": "",
+      "pinyin": "guǎng",
+      "hanviet": "Nghiễm",
+      "meaning": "Mái nhà rộng tựa sườn núi (VD: 床, 店, 府, 度, 座, 庭, 康)"
+    },
+    {
+      "no": 54,
+      "strokes": 3,
+      "radical": "廴",
+      "variants": "",
+      "pinyin": "yǐn",
+      "hanviet": "Dẫn",
+      "meaning": "Bước dài, kéo dài (VD: 延, 廷, 建)"
+    },
+    {
+      "no": 55,
+      "strokes": 3,
+      "radical": "廾",
+      "variants": "",
+      "pinyin": "gǒng",
+      "hanviet": "Củng",
+      "meaning": "Chắp hai bàn tay dâng lên (VD: 开, 弄, 弈, 弊)"
+    },
+    {
+      "no": 56,
+      "strokes": 3,
+      "radical": "弋",
+      "variants": "",
+      "pinyin": "yì",
+      "hanviet": "Dặc",
+      "meaning": "Cọc gỗ, bắn tên có dây buộc (VD: 式, 贰, 弑)"
+    },
+    {
+      "no": 57,
+      "strokes": 3,
+      "radical": "弓",
+      "variants": "",
+      "pinyin": "gōng",
+      "hanviet": "Cung",
+      "meaning": "Cây cung bắn tên (VD: 弓, 引, 弟, 张, 强, 弹)"
+    },
+    {
+      "no": 58,
+      "strokes": 3,
+      "radical": "彐",
+      "variants": "彑",
+      "pinyin": "jì",
+      "hanviet": "Kệ",
+      "meaning": "Đầu nhím, mõm lợn (VD: 归, 当, 录, 彗)"
+    },
+    {
+      "no": 59,
+      "strokes": 3,
+      "radical": "彡",
+      "variants": "",
+      "pinyin": "shān",
+      "hanviet": "Sam",
+      "meaning": "Lông dài, hoa văn trang sức (VD: 形, 影, 彩, 须, 彦)"
+    },
+    {
+      "no": 60,
+      "strokes": 3,
+      "radical": "彳",
+      "variants": "",
+      "pinyin": "chì",
+      "hanviet": "Sách",
+      "meaning": "Bước chân trái, đi đường (VD: 往, 很, 得, 待, 行, 律)"
+    },
+    {
+      "no": 61,
+      "strokes": 4,
+      "radical": "心",
+      "variants": "忄, ⺗",
+      "pinyin": "xīn",
+      "hanviet": "Tâm",
+      "meaning": "Trái tim, tâm tư, tình cảm (VD: 心, 想, 忙, 快, 怕, 情, 懂, 忘)"
+    },
+    {
+      "no": 62,
+      "strokes": 4,
+      "radical": "戈",
+      "variants": "",
+      "pinyin": "gē",
+      "hanviet": "Qua",
+      "meaning": "Cây qua, giáo mác (vũ khí) (VD: 戈, 我, 战, 或, 成, 戏)"
+    },
+    {
+      "no": 63,
+      "strokes": 4,
+      "radical": "户",
+      "variants": "戶",
+      "pinyin": "hù",
+      "hanviet": "Hộ",
+      "meaning": "Cửa một cánh, hộ gia đình (VD: 户, 房, 所, 扇)"
+    },
+    {
+      "no": 64,
+      "strokes": 4,
+      "radical": "手",
+      "variants": "扌, 龵",
+      "pinyin": "shǒu",
+      "hanviet": "Thủ",
+      "meaning": "Bàn tay, động tác tay (VD: 手, 打, 找, 拿, 把, 搬, 排, 报)"
+    },
+    {
+      "no": 65,
+      "strokes": 4,
+      "radical": "支",
+      "variants": "",
+      "pinyin": "zhī",
+      "hanviet": "Chi",
+      "meaning": "Cành cây, phân nhánh, chi trả (VD: 支, 翅)"
+    },
+    {
+      "no": 66,
+      "strokes": 4,
+      "radical": "攴",
+      "variants": "攵",
+      "pinyin": "pū",
+      "hanviet": "Phộc",
+      "meaning": "Đánh khẽ, thúc giục (VD: 收, 改, 放, 政, 故, 教, 敢, 数)"
+    },
+    {
+      "no": 67,
+      "strokes": 4,
+      "radical": "文",
+      "variants": "",
+      "pinyin": "wén",
+      "hanviet": "Văn",
+      "meaning": "Nét vằn, văn chương, chữ viết (VD: 文, 斋, 斌, 斑)"
+    },
+    {
+      "no": 68,
+      "strokes": 4,
+      "radical": "斗",
+      "variants": "",
+      "pinyin": "dǒu",
+      "hanviet": "Đẩu",
+      "meaning": "Cái đấu đong lương thực (VD: 斗, 料, 斜, 斟)"
+    },
+    {
+      "no": 69,
+      "strokes": 4,
+      "radical": "斤",
+      "variants": "",
+      "pinyin": "jīn",
+      "hanviet": "Cân",
+      "meaning": "Cái rìu, đơn vị nửa cân = 0.5kg (VD: 斤, 新, 斩, 断, 斯)"
+    },
+    {
+      "no": 70,
+      "strokes": 4,
+      "radical": "方",
+      "variants": "",
+      "pinyin": "fāng",
+      "hanviet": "Phương",
+      "meaning": "Hình vuông, phương hướng (VD: 方, 旁, 旅, 族, 旗)"
+    },
+    {
+      "no": 71,
+      "strokes": 4,
+      "radical": "无",
+      "variants": "旡",
+      "pinyin": "wú",
+      "hanviet": "Vô",
+      "meaning": "Không có (VD: 无, 既)"
+    },
+    {
+      "no": 72,
+      "strokes": 4,
+      "radical": "日",
+      "variants": "",
+      "pinyin": "rì",
+      "hanviet": "Nhật",
+      "meaning": "Mặt trời, ngày, thời gian (VD: 日, 早, 明, 星, 时, 晚, 晴, 暖)"
+    },
+    {
+      "no": 73,
+      "strokes": 4,
+      "radical": "曰",
+      "variants": "",
+      "pinyin": "yuē",
+      "hanviet": "Viết",
+      "meaning": "Nói rằng (VD: 曲, 更, 曾, 最)"
+    },
+    {
+      "no": 74,
+      "strokes": 4,
+      "radical": "月",
+      "variants": "",
+      "pinyin": "yuè",
+      "hanviet": "Nguyệt",
+      "meaning": "Mặt trăng, tháng (VD: 月, 有, 朋, 服, 期, 朝)"
+    },
+    {
+      "no": 75,
+      "strokes": 4,
+      "radical": "木",
+      "variants": "",
+      "pinyin": "mù",
+      "hanviet": "Mộc",
+      "meaning": "Gỗ, cây cối (VD: 木, 本, 树, 桌, 校, 楼, 杯, 果, 样)"
+    },
+    {
+      "no": 76,
+      "strokes": 4,
+      "radical": "欠",
+      "variants": "",
+      "pinyin": "qiàn",
+      "hanviet": "Khiếm",
+      "meaning": "Ngáp, thiếu nợ, hơi thở (VD: 欠, 次, 欢, 歌, 歉)"
+    },
+    {
+      "no": 77,
+      "strokes": 4,
+      "radical": "止",
+      "variants": "",
+      "pinyin": "zhǐ",
+      "hanviet": "Chỉ",
+      "meaning": "Bàn chân, dừng lại (VD: 止, 正, 此, 步, 武)"
+    },
+    {
+      "no": 78,
+      "strokes": 4,
+      "radical": "歹",
+      "variants": "歺",
+      "pinyin": "dǎi",
+      "hanviet": "Đãi",
+      "meaning": "Xương tàn, xấu xa, nguy hiểm (VD: 死, 残, 殊, 殖)"
+    },
+    {
+      "no": 79,
+      "strokes": 4,
+      "radical": "殳",
+      "variants": "",
+      "pinyin": "shū",
+      "hanviet": "Thù",
+      "meaning": "Binh khí dài, đánh đập (VD: 段, 殷, 毁, 毅)"
+    },
+    {
+      "no": 80,
+      "strokes": 4,
+      "radical": "毋",
+      "variants": "母",
+      "pinyin": "wú",
+      "hanviet": "Vô",
+      "meaning": "Chớ, đừng; biến thể 母 (mẹ) (VD: 母, 每, 毒, 毓)"
+    },
+    {
+      "no": 81,
+      "strokes": 4,
+      "radical": "比",
+      "variants": "",
+      "pinyin": "bǐ",
+      "hanviet": "Tỷ",
+      "meaning": "So sánh, kề sát (VD: 比, 毕, 毗)"
+    },
+    {
+      "no": 82,
+      "strokes": 4,
+      "radical": "毛",
+      "variants": "",
+      "pinyin": "máo",
+      "hanviet": "Mao",
+      "meaning": "Lông thú, sợi lông (VD: 毛, 毯, 毫, 毡)"
+    },
+    {
+      "no": 83,
+      "strokes": 4,
+      "radical": "氏",
+      "variants": "",
+      "pinyin": "shì",
+      "hanviet": "Thị",
+      "meaning": "Họ, thị tộc (VD: 氏, 民, 氓)"
+    },
+    {
+      "no": 84,
+      "strokes": 4,
+      "radical": "气",
+      "variants": "",
+      "pinyin": "qì",
+      "hanviet": "Khí",
+      "meaning": "Hơi nước, không khí (VD: 气, 汽, 氧, 氢, 氛)"
+    },
+    {
+      "no": 85,
+      "strokes": 4,
+      "radical": "水",
+      "variants": "氵, 氺",
+      "pinyin": "shuǐ",
+      "hanviet": "Thủy",
+      "meaning": "Nước, chất lỏng, sông biển (VD: 水, 河, 海, 洗, 汉, 法, 酒, 没, 渴, 澡)"
+    },
+    {
+      "no": 86,
+      "strokes": 4,
+      "radical": "火",
+      "variants": "灬",
+      "pinyin": "huǒ",
+      "hanviet": "Hỏa",
+      "meaning": "Ngọn lửa, sức nóng (VD: 火, 灯, 烧, 热, 点, 照, 然)"
+    },
+    {
+      "no": 87,
+      "strokes": 4,
+      "radical": "爪",
+      "variants": "爫",
+      "pinyin": "zhǎo",
+      "hanviet": "Trảo",
+      "meaning": "Móng vuốt, tay cầm từ trên (VD: 爪, 爬, 爱, 采, 妥)"
+    },
+    {
+      "no": 88,
+      "strokes": 4,
+      "radical": "父",
+      "variants": "",
+      "pinyin": "fù",
+      "hanviet": "Phụ",
+      "meaning": "Người cha (VD: 父, 爸, 爷, 爹)"
+    },
+    {
+      "no": 89,
+      "strokes": 4,
+      "radical": "爻",
+      "variants": "",
+      "pinyin": "yáo",
+      "hanviet": "Hào",
+      "meaning": "Hào âm dương đan chéo (VD: 爻, 爽, 尔)"
+    },
+    {
+      "no": 90,
+      "strokes": 4,
+      "radical": "爿",
+      "variants": "丬",
+      "pinyin": "pán",
+      "hanviet": "Tường",
+      "meaning": "Tấm ván gỗ, cái giường (VD: 状, 壮, 墙)"
+    },
+    {
+      "no": 91,
+      "strokes": 4,
+      "radical": "片",
+      "variants": "",
+      "pinyin": "piàn",
+      "hanviet": "Phiến",
+      "meaning": "Mảnh gỗ mỏng, tấm, lát (VD: 片, 版, 牌, 牒)"
+    },
+    {
+      "no": 92,
+      "strokes": 4,
+      "radical": "牙",
+      "variants": "",
+      "pinyin": "yá",
+      "hanviet": "Nha",
+      "meaning": "Răng hàm, chiếc răng (VD: 牙, 穿, 邪)"
+    },
+    {
+      "no": 93,
+      "strokes": 4,
+      "radical": "牛",
+      "variants": "牜",
+      "pinyin": "niú",
+      "hanviet": "Ngưu",
+      "meaning": "Con trâu, con bò (VD: 牛, 物, 特, 牧, 牵)"
+    },
+    {
+      "no": 94,
+      "strokes": 4,
+      "radical": "犬",
+      "variants": "犭",
+      "pinyin": "quǎn",
+      "hanviet": "Khuyển",
+      "meaning": "Con chó, loài thú (VD: 犬, 狗, 猫, 猪, 独, 猜, 献)"
+    },
+    {
+      "no": 95,
+      "strokes": 5,
+      "radical": "玄",
+      "variants": "",
+      "pinyin": "xuán",
+      "hanviet": "Huyền",
+      "meaning": "Màu đen huyền, sâu kín (VD: 玄, 率)"
+    },
+    {
+      "no": 96,
+      "strokes": 5,
+      "radical": "玉",
+      "variants": "王, ⺩",
+      "pinyin": "yù",
+      "hanviet": "Ngọc",
+      "meaning": "Đá ngọc quý, vua (VD: 玉, 王, 玩, 现, 班, 理, 球, 琴)"
+    },
+    {
+      "no": 97,
+      "strokes": 5,
+      "radical": "瓜",
+      "variants": "",
+      "pinyin": "guā",
+      "hanviet": "Qua",
+      "meaning": "Quả dưa, bầu bí (VD: 瓜, 瓣, 瓢)"
+    },
+    {
+      "no": 98,
+      "strokes": 5,
+      "radical": "瓦",
+      "variants": "",
+      "pinyin": "wǎ",
+      "hanviet": "Ngõa",
+      "meaning": "Ngói lợp, đồ sành sứ (VD: 瓦, 瓶, 瓷, 瓮)"
+    },
+    {
+      "no": 99,
+      "strokes": 5,
+      "radical": "甘",
+      "variants": "",
+      "pinyin": "gān",
+      "hanviet": "Cam",
+      "meaning": "Vị ngọt, ngon lành (VD: 甘, 甜, 某, 甚)"
+    },
+    {
+      "no": 100,
+      "strokes": 5,
+      "radical": "生",
+      "variants": "",
+      "pinyin": "shēng",
+      "hanviet": "Sinh",
+      "meaning": "Sinh sôi, nảy nở, sự sống (VD: 生, 产, 甥, 甦)"
+    },
+    {
+      "no": 101,
+      "strokes": 5,
+      "radical": "用",
+      "variants": "",
+      "pinyin": "yòng",
+      "hanviet": "Dụng",
+      "meaning": "Sử dụng, dùng (VD: 用, 甩, 甫, 甭)"
+    },
+    {
+      "no": 102,
+      "strokes": 5,
+      "radical": "田",
+      "variants": "",
+      "pinyin": "tián",
+      "hanviet": "Điền",
+      "meaning": "Ruộng đất (VD: 田, 男, 留, 画, 界, 略, 番)"
+    },
+    {
+      "no": 103,
+      "strokes": 5,
+      "radical": "疋",
+      "variants": "⺪",
+      "pinyin": "pǐ",
+      "hanviet": "Thất / Sơ",
+      "meaning": "Tấm vải, bàn chân (VD: 疏, 疑, 楚)"
+    },
+    {
+      "no": 104,
+      "strokes": 5,
+      "radical": "疒",
+      "variants": "",
+      "pinyin": "nè",
+      "hanviet": "Nạch",
+      "meaning": "Bệnh tật, ốm đau (VD: 病, 疼, 痛, 瘦, 疯, 疗)"
+    },
+    {
+      "no": 105,
+      "strokes": 5,
+      "radical": "癶",
+      "variants": "",
+      "pinyin": "bō",
+      "hanviet": "Bát",
+      "meaning": "Đôi chân trèo lên (VD: 登, 发, 癸)"
+    },
+    {
+      "no": 106,
+      "strokes": 5,
+      "radical": "白",
+      "variants": "",
+      "pinyin": "bái",
+      "hanviet": "Bạch",
+      "meaning": "Màu trắng, rõ ràng (VD: 白, 百, 的, 皇, 皆)"
+    },
+    {
+      "no": 107,
+      "strokes": 5,
+      "radical": "皮",
+      "variants": "",
+      "pinyin": "pí",
+      "hanviet": "Bì",
+      "meaning": "Da, vỏ ngoài (VD: 皮, 皱, 颇)"
+    },
+    {
+      "no": 108,
+      "strokes": 5,
+      "radical": "皿",
+      "variants": "",
+      "pinyin": "mǐn",
+      "hanviet": "Mãnh",
+      "meaning": "Bát đĩa, chậu đựng (VD: 皿, 盒, 盆, 盛, 盘, 益, 监)"
+    },
+    {
+      "no": 109,
+      "strokes": 5,
+      "radical": "目",
+      "variants": "罒",
+      "pinyin": "mù",
+      "hanviet": "Mục",
+      "meaning": "Con mắt, nhìn ngắm (VD: 目, 看, 眼, 睡, 睛, 着, 真, 相, 省)"
+    },
+    {
+      "no": 110,
+      "strokes": 5,
+      "radical": "矛",
+      "variants": "",
+      "pinyin": "máo",
+      "hanviet": "Mâu",
+      "meaning": "Cây giáo dài (VD: 矛, 柔, 矜)"
+    },
+    {
+      "no": 111,
+      "strokes": 5,
+      "radical": "矢",
+      "variants": "",
+      "pinyin": "shǐ",
+      "hanviet": "Thỉ",
+      "meaning": "Mũi tên (VD: 矢, 知, 短, 矮, 矩)"
+    },
+    {
+      "no": 112,
+      "strokes": 5,
+      "radical": "石",
+      "variants": "",
+      "pinyin": "shí",
+      "hanviet": "Thạch",
+      "meaning": "Hòn đá, khoáng sản (VD: 石, 破, 碗, 确, 研, 砍, 硬)"
+    },
+    {
+      "no": 113,
+      "strokes": 5,
+      "radical": "示",
+      "variants": "礻",
+      "pinyin": "shì",
+      "hanviet": "Thị / Kỳ",
+      "meaning": "Chỉ thị, thần linh, lễ cúng (VD: 示, 礼, 祝, 神, 福, 社, 票)"
+    },
+    {
+      "no": 114,
+      "strokes": 5,
+      "radical": "禸",
+      "variants": "",
+      "pinyin": "róu",
+      "hanviet": "Nhựu",
+      "meaning": "Vết chân thú (VD: 禹, 离, 禽)"
+    },
+    {
+      "no": 115,
+      "strokes": 5,
+      "radical": "禾",
+      "variants": "",
+      "pinyin": "hé",
+      "hanviet": "Hòa",
+      "meaning": "Cây lúa, mùa màng (VD: 禾, 秋, 种, 租, 和, 科, 称, 程)"
+    },
+    {
+      "no": 116,
+      "strokes": 5,
+      "radical": "穴",
+      "variants": "",
+      "pinyin": "xué",
+      "hanviet": "Huyệt",
+      "meaning": "Hang động, lỗ trống (VD: 穴, 空, 穿, 窗, 穷, 突, 究)"
+    },
+    {
+      "no": 117,
+      "strokes": 5,
+      "radical": "立",
+      "variants": "",
+      "pinyin": "lì",
+      "hanviet": "Lập",
+      "meaning": "Đứng thẳng, thành lập (VD: 立, 站, 章, 童, 端, 竞)"
+    },
+    {
+      "no": 118,
+      "strokes": 6,
+      "radical": "竹",
+      "variants": "⺮",
+      "pinyin": "zhú",
+      "hanviet": "Trúc",
+      "meaning": "Tre trúc, đồ dùng bằng tre (VD: 竹, 笔, 第, 笑, 等, 算, 答, 箱, 篮)"
+    },
+    {
+      "no": 119,
+      "strokes": 6,
+      "radical": "米",
+      "variants": "",
+      "pinyin": "mǐ",
+      "hanviet": "Mễ",
+      "meaning": "Hạt gạo, lương thực (VD: 米, 粉, 粒, 粗, 精, 糖, 糕)"
+    },
+    {
+      "no": 120,
+      "strokes": 6,
+      "radical": "糸",
+      "variants": "纟, 糹",
+      "pinyin": "mì",
+      "hanviet": "Mịch",
+      "meaning": "Sợi tơ, dây dợ, dệt may (VD: 红, 绿, 纸, 练, 结, 给, 经, 统, 继)"
+    },
+    {
+      "no": 121,
+      "strokes": 6,
+      "radical": "缶",
+      "variants": "",
+      "pinyin": "fǒu",
+      "hanviet": "Phẫu",
+      "meaning": "Vò sành đựng rượu/nước (VD: 缸, 缺, 罐)"
+    },
+    {
+      "no": 122,
+      "strokes": 6,
+      "radical": "网",
+      "variants": "罒, ⺲",
+      "pinyin": "wǎng",
+      "hanviet": "Võng",
+      "meaning": "Tấm lưới, mạng lưới (VD: 网, 罗, 罚, 置, 署, 罪)"
+    },
+    {
+      "no": 123,
+      "strokes": 6,
+      "radical": "羊",
+      "variants": "⺶",
+      "pinyin": "yáng",
+      "hanviet": "Dương",
+      "meaning": "Con dê, con cừu (VD: 羊, 美, 着, 差, 群, 羞)"
+    },
+    {
+      "no": 124,
+      "strokes": 6,
+      "radical": "羽",
+      "variants": "",
+      "pinyin": "yǔ",
+      "hanviet": "Vũ",
+      "meaning": "Lông vũ, cánh chim (VD: 羽, 习, 翅, 翻, 翔)"
+    },
+    {
+      "no": 125,
+      "strokes": 6,
+      "radical": "老",
+      "variants": "耂",
+      "pinyin": "lǎo",
+      "hanviet": "Lão",
+      "meaning": "Người già, trưởng bối (VD: 老, 考, 者, 孝)"
+    },
+    {
+      "no": 126,
+      "strokes": 6,
+      "radical": "而",
+      "variants": "",
+      "pinyin": "ér",
+      "hanviet": "Nhi",
+      "meaning": "Mà, nhưng, hơn nữa (VD: 而, 耍, 耐)"
+    },
+    {
+      "no": 127,
+      "strokes": 6,
+      "radical": "耒",
+      "variants": "",
+      "pinyin": "lěi",
+      "hanviet": "Lỗi",
+      "meaning": "Cái cày làm ruộng (VD: 耕, 耗, 耘)"
+    },
+    {
+      "no": 128,
+      "strokes": 6,
+      "radical": "耳",
+      "variants": "",
+      "pinyin": "ěr",
+      "hanviet": "Nhĩ",
+      "meaning": "Đôi tai, lắng nghe (VD: 耳, 职, 联, 聪, 聊, 娶)"
+    },
+    {
+      "no": 129,
+      "strokes": 6,
+      "radical": "聿",
+      "variants": "⺻",
+      "pinyin": "yù",
+      "hanviet": "Duật",
+      "meaning": "Cây bút viết (VD: 肃, 肆, 肇)"
+    },
+    {
+      "no": 130,
+      "strokes": 6,
+      "radical": "肉",
+      "variants": "月",
+      "pinyin": "ròu",
+      "hanviet": "Nhục",
+      "meaning": "Thịt, bộ phận cơ thể (khi ghép viết giống 月) (VD: 肉, 肚, 胖, 腿, 脚, 脑, 脸, 肯)"
+    },
+    {
+      "no": 131,
+      "strokes": 6,
+      "radical": "臣",
+      "variants": "",
+      "pinyin": "chén",
+      "hanviet": "Thần",
+      "meaning": "Bề tôi, quan lại (VD: 臣, 卧, 臧)"
+    },
+    {
+      "no": 132,
+      "strokes": 6,
+      "radical": "自",
+      "variants": "",
+      "pinyin": "zì",
+      "hanviet": "Tự",
+      "meaning": "Cái mũi, bản thân, từ (VD: 自, 息, 臭)"
+    },
+    {
+      "no": 133,
+      "strokes": 6,
+      "radical": "至",
+      "variants": "",
+      "pinyin": "zhì",
+      "hanviet": "Chí",
+      "meaning": "Đến nơi, tột cùng (VD: 至, 到, 致, 臻)"
+    },
+    {
+      "no": 134,
+      "strokes": 6,
+      "radical": "臼",
+      "variants": "",
+      "pinyin": "jiù",
+      "hanviet": "Cữu",
+      "meaning": "Cái cối giã gạo (VD: 臼, 舅, 舀, 舆)"
+    },
+    {
+      "no": 135,
+      "strokes": 6,
+      "radical": "舌",
+      "variants": "",
+      "pinyin": "shé",
+      "hanviet": "Thiệt",
+      "meaning": "Cái lưỡi (VD: 舌, 乱, 甜, 辞, 舔)"
+    },
+    {
+      "no": 136,
+      "strokes": 6,
+      "radical": "舛",
+      "variants": "",
+      "pinyin": "chuǎn",
+      "hanviet": "Suyễn",
+      "meaning": "Sai lệch, trái ngược (VD: 舞, 舜)"
+    },
+    {
+      "no": 137,
+      "strokes": 6,
+      "radical": "舟",
+      "variants": "",
+      "pinyin": "zhōu",
+      "hanviet": "Chu",
+      "meaning": "Con thuyền, tàu bè (VD: 舟, 船, 航, 般, 舰, 舱)"
+    },
+    {
+      "no": 138,
+      "strokes": 6,
+      "radical": "艮",
+      "variants": "",
+      "pinyin": "gèn",
+      "hanviet": "Cấn",
+      "meaning": "Quẻ Cấn, dừng lại, cứng rắn (VD: 艮, 很, 跟, 银, 根, 限)"
+    },
+    {
+      "no": 139,
+      "strokes": 6,
+      "radical": "色",
+      "variants": "",
+      "pinyin": "sè",
+      "hanviet": "Sắc",
+      "meaning": "Màu sắc, sắc mặt (VD: 色, 艳)"
+    },
+    {
+      "no": 140,
+      "strokes": 6,
+      "radical": "艸",
+      "variants": "艹",
+      "pinyin": "cǎo",
+      "hanviet": "Thảo",
+      "meaning": "Cỏ cây, hoa lá (VD: 花, 草, 茶, 菜, 药, 苹, 蓝, 蕉)"
+    },
+    {
+      "no": 141,
+      "strokes": 6,
+      "radical": "虍",
+      "variants": "",
+      "pinyin": "hū",
+      "hanviet": "Hổ",
+      "meaning": "Vằn hổ, con hổ (VD: 虎, 虑, 虚, 虞)"
+    },
+    {
+      "no": 142,
+      "strokes": 6,
+      "radical": "虫",
+      "variants": "",
+      "pinyin": "chóng",
+      "hanviet": "Trùng",
+      "meaning": "Côn trùng, sâu bọ (VD: 虫, 蛇, 虾, 蜂, 蝶, 蛋, 蜜)"
+    },
+    {
+      "no": 143,
+      "strokes": 6,
+      "radical": "血",
+      "variants": "",
+      "pinyin": "xuè",
+      "hanviet": "Huyết",
+      "meaning": "Máu huyết (VD: 血, 衅)"
+    },
+    {
+      "no": 144,
+      "strokes": 6,
+      "radical": "行",
+      "variants": "",
+      "pinyin": "xíng",
+      "hanviet": "Hành",
+      "meaning": "Đi lại, đường phố, ngành nghề (VD: 行, 街, 衡)"
+    },
+    {
+      "no": 145,
+      "strokes": 6,
+      "radical": "衣",
+      "variants": "衤",
+      "pinyin": "yī",
+      "hanviet": "Y",
+      "meaning": "Quần áo, trang phục (VD: 衣, 衫, 衬, 裤, 裙, 被, 袋, 装)"
+    },
+    {
+      "no": 146,
+      "strokes": 6,
+      "radical": "襾",
+      "variants": "西, 覀",
+      "pinyin": "yà",
+      "hanviet": "Á",
+      "meaning": "Che đậy, phía tây (VD: 西, 要, 覆, 票)"
+    },
+    {
+      "no": 147,
+      "strokes": 7,
+      "radical": "见",
+      "variants": "見",
+      "pinyin": "jiàn",
+      "hanviet": "Kiến",
+      "meaning": "Nhìn thấy, gặp mặt (VD: 见, 视, 觉, 观, 规, 览)"
+    },
+    {
+      "no": 148,
+      "strokes": 7,
+      "radical": "角",
+      "variants": "",
+      "pinyin": "jiǎo",
+      "hanviet": "Giác",
+      "meaning": "Sừng thú, góc cạnh, đồng hào (VD: 角, 解, 触)"
+    },
+    {
+      "no": 149,
+      "strokes": 7,
+      "radical": "言",
+      "variants": "讠, 訁",
+      "pinyin": "yán",
+      "hanviet": "Ngôn",
+      "meaning": "Lời nói, ngôn ngữ (VD: 言, 语, 说, 话, 请, 谢, 读, 课, 谁, 认, 识, 诉)"
+    },
+    {
+      "no": 150,
+      "strokes": 7,
+      "radical": "谷",
+      "variants": "",
+      "pinyin": "gǔ",
+      "hanviet": "Cốc",
+      "meaning": "Thung lũng, khe núi (VD: 谷, 豁)"
+    },
+    {
+      "no": 151,
+      "strokes": 7,
+      "radical": "豆",
+      "variants": "",
+      "pinyin": "dòu",
+      "hanviet": "Đậu",
+      "meaning": "Hạt đậu, đồ đựng chân cao (VD: 豆, 豌, 竖)"
+    },
+    {
+      "no": 152,
+      "strokes": 7,
+      "radical": "豕",
+      "variants": "",
+      "pinyin": "shǐ",
+      "hanviet": "Thỉ",
+      "meaning": "Con lợn / con heo (VD: 家, 象, 豪, 猪)"
+    },
+    {
+      "no": 153,
+      "strokes": 7,
+      "radical": "豸",
+      "variants": "",
+      "pinyin": "zhì",
+      "hanviet": "Trãi",
+      "meaning": "Thú dữ thân dài (báo, chồn) (VD: 豹, 貌, 貂)"
+    },
+    {
+      "no": 154,
+      "strokes": 7,
+      "radical": "贝",
+      "variants": "貝",
+      "pinyin": "bèi",
+      "hanviet": "Bối",
+      "meaning": "Vỏ sò tiền cổ, tiền của, mua bán (VD: 贝, 买, 卖, 贵, 货, 费, 赚, 贺, 赛)"
+    },
+    {
+      "no": 155,
+      "strokes": 7,
+      "radical": "赤",
+      "variants": "",
+      "pinyin": "chì",
+      "hanviet": "Xích",
+      "meaning": "Màu đỏ thẫm (VD: 赤, 赫, 赦)"
+    },
+    {
+      "no": 156,
+      "strokes": 7,
+      "radical": "走",
+      "variants": "",
+      "pinyin": "zǒu",
+      "hanviet": "Tẩu",
+      "meaning": "Đi bộ, chạy, di chuyển (VD: 走, 起, 超, 越, 趣, 赶, 趁)"
+    },
+    {
+      "no": 157,
+      "strokes": 7,
+      "radical": "足",
+      "variants": "⻊",
+      "pinyin": "zú",
+      "hanviet": "Túc",
+      "meaning": "Bàn chân, chạy nhảy (VD: 足, 跑, 踢, 跳, 路, 跟, 距)"
+    },
+    {
+      "no": 158,
+      "strokes": 7,
+      "radical": "身",
+      "variants": "",
+      "pinyin": "shēn",
+      "hanviet": "Thân",
+      "meaning": "Thân thể, cơ thể (VD: 身, 躺, 躲, 躯)"
+    },
+    {
+      "no": 159,
+      "strokes": 7,
+      "radical": "车",
+      "variants": "車",
+      "pinyin": "chē",
+      "hanviet": "Xa",
+      "meaning": "Xe cộ, phương tiện có bánh (VD: 车, 辆, 轻, 较, 转, 软, 输)"
+    },
+    {
+      "no": 160,
+      "strokes": 7,
+      "radical": "辛",
+      "variants": "",
+      "pinyin": "xīn",
+      "hanviet": "Tân",
+      "meaning": "Cay đắng, vất vả (VD: 辛, 辣, 辞, 辨, 办)"
+    },
+    {
+      "no": 161,
+      "strokes": 7,
+      "radical": "辰",
+      "variants": "",
+      "pinyin": "chén",
+      "hanviet": "Thần",
+      "meaning": "Giờ Thìn, ngôi sao, thời gian (VD: 辰, 晨, 辱)"
+    },
+    {
+      "no": 162,
+      "strokes": 7,
+      "radical": "辵",
+      "variants": "辶",
+      "pinyin": "chuò",
+      "hanviet": "Sước",
+      "meaning": "Đi đường xa (Bộ Quai xước 辶) (VD: 这, 那, 进, 远, 近, 送, 选, 还, 遇, 通, 道, 边)"
+    },
+    {
+      "no": 163,
+      "strokes": 7,
+      "radical": "邑",
+      "variants": "阝(phải)",
+      "pinyin": "yì",
+      "hanviet": "Ấp",
+      "meaning": "Thành ấp, vùng đất (đứng BÊN PHẢI viết là 阝) (VD: 那, 都, 邮, 邻, 郊, 部, 郭)"
+    },
+    {
+      "no": 164,
+      "strokes": 7,
+      "radical": "酉",
+      "variants": "",
+      "pinyin": "yǒu",
+      "hanviet": "Dậu",
+      "meaning": "Bình rượu, đồ uống lên men (VD: 酒, 酸, 醉, 醒, 配, 酱)"
+    },
+    {
+      "no": 165,
+      "strokes": 7,
+      "radical": "采",
+      "variants": "",
+      "pinyin": "biàn",
+      "hanviet": "Biện",
+      "meaning": "Phân biệt; chữ 采 (hái) (VD: 采, 释, 番)"
+    },
+    {
+      "no": 166,
+      "strokes": 7,
+      "radical": "里",
+      "variants": "",
+      "pinyin": "lǐ",
+      "hanviet": "Lý",
+      "meaning": "Làng xóm, dặm đường, bên trong (VD: 里, 重, 野, 量)"
+    },
+    {
+      "no": 167,
+      "strokes": 8,
+      "radical": "金",
+      "variants": "钅, 釒",
+      "pinyin": "jīn",
+      "hanviet": "Kim",
+      "meaning": "Kim loại, vàng bạc, tiền (VD: 金, 钱, 银, 铁, 钟, 镜, 错, 针)"
+    },
+    {
+      "no": 168,
+      "strokes": 8,
+      "radical": "长",
+      "variants": "長",
+      "pinyin": "cháng",
+      "hanviet": "Trường",
+      "meaning": "Dài lâu, trưởng thành (VD: 长, 套)"
+    },
+    {
+      "no": 169,
+      "strokes": 8,
+      "radical": "门",
+      "variants": "門",
+      "pinyin": "mén",
+      "hanviet": "Môn",
+      "meaning": "Cánh cửa, cổng (VD: 门, 问, 间, 闻, 闲, 闹, 闭, 阅)"
+    },
+    {
+      "no": 170,
+      "strokes": 8,
+      "radical": "阜",
+      "variants": "阝(trái)",
+      "pinyin": "fù",
+      "hanviet": "Phụ",
+      "meaning": "Gò đất, sườn đồi (đứng BÊN TRÁI viết là 阝) (VD: 院, 除, 陪, 阳, 阴, 际, 防, 队, 阶, 随)"
+    },
+    {
+      "no": 171,
+      "strokes": 8,
+      "radical": "隶",
+      "variants": "",
+      "pinyin": "dài",
+      "hanviet": "Đãi",
+      "meaning": "Bắt kịp, lệ thuộc (VD: 隶, 康)"
+    },
+    {
+      "no": 172,
+      "strokes": 8,
+      "radical": "隹",
+      "variants": "",
+      "pinyin": "zhuī",
+      "hanviet": "Chuy",
+      "meaning": "Chim đuôi ngắn (VD: 难, 集, 准, 谁, 售, 雅)"
+    },
+    {
+      "no": 173,
+      "strokes": 8,
+      "radical": "雨",
+      "variants": "⻗",
+      "pinyin": "yǔ",
+      "hanviet": "Vũ",
+      "meaning": "Mưa, thời tiết khí tượng (VD: 雨, 雪, 零, 雷, 雾, 需, 霜)"
+    },
+    {
+      "no": 174,
+      "strokes": 8,
+      "radical": "青",
+      "variants": "靑",
+      "pinyin": "qīng",
+      "hanviet": "Thanh",
+      "meaning": "Màu xanh, tuổi trẻ (VD: 青, 静, 靖, 靓)"
+    },
+    {
+      "no": 175,
+      "strokes": 8,
+      "radical": "非",
+      "variants": "",
+      "pinyin": "fēi",
+      "hanviet": "Phi",
+      "meaning": "Không phải, trái ngược (VD: 非, 靠, 辈, 悲)"
+    },
+    {
+      "no": 176,
+      "strokes": 9,
+      "radical": "面",
+      "variants": "靣",
+      "pinyin": "miàn",
+      "hanviet": "Diện",
+      "meaning": "Khuôn mặt, bề mặt, mì sợi (VD: 面, 腼)"
+    },
+    {
+      "no": 177,
+      "strokes": 9,
+      "radical": "革",
+      "variants": "",
+      "pinyin": "gé",
+      "hanviet": "Cách",
+      "meaning": "Da thuộc, cải cách (VD: 革, 鞋, 靴, 鞭)"
+    },
+    {
+      "no": 178,
+      "strokes": 9,
+      "radical": "韦",
+      "variants": "韋",
+      "pinyin": "wéi",
+      "hanviet": "Vi",
+      "meaning": "Da thuộc mềm (VD: 韦, 韧, 韩)"
+    },
+    {
+      "no": 179,
+      "strokes": 9,
+      "radical": "韭",
+      "variants": "",
+      "pinyin": "jiǔ",
+      "hanviet": "Cửu",
+      "meaning": "Rau hẹ (VD: 韭)"
+    },
+    {
+      "no": 180,
+      "strokes": 9,
+      "radical": "音",
+      "variants": "",
+      "pinyin": "yīn",
+      "hanviet": "Âm",
+      "meaning": "Âm thanh, tiếng nhạc (VD: 音, 意, 韵, 竟, 章)"
+    },
+    {
+      "no": 181,
+      "strokes": 9,
+      "radical": "页",
+      "variants": "頁",
+      "pinyin": "yè",
+      "hanviet": "Hiệt",
+      "meaning": "Cái đầu, trang giấy (VD: 页, 顶, 顺, 须, 预, 领, 题, 颜)"
+    },
+    {
+      "no": 182,
+      "strokes": 9,
+      "radical": "风",
+      "variants": "風",
+      "pinyin": "fēng",
+      "hanviet": "Phong",
+      "meaning": "Cơn gió (VD: 风, 飘, 刮, 飙)"
+    },
+    {
+      "no": 183,
+      "strokes": 9,
+      "radical": "飞",
+      "variants": "飛",
+      "pinyin": "fēi",
+      "hanviet": "Phi",
+      "meaning": "Bay lượn (VD: 飞)"
+    },
+    {
+      "no": 184,
+      "strokes": 9,
+      "radical": "食",
+      "variants": "饣, 飠",
+      "pinyin": "shí",
+      "hanviet": "Thực",
+      "meaning": "Thức ăn, ăn uống (VD: 食, 饭, 饿, 馆, 饼, 饮, 饱, 饺)"
+    },
+    {
+      "no": 185,
+      "strokes": 9,
+      "radical": "首",
+      "variants": "",
+      "pinyin": "shǒu",
+      "hanviet": "Thủ",
+      "meaning": "Cái đầu, đứng đầu (VD: 首, 道)"
+    },
+    {
+      "no": 186,
+      "strokes": 9,
+      "radical": "香",
+      "variants": "",
+      "pinyin": "xiāng",
+      "hanviet": "Hương",
+      "meaning": "Mùi thơm, hương thơm (VD: 香, 馨)"
+    },
+    {
+      "no": 187,
+      "strokes": 10,
+      "radical": "马",
+      "variants": "馬",
+      "pinyin": "mǎ",
+      "hanviet": "Mã",
+      "meaning": "Con ngựa, cưỡi ngựa (VD: 马, 骑, 驾, 骂, 验, 骄, 骤)"
+    },
+    {
+      "no": 188,
+      "strokes": 10,
+      "radical": "骨",
+      "variants": "",
+      "pinyin": "gǔ",
+      "hanviet": "Cốt",
+      "meaning": "Xương cốt (VD: 骨, 髓, 骷)"
+    },
+    {
+      "no": 189,
+      "strokes": 10,
+      "radical": "高",
+      "variants": "",
+      "pinyin": "gāo",
+      "hanviet": "Cao",
+      "meaning": "Cao lớn (VD: 高, 敲)"
+    },
+    {
+      "no": 190,
+      "strokes": 10,
+      "radical": "髟",
+      "variants": "",
+      "pinyin": "biāo",
+      "hanviet": "Tiêu",
+      "meaning": "Mái tóc dài, râu tóc (VD: 髪, 须, 鬓)"
+    },
+    {
+      "no": 191,
+      "strokes": 10,
+      "radical": "斗",
+      "variants": "鬥",
+      "pinyin": "dòu",
+      "hanviet": "Đấu",
+      "meaning": "Chiến đấu, tranh đấu (VD: 闹, 哄, 闘)"
+    },
+    {
+      "no": 192,
+      "strokes": 10,
+      "radical": "鬯",
+      "variants": "",
+      "pinyin": "chàng",
+      "hanviet": "Sưởng",
+      "meaning": "Rượu thơm cúng tế (VD: 鬯, 郁)"
+    },
+    {
+      "no": 193,
+      "strokes": 10,
+      "radical": "鬲",
+      "variants": "",
+      "pinyin": "lì",
+      "hanviet": "Cách",
+      "meaning": "Nồi vạc 3 chân (VD: 融, 隔)"
+    },
+    {
+      "no": 194,
+      "strokes": 10,
+      "radical": "鬼",
+      "variants": "",
+      "pinyin": "guǐ",
+      "hanviet": "Quỷ",
+      "meaning": "Con ma, linh hồn (VD: 鬼, 魂, 魔, 魅, 魏)"
+    },
+    {
+      "no": 195,
+      "strokes": 11,
+      "radical": "鱼",
+      "variants": "魚",
+      "pinyin": "yú",
+      "hanviet": "Ngư",
+      "meaning": "Con cá (VD: 鱼, 鲜, 鲤, 鲸, 鲨)"
+    },
+    {
+      "no": 196,
+      "strokes": 11,
+      "radical": "鸟",
+      "variants": "鳥",
+      "pinyin": "niǎo",
+      "hanviet": "Điểu",
+      "meaning": "Con chim (VD: 鸟, 鸡, 鸭, 鹅, 鸽, 鹏)"
+    },
+    {
+      "no": 197,
+      "strokes": 11,
+      "radical": "卤",
+      "variants": "鹵",
+      "pinyin": "lǔ",
+      "hanviet": "Lỗ",
+      "meaning": "Đất mặn, muối mỏ (VD: 卤, 咸, 碱)"
+    },
+    {
+      "no": 198,
+      "strokes": 11,
+      "radical": "鹿",
+      "variants": "",
+      "pinyin": "lù",
+      "hanviet": "Lộc",
+      "meaning": "Con hươu, con nai (VD: 鹿, 丽, 麟, 麓)"
+    },
+    {
+      "no": 199,
+      "strokes": 11,
+      "radical": "麦",
+      "variants": "麥",
+      "pinyin": "mài",
+      "hanviet": "Mạch",
+      "meaning": "Lúa mì, lúa mạch (VD: 麦, 麸, 麺)"
+    },
+    {
+      "no": 200,
+      "strokes": 11,
+      "radical": "麻",
+      "variants": "",
+      "pinyin": "má",
+      "hanviet": "Ma",
+      "meaning": "Cây gai, cây đay, tê (VD: 麻, 摩, 魔)"
+    },
+    {
+      "no": 201,
+      "strokes": 12,
+      "radical": "黄",
+      "variants": "黃",
+      "pinyin": "huáng",
+      "hanviet": "Hoàng",
+      "meaning": "Màu vàng (VD: 黄)"
+    },
+    {
+      "no": 202,
+      "strokes": 12,
+      "radical": "黍",
+      "variants": "",
+      "pinyin": "shǔ",
+      "hanviet": "Thử",
+      "meaning": "Lúa nếp (VD: 黍, 黎, 黏)"
+    },
+    {
+      "no": 203,
+      "strokes": 12,
+      "radical": "黑",
+      "variants": "",
+      "pinyin": "hēi",
+      "hanviet": "Hắc",
+      "meaning": "Màu đen, tối tăm (VD: 黑, 默, 点, 党)"
+    },
+    {
+      "no": 204,
+      "strokes": 12,
+      "radical": "黹",
+      "variants": "",
+      "pinyin": "zhǐ",
+      "hanviet": "Chỉ",
+      "meaning": "May vá, thêu thùa (VD: 黹, 黼)"
+    },
+    {
+      "no": 205,
+      "strokes": 13,
+      "radical": "黾",
+      "variants": "黽",
+      "pinyin": "mǐn",
+      "hanviet": "Mãnh",
+      "meaning": "Con ếch, gắng sức (VD: 黾, 蛙, 鳖)"
+    },
+    {
+      "no": 206,
+      "strokes": 13,
+      "radical": "鼎",
+      "variants": "",
+      "pinyin": "dǐng",
+      "hanviet": "Đỉnh",
+      "meaning": "Cái đỉnh đồng 3 chân (VD: 鼎)"
+    },
+    {
+      "no": 207,
+      "strokes": 13,
+      "radical": "鼓",
+      "variants": "",
+      "pinyin": "gǔ",
+      "hanviet": "Cổ",
+      "meaning": "Cái trống (VD: 鼓, 鼕)"
+    },
+    {
+      "no": 208,
+      "strokes": 13,
+      "radical": "鼠",
+      "variants": "",
+      "pinyin": "shǔ",
+      "hanviet": "Thử",
+      "meaning": "Con chuột (VD: 鼠, 鼬)"
+    },
+    {
+      "no": 209,
+      "strokes": 14,
+      "radical": "鼻",
+      "variants": "",
+      "pinyin": "bí",
+      "hanviet": "Tỵ",
+      "meaning": "Cái mũi (VD: 鼻, 鼾)"
+    },
+    {
+      "no": 210,
+      "strokes": 14,
+      "radical": "齐",
+      "variants": "齊",
+      "pinyin": "qí",
+      "hanviet": "Tề",
+      "meaning": "Ngay ngắn, bằng nhau (VD: 齐, 剂, 斋)"
+    },
+    {
+      "no": 211,
+      "strokes": 15,
+      "radical": "齿",
+      "variants": "齒",
+      "pinyin": "chǐ",
+      "hanviet": "Xỉ",
+      "meaning": "Hàm răng, tuổi tác (VD: 齿, 龄, 龈)"
+    },
+    {
+      "no": 212,
+      "strokes": 16,
+      "radical": "龙",
+      "variants": "龍",
+      "pinyin": "lóng",
+      "hanviet": "Long",
+      "meaning": "Con rồng (VD: 龙, 龚, 龛)"
+    },
+    {
+      "no": 213,
+      "strokes": 16,
+      "radical": "龟",
+      "variants": "龜",
+      "pinyin": "guī",
+      "hanviet": "Quy",
+      "meaning": "Con rùa (VD: 龟)"
+    },
+    {
+      "no": 214,
+      "strokes": 17,
+      "radical": "龠",
+      "variants": "",
+      "pinyin": "yuè",
+      "hanviet": "Dược",
+      "meaning": "Sáo trúc nhiều ống (VD: 龠, 龢)"
+    }
+  ]
 }
