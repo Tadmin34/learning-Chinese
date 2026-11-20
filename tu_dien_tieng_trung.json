@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "Từ Điển & Hệ Thống Từ Vựng Tiếng Trung",
-    "version": "7.2",
-    "updatedAt": "2026-11-19",
-    "totalLessons": 17,
-    "totalWords": 627,
+    "version": "7.3",
+    "updatedAt": "2026-11-20",
+    "totalLessons": 18,
+    "totalWords": 659,
     "totalSentences": 0,
     "totalMistakes": 0,
     "totalRadicals": 214
@@ -111,6 +111,12 @@
       "short": "Bài 18",
       "title": "BÀI 18: INTERNET, EMAIL, TÀI KHOẢN & THỜI LƯỢNG (上网、邮件与账户)",
       "desc": "Từ vựng về tin tức, email (邮件, 邮箱), trang web (网站), mở tài khoản (开账户, 卡, 费), xếp hàng (排队) và ngữ pháp diễn tả hành động kéo dài từ quá khứ đến hiện tại (S + V_O + V + 了 + Thời lượng + 了, VD: 我上网上了一个小时了。)."
+    },
+    {
+      "id": "bai-19",
+      "short": "Bài 19",
+      "title": "BÀI 19: LÒ SƯỞI, CHỦ NHÀ, SỬA CHỮA & BỔ NGỮ KẾT QUẢ (暖气、房东与修理)",
+      "desc": "Từ vựng về hệ thống sưởi, điều hòa (暖气, 空调), trang phục mùa đông (棉衣, 手套, 帽子, 戴), liên hệ chủ nhà sửa đồ (房东, 先生, 女士, 修, 保证), hoàn thành công việc (完, 完成, 遍, 容易) và Giáng sinh (圣诞节)."
     },
     {
       "id": "bai-extra",
@@ -6474,6 +6480,326 @@
       "hanzi": "作业",
       "pinyin": "zuò yè",
       "meaning": "Bài tập",
+      "custom": false
+    },
+    {
+      "id": "w_628",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "暖气",
+      "pinyin": "nuǎn qì",
+      "meaning": "Lò sưởi, hệ thống sưởi",
+      "custom": false
+    },
+    {
+      "id": "w_629",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "打开",
+      "pinyin": "dǎ kāi",
+      "meaning": "Bật, mở ra",
+      "custom": false
+    },
+    {
+      "id": "w_630",
+      "lesson": "bai-19",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "坏",
+      "pinyin": "huài",
+      "meaning": "Hỏng, xấu",
+      "custom": false
+    },
+    {
+      "id": "w_631",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "棉衣",
+      "pinyin": "mián yī",
+      "meaning": "Áo bông",
+      "custom": false
+    },
+    {
+      "id": "w_632",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "戴",
+      "pinyin": "dài",
+      "meaning": "Đội, mang, cài (mũ, kính, găng tay, phụ kiện)",
+      "custom": false
+    },
+    {
+      "id": "w_633",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "带",
+      "pinyin": "dài",
+      "meaning": "Mang theo, dẫn (người)",
+      "custom": false
+    },
+    {
+      "id": "w_634",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "手套",
+      "pinyin": "shǒu tào",
+      "meaning": "Găng tay",
+      "custom": false
+    },
+    {
+      "id": "w_635",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "帽子",
+      "pinyin": "mào zi",
+      "meaning": "Cái mũ",
+      "custom": false
+    },
+    {
+      "id": "w_636",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-time",
+      "pos": "Danh từ",
+      "hanzi": "后来",
+      "pinyin": "hòu lái",
+      "meaning": "Sau này",
+      "custom": false
+    },
+    {
+      "id": "w_637",
+      "lesson": "bai-19",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó từ",
+      "hanzi": "只好",
+      "pinyin": "zhǐ hǎo",
+      "meaning": "Đành phải",
+      "custom": false
+    },
+    {
+      "id": "w_638",
+      "lesson": "bai-19",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Liên/Phó từ",
+      "hanzi": "只有",
+      "pinyin": "zhǐ yǒu",
+      "meaning": "Chỉ có",
+      "custom": false
+    },
+    {
+      "id": "w_639",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-time",
+      "pos": "Danh từ",
+      "hanzi": "以前",
+      "pinyin": "yǐ qián",
+      "meaning": "Trước đây",
+      "custom": false
+    },
+    {
+      "id": "w_640",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "空调",
+      "pinyin": "kōng tiáo",
+      "meaning": "Điều hòa, máy lạnh",
+      "custom": false
+    },
+    {
+      "id": "w_641",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "房东",
+      "pinyin": "fáng dōng",
+      "meaning": "Chủ nhà (cho thuê nhà)",
+      "custom": false
+    },
+    {
+      "id": "w_642",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "先生",
+      "pinyin": "xiān sheng",
+      "meaning": "Ông, tiên sinh, ngài (xưng hô lịch sự)",
+      "custom": false
+    },
+    {
+      "id": "w_643",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "修",
+      "pinyin": "xiū",
+      "meaning": "Sửa chữa",
+      "custom": false
+    },
+    {
+      "id": "w_644",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "等",
+      "pinyin": "děng",
+      "meaning": "Chờ đợi",
+      "custom": false
+    },
+    {
+      "id": "w_645",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "看见",
+      "pinyin": "kàn jiàn",
+      "meaning": "Nhìn thấy (= 看到 kàn dào)",
+      "custom": false
+    },
+    {
+      "id": "w_646",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "女士",
+      "pinyin": "nǚ shì",
+      "meaning": "Bà, quý bà, cô (xưng hô lịch sự)",
+      "custom": false
+    },
+    {
+      "id": "w_647",
+      "lesson": "bai-19",
+      "cat": "cat-social",
+      "pos": "Giao tiếp",
+      "hanzi": "抱歉",
+      "pinyin": "bào qiàn",
+      "meaning": "Xin lỗi",
+      "custom": false
+    },
+    {
+      "id": "w_648",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "保证",
+      "pinyin": "bǎo zhèng",
+      "meaning": "Cam đoan, đảm bảo",
+      "custom": false
+    },
+    {
+      "id": "w_649",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "完",
+      "pinyin": "wán",
+      "meaning": "Hết, xong, kết thúc",
+      "custom": false
+    },
+    {
+      "id": "w_650",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "完成",
+      "pinyin": "wán chéng",
+      "meaning": "Hoàn thành",
+      "custom": false
+    },
+    {
+      "id": "w_651",
+      "lesson": "bai-19",
+      "cat": "cat-numbers-measures",
+      "pos": "Số/Lượng từ",
+      "hanzi": "遍",
+      "pinyin": "biàn",
+      "meaning": "Lần (lượng từ chỉ toàn bộ quá trình từ đầu đến cuối)",
+      "custom": false
+    },
+    {
+      "id": "w_652",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "还",
+      "pinyin": "huán",
+      "meaning": "Hoàn lại, trả lại",
+      "custom": false
+    },
+    {
+      "id": "w_653",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động từ",
+      "hanzi": "认为",
+      "pinyin": "rèn wéi",
+      "meaning": "Cho rằng",
+      "custom": false
+    },
+    {
+      "id": "w_654",
+      "lesson": "bai-19",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "容易",
+      "pinyin": "róng yì",
+      "meaning": "Dễ, dễ dàng",
+      "custom": false
+    },
+    {
+      "id": "w_655",
+      "lesson": "bai-19",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "读大学",
+      "pinyin": "dú dà xué",
+      "meaning": "Học đại học",
+      "custom": false
+    },
+    {
+      "id": "w_656",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "内容",
+      "pinyin": "nèi róng",
+      "meaning": "Nội dung",
+      "custom": false
+    },
+    {
+      "id": "w_657",
+      "lesson": "bai-19",
+      "cat": "cat-pronouns-questions",
+      "pos": "Đại từ",
+      "hanzi": "这样",
+      "pinyin": "zhè yàng",
+      "meaning": "Như vậy, như thế này",
+      "custom": false
+    },
+    {
+      "id": "w_658",
+      "lesson": "bai-19",
+      "cat": "cat-nouns-time",
+      "pos": "Danh từ",
+      "hanzi": "圣诞节",
+      "pinyin": "shèng dàn jié",
+      "meaning": "Lễ Giáng sinh",
+      "custom": false
+    },
+    {
+      "id": "w_659",
+      "lesson": "bai-19",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Trợ từ",
+      "hanzi": "呀",
+      "pinyin": "ya",
+      "meaning": "À, nhỉ, nhé (trợ từ ngữ khí đặt cuối câu)",
       "custom": false
     }
   ],
@@ -18613,6 +18939,342 @@
         ]
       ],
       "Con người xếp thành hàng ngũ = đội, hàng (排队)."
+    ],
+    "保": [
+      9,
+      "Trái - Phải",
+      [
+        [
+          "亻",
+          9,
+          "Nhân đứng",
+          "Con người"
+        ],
+        [
+          "呆",
+          30,
+          "Ngốc / Bảo",
+          "Ôm giữ đứa trẻ (nghĩa gốc)"
+        ]
+      ],
+      "Người ôm giữ bảo vệ = bảo đảm, cam đoan (保证)."
+    ],
+    "修": [
+      9,
+      "Trái - Phải",
+      [
+        [
+          "攸",
+          9,
+          "Du",
+          "Người dùng công cụ chỉnh sửa"
+        ],
+        [
+          "彡",
+          59,
+          "Sam",
+          "Nét hoa văn trang trí / chỉnh lại đẹp"
+        ]
+      ],
+      "Chỉnh sửa lại cho đẹp và tốt = sửa chữa (修)."
+    ],
+    "内": [
+      11,
+      "Bao quanh",
+      [
+        [
+          "冂",
+          13,
+          "Quynh",
+          "Khung bao bên ngoài"
+        ],
+        [
+          "人",
+          9,
+          "Nhân / Nhập",
+          "Đi vào bên trong"
+        ]
+      ],
+      "Ở bên trong khung = bên trong, nội dung (内容)."
+    ],
+    "呀": [
+      30,
+      "Trái - Phải",
+      [
+        [
+          "口",
+          30,
+          "Khẩu",
+          "Miệng phát âm"
+        ],
+        [
+          "牙",
+          92,
+          "Nha",
+          "Mượn âm ya"
+        ]
+      ],
+      "Trợ từ ngữ khí đặt cuối câu = à, nhỉ, nhé (呀)."
+    ],
+    "圣": [
+      32,
+      "Trên - Dưới",
+      [
+        [
+          "又",
+          29,
+          "Hựu",
+          "Phần trên"
+        ],
+        [
+          "土",
+          32,
+          "Thổ",
+          "Đất bên dưới"
+        ]
+      ],
+      "Bậc thánh nhân = lễ Giáng sinh (圣诞节)."
+    ],
+    "坏": [
+      32,
+      "Trái - Phải",
+      [
+        [
+          "土",
+          32,
+          "Thổ",
+          "Đất đai"
+        ],
+        [
+          "不",
+          1,
+          "Bất",
+          "Không tốt"
+        ]
+      ],
+      "Đất không tốt / hư hại = hỏng, xấu (坏)."
+    ],
+    "女": [
+      38,
+      "Chữ đơn",
+      [
+        [
+          "女",
+          38,
+          "Nữ",
+          "Dáng người phụ nữ quỳ dịu dàng"
+        ]
+      ],
+      "Phụ nữ, con gái = quý bà, cô (女士)."
+    ],
+    "完": [
+      40,
+      "Trên - Dưới",
+      [
+        [
+          "宀",
+          40,
+          "Miên",
+          "Mái nhà"
+        ],
+        [
+          "元",
+          10,
+          "Nguyên",
+          "Trọn vẹn / mượn âm wan"
+        ]
+      ],
+      "Xây xong mái nhà trọn vẹn = hết, xong, hoàn thành (完, 完成)."
+    ],
+    "容": [
+      40,
+      "Trên - Dưới",
+      [
+        [
+          "宀",
+          40,
+          "Miên",
+          "Mái nhà rộng"
+        ],
+        [
+          "谷",
+          150,
+          "Cốc",
+          "Thung lũng chứa đựng"
+        ]
+      ],
+      "Chứa đựng bên trong = nội dung, dễ dàng (内容, 容易)."
+    ],
+    "帽": [
+      50,
+      "Trái - Phải",
+      [
+        [
+          "巾",
+          50,
+          "Cân",
+          "Vải vóc"
+        ],
+        [
+          "冒",
+          13,
+          "Mạo",
+          "Trùm lên đầu / mượn âm mao"
+        ]
+      ],
+      "Đồ bằng vải đội trùm lên đầu = cái mũ (帽子)."
+    ],
+    "成": [
+      62,
+      "Bao quanh",
+      [
+        [
+          "厂",
+          27,
+          "Hán (biến thể)",
+          "Phần bao"
+        ],
+        [
+          "戈",
+          62,
+          "Qua",
+          "Vũ khí hoàn tất"
+        ]
+      ],
+      "Hoàn tất, thành công = hoàn thành (完成)."
+    ],
+    "戴": [
+      62,
+      "Bao quanh",
+      [
+        [
+          "𢦏",
+          62,
+          "Tai / Qua",
+          "Phần bao ngoài"
+        ],
+        [
+          "异",
+          55,
+          "Dị",
+          "Phần bên trong"
+        ]
+      ],
+      "Đội, đeo, mang phụ kiện lên người (戴帽子, 戴手套)."
+    ],
+    "易": [
+      72,
+      "Trên - Dưới",
+      [
+        [
+          "日",
+          72,
+          "Nhật",
+          "Mặt trời"
+        ],
+        [
+          "勿",
+          20,
+          "Vật",
+          "Phần dưới"
+        ]
+      ],
+      "Thay đổi, dễ dàng (容易)."
+    ],
+    "棉": [
+      75,
+      "Trái - Phải",
+      [
+        [
+          "木",
+          75,
+          "Mộc",
+          "Cây cối (cây bông)"
+        ],
+        [
+          "帛",
+          50,
+          "Bạch",
+          "Vải trắng"
+        ]
+      ],
+      "Sợi trắng từ cây bông = bông, áo bông (棉衣)."
+    ],
+    "等": [
+      118,
+      "Trên - Dưới",
+      [
+        [
+          "⺮",
+          118,
+          "Trúc",
+          "Thẻ tre xếp hàng"
+        ],
+        [
+          "寺",
+          41,
+          "Tự",
+          "Ngôi chùa / nơi làm việc"
+        ]
+      ],
+      "Xếp hàng chờ tới lượt = chờ đợi (等)."
+    ],
+    "证": [
+      149,
+      "Trái - Phải",
+      [
+        [
+          "讠",
+          149,
+          "Ngôn",
+          "Lời nói"
+        ],
+        [
+          "正",
+          77,
+          "Chính",
+          "Ngay thẳng / mượn âm zheng"
+        ]
+      ],
+      "Lời nói ngay thẳng làm bằng chứng = cam đoan, đảm bảo (保证)."
+    ],
+    "诞": [
+      149,
+      "Trái - Phải",
+      [
+        [
+          "讠",
+          149,
+          "Ngôn",
+          "Lời nói"
+        ],
+        [
+          "延",
+          54,
+          "Diên",
+          "Kéo dài / ra đời"
+        ]
+      ],
+      "Ngày sinh, ra đời = lễ Giáng sinh (圣诞节)."
+    ],
+    "遍": [
+      162,
+      "Bao quanh",
+      [
+        [
+          "扁",
+          63,
+          "Biển",
+          "Mượn âm bian"
+        ],
+        [
+          "辶",
+          162,
+          "Quai xước",
+          "Đi khắp từ đầu đến cuối"
+        ]
+      ],
+      "Đi hết một lượt từ đầu đến cuối = lần (看一遍)."
     ]
   }
 }
