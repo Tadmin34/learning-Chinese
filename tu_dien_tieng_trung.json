@@ -1,10 +1,10 @@
 {
   "meta": {
     "title": "Từ Điển & Hệ Thống Từ Vựng Tiếng Trung",
-    "version": "7.3",
-    "updatedAt": "2026-11-20",
-    "totalLessons": 18,
-    "totalWords": 659,
+    "version": "7.4",
+    "updatedAt": "2026-11-25",
+    "totalLessons": 19,
+    "totalWords": 686,
     "totalSentences": 0,
     "totalMistakes": 0,
     "totalRadicals": 214
@@ -117,6 +117,12 @@
       "short": "Bài 19",
       "title": "BÀI 19: LÒ SƯỞI, CHỦ NHÀ, SỬA CHỮA & BỔ NGỮ KẾT QUẢ (暖气、房东与修理)",
       "desc": "Từ vựng về hệ thống sưởi, điều hòa (暖气, 空调), trang phục mùa đông (棉衣, 手套, 帽子, 戴), liên hệ chủ nhà sửa đồ (房东, 先生, 女士, 修, 保证), hoàn thành công việc (完, 完成, 遍, 容易) và Giáng sinh (圣诞节)."
+    },
+    {
+      "id": "bai-20",
+      "short": "Bài 20",
+      "title": "BÀI 20: ĐỒ ĂN NHANH CÓ THỂ GIAO ĐẾN TẬN NHÀ (快餐可以送到家里)",
+      "desc": "Từ vựng về đồ ăn nhanh, gọi đồ mang về (快餐, 快餐店, 外卖, 点外卖, 饼干, 比萨饼, 面条, 可乐), phục vụ khách hàng (服务员, 欢迎, 光临, 满), giải trí & luyện tập (迷, 练习, 比赛, 节目, 收音机) và phân biệt 主意 / 注意."
     },
     {
       "id": "bai-extra",
@@ -6800,6 +6806,276 @@
       "hanzi": "呀",
       "pinyin": "ya",
       "meaning": "À, nhỉ, nhé (trợ từ ngữ khí đặt cuối câu)",
+      "custom": false
+    },
+    {
+      "id": "w_660",
+      "lesson": "bai-20",
+      "cat": "cat-adverbs-conjunctions",
+      "pos": "Phó từ",
+      "hanzi": "经常",
+      "pinyin": "jīng cháng",
+      "meaning": "Thường xuyên",
+      "custom": false
+    },
+    {
+      "id": "w_661",
+      "lesson": "bai-20",
+      "cat": "cat-numbers-measures",
+      "pos": "Số/Lượng từ",
+      "hanzi": "一些",
+      "pinyin": "yì xiē",
+      "meaning": "Một vài, một ít",
+      "custom": false
+    },
+    {
+      "id": "w_662",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "快餐",
+      "pinyin": "kuài cān",
+      "meaning": "Đồ ăn nhanh",
+      "custom": false
+    },
+    {
+      "id": "w_663",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-places",
+      "pos": "Danh từ",
+      "hanzi": "快餐店",
+      "pinyin": "kuài cān diàn",
+      "meaning": "Cửa hàng đồ ăn nhanh",
+      "custom": false
+    },
+    {
+      "id": "w_664",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "外卖",
+      "pinyin": "wài mài",
+      "meaning": "Đồ mang về, đồ ăn giao tận nơi",
+      "custom": false
+    },
+    {
+      "id": "w_665",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "点外卖",
+      "pinyin": "diǎn wài mài",
+      "meaning": "Gọi đồ ăn (gọi đồ mang về)",
+      "custom": false
+    },
+    {
+      "id": "w_666",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-places",
+      "pos": "Danh từ",
+      "hanzi": "外国",
+      "pinyin": "wài guó",
+      "meaning": "Nước ngoài",
+      "custom": false
+    },
+    {
+      "id": "w_667",
+      "lesson": "bai-20",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "舒服",
+      "pinyin": "shū fu",
+      "meaning": "Thoải mái, dễ chịu",
+      "custom": false
+    },
+    {
+      "id": "w_668",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-people",
+      "pos": "Danh từ",
+      "hanzi": "服务员",
+      "pinyin": "fú wù yuán",
+      "meaning": "Nhân viên phục vụ",
+      "custom": false
+    },
+    {
+      "id": "w_669",
+      "lesson": "bai-20",
+      "cat": "cat-social",
+      "pos": "Giao tiếp",
+      "hanzi": "欢迎",
+      "pinyin": "huān yíng",
+      "meaning": "Hoan nghênh, chào đón",
+      "custom": false
+    },
+    {
+      "id": "w_670",
+      "lesson": "bai-20",
+      "cat": "cat-social",
+      "pos": "Động từ",
+      "hanzi": "光临",
+      "pinyin": "guāng lín",
+      "meaning": "Ghé thăm, đến chơi (lịch sự: 欢迎光临)",
+      "custom": false
+    },
+    {
+      "id": "w_671",
+      "lesson": "bai-20",
+      "cat": "cat-adjectives",
+      "pos": "Tính từ",
+      "hanzi": "满",
+      "pinyin": "mǎn",
+      "meaning": "Đầy, kín chỗ",
+      "custom": false
+    },
+    {
+      "id": "w_672",
+      "lesson": "bai-20",
+      "cat": "cat-pronouns-questions",
+      "pos": "Đại từ",
+      "hanzi": "别的",
+      "pinyin": "bié de",
+      "meaning": "Cái khác, khác",
+      "custom": false
+    },
+    {
+      "id": "w_673",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "饼干",
+      "pinyin": "bǐng gān",
+      "meaning": "Bánh quy",
+      "custom": false
+    },
+    {
+      "id": "w_674",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "比萨饼",
+      "pinyin": "bǐ sà bǐng",
+      "meaning": "Bánh pizza",
+      "custom": false
+    },
+    {
+      "id": "w_675",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "面条",
+      "pinyin": "miàn tiáo",
+      "meaning": "Mì sợi",
+      "custom": false
+    },
+    {
+      "id": "w_676",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "可乐",
+      "pinyin": "kě lè",
+      "meaning": "Coca-cola",
+      "custom": false
+    },
+    {
+      "id": "w_677",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "成",
+      "pinyin": "chéng",
+      "meaning": "Trở thành, thành",
+      "custom": false
+    },
+    {
+      "id": "w_678",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động/Danh từ",
+      "hanzi": "迷",
+      "pinyin": "mí",
+      "meaning": "Mê, ngưỡng mộ, người hâm mộ (fan)",
+      "custom": false
+    },
+    {
+      "id": "w_679",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-study-work",
+      "pos": "Động từ",
+      "hanzi": "练习",
+      "pinyin": "liàn xí",
+      "meaning": "Luyện tập, bài tập",
+      "custom": false
+    },
+    {
+      "id": "w_680",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động/Danh từ",
+      "hanzi": "比赛",
+      "pinyin": "bǐ sài",
+      "meaning": "Thi đấu, cuộc thi",
+      "custom": false
+    },
+    {
+      "id": "w_681",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "节目",
+      "pinyin": "jié mù",
+      "meaning": "Tiết mục, chương trình",
+      "custom": false
+    },
+    {
+      "id": "w_682",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "收音机",
+      "pinyin": "shōu yīn jī",
+      "meaning": "Đài radio",
+      "custom": false
+    },
+    {
+      "id": "w_683",
+      "lesson": "bai-20",
+      "cat": "cat-nouns-food-objects",
+      "pos": "Danh từ",
+      "hanzi": "主意",
+      "pinyin": "zhǔ yi",
+      "meaning": "Chủ ý, ý tưởng (khác với 注意 zhù yì)",
+      "custom": false
+    },
+    {
+      "id": "w_684",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-modal-mental",
+      "pos": "Động từ",
+      "hanzi": "注意",
+      "pinyin": "zhù yì",
+      "meaning": "Chú ý (khác với 主意 zhǔ yi)",
+      "custom": false
+    },
+    {
+      "id": "w_685",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "站",
+      "pinyin": "zhàn",
+      "meaning": "Đứng",
+      "custom": false
+    },
+    {
+      "id": "w_686",
+      "lesson": "bai-20",
+      "cat": "cat-verbs-daily-move",
+      "pos": "Động từ",
+      "hanzi": "放",
+      "pinyin": "fàng",
+      "meaning": "Để, đặt, bỏ",
       "custom": false
     }
   ],
@@ -19275,6 +19551,246 @@
         ]
       ],
       "Đi hết một lượt từ đầu đến cuối = lần (看一遍)."
+    ],
+    "临": [
+      2,
+      "Trái - Phải",
+      [
+        [
+          "丨",
+          2,
+          "Cổn",
+          "Hai nét sổ đứng bên trái"
+        ],
+        [
+          "丿",
+          4,
+          "Phiệt",
+          "Người cúi nhìn"
+        ],
+        [
+          "日",
+          72,
+          "Nhật / Phẩm (giản lược)",
+          "Phần dưới"
+        ]
+      ],
+      "Đến nơi, ghé thăm (光临, 欢迎光临)."
+    ],
+    "些": [
+      7,
+      "Trên - Dưới",
+      [
+        [
+          "此",
+          77,
+          "Thử",
+          "Này, đây"
+        ],
+        [
+          "二",
+          7,
+          "Nhị",
+          "Số hai / nhiều hơn một"
+        ]
+      ],
+      "Một vài, một ít (一些, 这些)."
+    ],
+    "光": [
+      10,
+      "Trên - Dưới",
+      [
+        [
+          "小",
+          42,
+          "Tiểu (biến thể lửa)",
+          "Ánh sáng tỏa trên đầu"
+        ],
+        [
+          "儿",
+          10,
+          "Nhi",
+          "Con người bên dưới"
+        ]
+      ],
+      "Ánh sáng, vinh hạnh đón khách (光临)."
+    ],
+    "务": [
+      19,
+      "Trên - Dưới",
+      [
+        [
+          "夂",
+          34,
+          "Trĩ",
+          "Phần trên"
+        ],
+        [
+          "力",
+          19,
+          "Lực",
+          "Sức lực làm việc"
+        ]
+      ],
+      "Công việc, phục vụ (服务员)."
+    ],
+    "条": [
+      75,
+      "Trên - Dưới",
+      [
+        [
+          "夂",
+          34,
+          "Trĩ",
+          "Phần trên"
+        ],
+        [
+          "木",
+          75,
+          "Mộc",
+          "Cành cây dài"
+        ]
+      ],
+      "Cành dài, sợi dài = mì sợi (面条)."
+    ],
+    "目": [
+      109,
+      "Chữ đơn",
+      [
+        [
+          "目",
+          109,
+          "Mục",
+          "Con mắt nhìn ngắm"
+        ]
+      ],
+      "Con mắt, danh mục, tiết mục (节目)."
+    ],
+    "练": [
+      120,
+      "Trái - Phải",
+      [
+        [
+          "纟",
+          120,
+          "Mịch",
+          "Sợi tơ"
+        ],
+        [
+          "东",
+          1,
+          "Đông (giản lược)",
+          "Mượn âm lian"
+        ]
+      ],
+      "Nấu tơ cho mềm mịn = rèn luyện, luyện tập (练习)."
+    ],
+    "萨": [
+      140,
+      "Trên - Dưới",
+      [
+        [
+          "艹",
+          140,
+          "Thảo",
+          "Bộ Thảo trên đầu"
+        ],
+        [
+          "阝",
+          170,
+          "Phụ",
+          "Bên trái"
+        ],
+        [
+          "产",
+          100,
+          "Sản",
+          "Bên phải"
+        ]
+      ],
+      "Chữ phiên âm 'sa' = bánh pizza (比萨饼)."
+    ],
+    "赛": [
+      154,
+      "Trên - Dưới",
+      [
+        [
+          "宀",
+          40,
+          "Miên",
+          "Mái nhà"
+        ],
+        [
+          "𡨄",
+          12,
+          "Phần giữa",
+          "Đông người tranh tài"
+        ],
+        [
+          "贝",
+          154,
+          "Bối",
+          "Phần thưởng / tiền bạc"
+        ]
+      ],
+      "Tranh tài giành phần thưởng = thi đấu, cuộc thi (比赛)."
+    ],
+    "迎": [
+      162,
+      "Bao quanh",
+      [
+        [
+          "卬",
+          26,
+          "Ngưỡng",
+          "Ngước nhìn đón tiếp"
+        ],
+        [
+          "辶",
+          162,
+          "Quai xước",
+          "Bước ra đón"
+        ]
+      ],
+      "Bước ra đón tiếp = hoan nghênh, chào đón (欢迎)."
+    ],
+    "迷": [
+      162,
+      "Bao quanh",
+      [
+        [
+          "米",
+          119,
+          "Mễ",
+          "Mượn âm mi"
+        ],
+        [
+          "辶",
+          162,
+          "Quai xước",
+          "Đi lạc / đắm chìm"
+        ]
+      ],
+      "Lạc lối, mê mẩn, người hâm mộ (迷, 球迷)."
+    ],
+    "饼": [
+      184,
+      "Trái - Phải",
+      [
+        [
+          "饣",
+          184,
+          "Thực",
+          "Thức ăn"
+        ],
+        [
+          "并",
+          51,
+          "Tinh",
+          "Mượn âm bing"
+        ]
+      ],
+      "Thức ăn làm từ bột nướng/ép dẹt = bánh (饼干, 比萨饼)."
     ]
   }
 }
